@@ -15,6 +15,21 @@ entries:
     urls:
     - https://charts.krateo.io/api-0.1.0.tgz
     version: 0.1.0
+  app:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-11T14:51:50.466795156Z"
+    description: Krateo PlatformOps App
+    digest: a62137b99c1d659d8e7e59f2c493fb87c6dccbf787a1383367dfd4791ab4b453
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    name: app
+    type: application
+    urls:
+    - https://charts.krateo.io/app-0.1.0.tgz
+    version: 0.1.0
   kube-bridge:
   - apiVersion: v2
     appVersion: 0.2.19
@@ -82,4 +97,4 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T14:50:09.583909597Z"
+generated: "2022-05-11T14:51:50.466372051Z"
