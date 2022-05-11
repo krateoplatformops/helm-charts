@@ -211,4 +211,23 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:22:46.867669718Z"
+  template-service:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-11T15:25:59.953276584Z"
+    description: Krateo PlatformOps Template Service
+    digest: 81c6c75561b6583535d886a5d8bf6db4fc984cb0b94fc9662aaf18a9c1084181
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: template-service
+    type: application
+    urls:
+    - https://charts.krateo.io/template-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-11T15:25:59.949689364Z"
