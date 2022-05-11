@@ -207,6 +207,25 @@ entries:
     urls:
     - https://charts.krateo.io/kube-bridge-0.2.18.tgz
     version: 0.2.18
+  kubernetes-service:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-11T15:40:38.49522673Z"
+    description: Krateo PlatformOps Kubernetes Service
+    digest: 61ac72477865cab4a5cc98cc743c67a3bd4ec675b879ea6e069c73d47d622317
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: kubernetes-service
+    type: application
+    urls:
+    - https://charts.krateo.io/kubernetes-service-0.1.0.tgz
+    version: 0.1.0
   log-service:
   - apiVersion: v2
     appVersion: 0.1.1
@@ -287,4 +306,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:40:22.763047773Z"
+generated: "2022-05-11T15:40:38.494568526Z"
