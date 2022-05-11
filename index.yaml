@@ -64,6 +64,24 @@ entries:
     version: 0.1.0
   deployment-service:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-05-11T15:21:01.735395627Z"
+    description: Krateo PlatformOps Deployment Service
+    digest: d532d755ccfeed47929ef0c28215d5e83b647c82aa331c34469c412906cea4b9
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: deployment-service
+    type: application
+    urls:
+    - https://charts.krateo.io/deployment-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-05-11T14:56:00.019092756Z"
     description: Krateo PlatformOps Deployment Service
@@ -176,4 +194,4 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:16:43.879443477Z"
+generated: "2022-05-11T15:21:01.733859622Z"
