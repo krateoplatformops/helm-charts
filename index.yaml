@@ -149,6 +149,20 @@ entries:
     version: 0.1.0
   socket-service:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-05-11T15:16:43.88030977Z"
+    description: Krateo PlatformOps Socket Service
+    digest: 9f60b7d956fd24713c4f9917ceda906969ad346c70d5def12bac1ad2744e3aa8
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    name: socket-service
+    type: application
+    urls:
+    - https://charts.krateo.io/socket-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-05-11T14:43:03.949863365Z"
     description: Krateo PlatformOps Socket Service
@@ -162,4 +176,4 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:15:39.780785446Z"
+generated: "2022-05-11T15:16:43.879443477Z"
