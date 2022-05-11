@@ -19,24 +19,6 @@ entries:
     urls:
     - https://charts.krateo.io/kube-bridge-0.2.18.tgz
     version: 0.2.18
-  - apiVersion: v2
-    appVersion: 0.2.9
-    created: "2022-05-11T14:34:20.89817847Z"
-    description: Helm Chart for Krateo Kube Bridge service
-    digest: 14fbb8250e6d081d9504a269f6585966897b6ea6646c044f67b4b58cbb9fb805
-    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
-    maintainers:
-    - email: luca.sepe@kiratech.it
-      name: Luca Sepe
-      url: https://www.kiratech.it
-    - email: mauro.sala@kiratech.it
-      name: Mauro Sala
-      url: https://www.kiratech.it
-    name: kube-bridge
-    type: application
-    urls:
-    - https://charts.krateo.io/kube-bridge-0.2.9.tgz
-    version: 0.2.9
   log-service:
   - apiVersion: v2
     appVersion: 0.1.0
