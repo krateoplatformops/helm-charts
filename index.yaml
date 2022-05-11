@@ -3,9 +3,9 @@ entries:
   log-service:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-05-11T14:18:14.254690318Z"
+    created: "2022-05-11T14:21:05.530807144Z"
     description: Krateo PlatformOps Log Service
-    digest: 93fce08031b1fd08d2f23b0b165c124796002b25d3b4afc678b6ed17e8095877
+    digest: 4bda9a9c6af2efb6e3c8c2aed0947c03dc17297ee5dfadcc4e7f1c668db4e0ed
     maintainers:
     - email: mauro.sala@kiratech.it
       name: Mauro Sala
@@ -13,6 +13,6 @@ entries:
     name: log-service
     type: application
     urls:
-    - https://helm-charts.krateoplatformops.io/log-service-0.1.0.tgz
+    - https://charts.krateo.io/log-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T14:18:14.254298315Z"
+generated: "2022-05-11T14:21:05.530212438Z"
