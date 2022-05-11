@@ -152,6 +152,23 @@ entries:
     version: 0.2.18
   log-service:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-05-11T15:22:46.868845128Z"
+    description: Krateo PlatformOps Log Service
+    digest: 8c6cb07d76d0018e1c68d073f70417d96363c43daff4b433dc1cf4e461dc99ca
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: log-service
+    type: application
+    urls:
+    - https://charts.krateo.io/log-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2022-05-11T14:21:05.530807144Z"
     description: Krateo PlatformOps Log Service
@@ -194,4 +211,4 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:21:01.733859622Z"
+generated: "2022-05-11T15:22:46.867669718Z"
