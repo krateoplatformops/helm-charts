@@ -62,6 +62,25 @@ entries:
     urls:
     - https://charts.krateo.io/app-0.1.0.tgz
     version: 0.1.0
+  argocd-service:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-11T15:40:22.763891776Z"
+    description: Krateo PlatformOps Argocd Service
+    digest: a3d0cdbd19ed463d25c86e73a91c8f9cbd963944cf89349cc62bb64eef5d20dd
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: argocd-service
+    type: application
+    urls:
+    - https://charts.krateo.io/argocd-service-0.1.0.tgz
+    version: 0.1.0
   deployment-service:
   - apiVersion: v2
     appVersion: 0.1.1
@@ -268,4 +287,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-11T15:38:58.944581233Z"
+generated: "2022-05-11T15:40:22.763047773Z"
