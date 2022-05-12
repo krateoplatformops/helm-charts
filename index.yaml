@@ -171,6 +171,17 @@ entries:
     urls:
     - https://charts.krateo.io/git-service-0.1.0.tgz
     version: 0.1.0
+  helm-chart-library:
+  - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2022-05-12T14:39:26.843873374Z"
+    description: Krateo PlatformOps Helm chart library
+    digest: a0d841e75d140c69c6f88b1feb0615dd916974c5404cac4918dae7d089b1e4a0
+    name: helm-chart-library
+    type: library
+    urls:
+    - https://charts.krateo.io/helm-chart-library-0.1.3.tgz
+    version: 0.1.3
   kube-bridge:
   - apiVersion: v2
     appVersion: 0.2.23
@@ -391,4 +402,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-12T09:48:36.361276563Z"
+generated: "2022-05-12T14:39:26.842412853Z"
