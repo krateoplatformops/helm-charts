@@ -173,6 +173,21 @@ entries:
     version: 0.1.0
   kube-bridge:
   - apiVersion: v2
+    appVersion: 0.2.23
+    created: "2022-05-12T09:43:51.007159893Z"
+    description: Krateo PlatformOps Kube Bridge service
+    digest: 0b1bb79ef03e8b664344d3d2d9c2a2942b490a93f6390381844c7f7873580aaa
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    maintainers:
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: kube-bridge
+    type: application
+    urls:
+    - https://charts.krateo.io/kube-bridge-0.2.23.tgz
+    version: 0.2.23
+  - apiVersion: v2
     appVersion: 0.2.22
     created: "2022-05-12T08:16:04.630726908Z"
     description: Krateo PlatformOps Kube Bridge service
@@ -358,4 +373,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-12T08:16:04.628744394Z"
+generated: "2022-05-12T09:43:51.005369914Z"
