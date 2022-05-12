@@ -185,13 +185,13 @@ entries:
   kube-bridge:
   - apiVersion: v2
     appVersion: 1.2.3
-    created: "2022-05-12T15:01:10.026391587Z"
+    created: "2022-05-12T15:13:35.447499764Z"
     dependencies:
     - name: helm-chart-library
       repository: http://charts.krateo.io
       version: 0.1.3
     description: Krateo PlatformOps Kube Bridge service
-    digest: f275f0d084cd06d891c81a78db18579ce26a6a12da2c76972d66b1d7d73aa4da
+    digest: 805560f143a3fc9b70cff3878f6c79f252223b160e5833a8c6491b72b13999f4
     icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
     name: kube-bridge
     type: application
@@ -417,4 +417,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-12T15:01:10.024530565Z"
+generated: "2022-05-12T15:13:35.445608151Z"
