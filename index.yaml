@@ -521,6 +521,28 @@ entries:
     version: 0.1.1
   deployment-service:
   - apiVersion: v2
+    appVersion: 0.1.5
+    created: "2022-05-17T12:33:47.303335744Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Deployment Service
+    digest: 9afb54a057e3fea9bece124cf5b23367f90bbe06f65e2bf535eeca0efa08c9dd
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: deployment-service
+    type: application
+    urls:
+    - https://charts.krateo.io/deployment-service-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 0.1.4
     created: "2022-05-17T11:08:37.242956883Z"
     dependencies:
@@ -1455,4 +1477,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-17T12:19:58.578545764Z"
+generated: "2022-05-17T12:33:47.302390701Z"
