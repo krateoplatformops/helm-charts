@@ -432,6 +432,28 @@ entries:
     version: 0.1.0
   dashboard-common-chart:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2022-05-17T09:01:55.921362944Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Dashboard Common Chart
+    digest: fc78afea739b4650ad605fbc472c93faf7b4846e293f13ab06608de0e673d526
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: dashboard-common-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/dashboard-common-chart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2022-05-16T08:16:43.546874474Z"
     dependencies:
@@ -1235,4 +1257,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-17T08:54:20.432591984Z"
+generated: "2022-05-17T09:01:55.91985691Z"
