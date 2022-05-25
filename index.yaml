@@ -2235,6 +2235,29 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-0.1.0.tgz
     version: 0.1.0
+  sonarcloud-service:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-05-25T12:33:13.323363017Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Sonarcloud Service
+    digest: c0ffef2789e192e5b6d9a63175168ac060458cdc38b37331b23cb2352e49d727
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: sonarcloud-service
+    type: application
+    urls:
+    - https://charts.krateo.io/sonarcloud-service-0.1.0.tgz
+    version: 0.1.0
   template-service:
   - apiVersion: v2
     appVersion: 0.1.4
@@ -2320,4 +2343,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-25T09:48:42.232424394Z"
+generated: "2022-05-25T12:33:13.322343179Z"
