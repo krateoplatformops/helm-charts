@@ -2369,6 +2369,28 @@ entries:
     version: 0.1.0
   log-service:
   - apiVersion: v2
+    appVersion: 0.1.10
+    created: "2022-05-26T15:53:25.441050301Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Log Service
+    digest: 2e3b45cddb7fa8afa11bc6b85226ea2d1c20976085f856b06e8661f2fe93ce42
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: log-service
+    type: application
+    urls:
+    - https://charts.krateo.io/log-service-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
     appVersion: 0.1.9
     created: "2022-05-13T07:13:23.420087389Z"
     dependencies:
@@ -2762,4 +2784,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-26T15:41:51.836309337Z"
+generated: "2022-05-26T15:53:25.438758089Z"
