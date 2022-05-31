@@ -1547,6 +1547,28 @@ entries:
     version: 0.1.0
   endpoint-service:
   - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2022-05-31T09:30:58.90184075Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Endpoint Service
+    digest: 8f8dac0249718e3f1fc6a499be230e2e3f854eccde20095fb9bb971510645c81
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: endpoint-service
+    type: application
+    urls:
+    - https://charts.krateo.io/endpoint-service-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
     appVersion: 0.1.10
     created: "2022-05-30T13:42:13.173420311Z"
     dependencies:
@@ -3204,4 +3226,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-31T08:59:56.50182008Z"
+generated: "2022-05-31T09:30:58.899918748Z"
