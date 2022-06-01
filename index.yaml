@@ -1049,6 +1049,24 @@ entries:
     version: 0.1.1
   dashboard-common-chart:
   - apiVersion: v2
+    appVersion: 0.1.10
+    created: "2022-06-01T13:21:59.270677036Z"
+    description: Krateo PlatformOps Dashboard Common Chart
+    digest: 4926243bd9aa8aded7ae2b13161f784cb4c02c0b19d44b319dff5091a65e23c8
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: dashboard-common-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/dashboard-common-chart-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
     appVersion: 0.1.9
     created: "2022-05-27T08:47:59.523897902Z"
     description: Krateo PlatformOps Dashboard Common Chart
@@ -3380,4 +3398,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-31T15:41:43.933464896Z"
+generated: "2022-06-01T13:21:59.269408953Z"
