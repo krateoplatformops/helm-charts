@@ -2545,6 +2545,28 @@ entries:
     version: 0.2.18
   kubernetes-service:
   - apiVersion: v2
+    appVersion: 0.1.14
+    created: "2022-06-01T13:24:53.062742453Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Kubernetes Service
+    digest: 87fd1596dc791fccb44b9e11f3205037cd15100d9e14b87160415c73a0161ed1
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: kubernetes-service
+    type: application
+    urls:
+    - https://charts.krateo.io/kubernetes-service-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
     appVersion: 0.1.13
     created: "2022-05-31T08:59:56.503824554Z"
     dependencies:
@@ -3398,4 +3420,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-01T13:21:59.269408953Z"
+generated: "2022-06-01T13:24:53.061138786Z"
