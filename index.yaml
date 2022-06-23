@@ -4529,6 +4529,21 @@ entries:
     version: 0.1.0
   openstack-service:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2022-06-23T13:50:44.018891466Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps OpenStack service
+    digest: 7884c3d0e307656e961de7dfea4580f7d19fb9a02232ad5426ac8e33f13f78e7
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: openstack-service
+    type: application
+    urls:
+    - https://charts.krateo.io/openstack-service-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
     created: "2022-06-23T13:15:22.88010724Z"
     dependencies:
@@ -5087,4 +5102,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-23T13:15:22.878510653Z"
+generated: "2022-06-23T13:50:44.016318534Z"
