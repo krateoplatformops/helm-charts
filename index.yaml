@@ -3,7 +3,7 @@ entries:
   api:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:56:39.204592644Z'
+      created: "2022-06-30T06:56:39.204592644Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -27,7 +27,7 @@ entries:
   app:
     - apiVersion: v2
       appVersion: 1.0.2
-      created: '2022-06-29T15:47:39.30738121Z'
+      created: "2022-06-29T15:47:39.30738121Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -51,7 +51,7 @@ entries:
   argocd-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T07:01:32.554363815Z'
+      created: "2022-06-30T07:01:32.554363815Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -75,7 +75,7 @@ entries:
   auth-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T07:01:08.728226995Z'
+      created: "2022-06-30T07:01:08.728226995Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -99,7 +99,7 @@ entries:
   codequality-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T07:01:05.948055468Z'
+      created: "2022-06-30T07:01:05.948055468Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -123,7 +123,7 @@ entries:
   dashboard-common-chart:
     - apiVersion: v2
       appVersion: 0.1.13
-      created: '2022-06-16T07:52:07.786504108Z'
+      created: "2022-06-16T07:52:07.786504108Z"
       description: Krateo PlatformOps Dashboard Common Chart
       digest: 70e4e97b288714737035d512a5bd5f338158e6e653999b16826604aef78ee873
       icon: >-
@@ -143,7 +143,7 @@ entries:
   deployment-service:
     - apiVersion: v2
       appVersion: 1.0.1
-      created: '2022-06-29T10:01:54.980734668Z'
+      created: "2022-06-29T10:01:54.980734668Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -167,7 +167,7 @@ entries:
   endpoint-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T07:01:15.96622901Z'
+      created: "2022-06-30T07:01:15.96622901Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -191,7 +191,7 @@ entries:
   git-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T07:00:18.671050807Z'
+      created: "2022-06-30T07:00:18.671050807Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -215,7 +215,7 @@ entries:
   helm-chart-library:
     - apiVersion: v2
       appVersion: 0.1.3
-      created: '2022-05-12T14:39:26.843873374Z'
+      created: "2022-05-12T14:39:26.843873374Z"
       description: Krateo PlatformOps Helm chart library
       digest: a0d841e75d140c69c6f88b1feb0615dd916974c5404cac4918dae7d089b1e4a0
       name: helm-chart-library
@@ -226,7 +226,7 @@ entries:
   keptn-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:59:57.099639611Z'
+      created: "2022-06-30T06:59:57.099639611Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -250,7 +250,7 @@ entries:
   kube-bridge:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-29T15:19:35.408814815Z'
+      created: "2022-06-29T15:19:35.408814815Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -267,7 +267,7 @@ entries:
   kubernetes-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:59:59.407078663Z'
+      created: "2022-06-30T06:59:59.407078663Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -291,7 +291,7 @@ entries:
   log-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:59:43.976852314Z'
+      created: "2022-06-30T06:59:43.976852314Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -315,7 +315,7 @@ entries:
   openstack-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-29T13:12:53.857151764Z'
+      created: "2022-06-29T13:12:53.857151764Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -332,7 +332,7 @@ entries:
   pipeline-service:
     - apiVersion: v2
       appVersion: 1.0.4
-      created: '2022-06-29T13:44:53.611990975Z'
+      created: "2022-06-29T13:44:53.611990975Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -356,7 +356,7 @@ entries:
   provider-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:59:11.41454011Z'
+      created: "2022-06-30T06:59:11.41454011Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -380,7 +380,7 @@ entries:
   secret-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:59:27.268588969Z'
+      created: "2022-06-30T06:59:27.268588969Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -404,7 +404,7 @@ entries:
   socket-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:58:26.744714898Z'
+      created: "2022-06-30T06:58:26.744714898Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -425,34 +425,10 @@ entries:
       urls:
         - https://charts.krateo.io/socket-service-1.0.0.tgz
       version: 1.0.0
-  sonarcloud-service:
-    - apiVersion: v2
-      appVersion: 0.1.0
-      created: '2022-05-25T12:33:13.323363017Z'
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Sonarcloud Service
-      digest: c0ffef2789e192e5b6d9a63175168ac060458cdc38b37331b23cb2352e49d727
-      icon: >-
-        https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: sonarcloud-service
-      type: application
-      urls:
-        - https://charts.krateo.io/sonarcloud-service-0.1.0.tgz
-      version: 0.1.0
   template-service:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: '2022-06-30T06:57:06.736758434Z'
+      created: "2022-06-30T06:57:06.736758434Z"
       dependencies:
         - name: helm-chart-library
           repository: http://charts.krateo.io
@@ -473,4 +449,4 @@ entries:
       urls:
         - https://charts.krateo.io/template-service-1.0.0.tgz
       version: 1.0.0
-generated: '2022-06-30T07:01:32.552448204Z'
+generated: "2022-06-30T07:01:32.552448204Z"
