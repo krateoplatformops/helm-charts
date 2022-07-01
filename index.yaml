@@ -1,451 +1,473 @@
 apiVersion: v1
 entries:
   api:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:56:39.204592644Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Api
-      digest: b2ae494bc4576055351d6a50247dbd9219fcdcd4d5baa15ab9b74d91bbdb58b1
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: api
-      type: application
-      urls:
-        - https://charts.krateo.io/api-1.0.0.tgz
-      version: 1.0.0
-  app:
-    - apiVersion: v2
-      appVersion: 1.0.2
-      created: "2022-06-29T15:47:39.30738121Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps App
-      digest: 2728f4222d0e76a3b19dd00fa3ae1cb38ff98833ae140945cb8f238930d39225
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: app
-      type: application
-      urls:
-        - https://charts.krateo.io/app-1.0.2.tgz
-      version: 1.0.2
-  argocd-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T07:01:32.554363815Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps ArgoCD Service
-      digest: 887c77be17c9eed9d6835e61dbd65df67f7bad0f2930e600d78e39c0b4b36f23
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: argocd-service
-      type: application
-      urls:
-        - https://charts.krateo.io/argocd-service-1.0.0.tgz
-      version: 1.0.0
-  auth-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T07:01:08.728226995Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Auth Service
-      digest: dcc0dd38079170d8b38b612359ec3d77435d84071c57414a98f52b7a8339861b
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: auth-service
-      type: application
-      urls:
-        - https://charts.krateo.io/auth-service-1.0.0.tgz
-      version: 1.0.0
-  codequality-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T07:01:05.948055468Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Code Quality Service
-      digest: 4e0700bafd8b0fa9454e6708d153a891d551f2347cd579b932fb463902aad8e8
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: codequality-service
-      type: application
-      urls:
-        - https://charts.krateo.io/codequality-service-1.0.0.tgz
-      version: 1.0.0
-  dashboard-common-chart:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T10:14:39.31895242Z"
-      description: Krateo PlatformOps Dashboard Common Chart
-      digest: 1d9d2d03a5265530a0478aaa2bcfbc2cbcf8eae834ccb60a4b36e0439853bae9
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: dashboard-common-chart
-      type: application
-      urls:
-        - https://charts.krateo.io/dashboard-common-chart-1.0.0.tgz
-      version: 1.0.0
-    - apiVersion: v2
-      appVersion: 0.1.13
-      created: "2022-06-16T07:52:07.786504108Z"
-      description: Krateo PlatformOps Dashboard Common Chart
-      digest: 70e4e97b288714737035d512a5bd5f338158e6e653999b16826604aef78ee873
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: dashboard-common-chart
-      type: application
-      urls:
-        - https://charts.krateo.io/dashboard-common-chart-0.1.13.tgz
-      version: 0.1.13
-  deployment-service:
-    - apiVersion: v2
-      appVersion: 1.0.1
-      created: "2022-06-29T10:01:54.980734668Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Deployment Service
-      digest: 6041947b7e37e039f9d271b7183fd5861556b04ef7f84a991dc04314ba9c0b2b
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: deployment-service
-      type: application
-      urls:
-        - https://charts.krateo.io/deployment-service-1.0.1.tgz
-      version: 1.0.1
-  endpoint-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T07:01:15.96622901Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Endpoint Service
-      digest: c6484f62487db71f38568aee4be38f059b9648cc733e7484ee626ffc04b425fc
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: endpoint-service
-      type: application
-      urls:
-        - https://charts.krateo.io/endpoint-service-1.0.0.tgz
-      version: 1.0.0
-  git-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T07:00:18.671050807Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Git Service
-      digest: e5c2e0aada4fda4ab97ab897fbda3e17171007ad91bcf36b874f5a60b4b5c431
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: git-service
-      type: application
-      urls:
-        - https://charts.krateo.io/git-service-1.0.0.tgz
-      version: 1.0.0
-  helm-chart-library:
-    - apiVersion: v2
-      appVersion: 0.1.3
-      created: "2022-05-12T14:39:26.843873374Z"
-      description: Krateo PlatformOps Helm chart library
-      digest: a0d841e75d140c69c6f88b1feb0615dd916974c5404cac4918dae7d089b1e4a0
-      name: helm-chart-library
-      type: library
-      urls:
-        - https://charts.krateo.io/helm-chart-library-0.1.3.tgz
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:56:39.204592644Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
       version: 0.1.3
+    description: Krateo PlatformOps Api
+    digest: b2ae494bc4576055351d6a50247dbd9219fcdcd4d5baa15ab9b74d91bbdb58b1
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: api
+    type: application
+    urls:
+    - https://charts.krateo.io/api-1.0.0.tgz
+    version: 1.0.0
+  app:
+  - apiVersion: v2
+    appVersion: 1.0.3
+    created: "2022-07-01T07:36:52.356404936Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps App
+    digest: f1ad8f55002b86043263984510140e5996c2315cffd340cdf5b079c3ea16cef3
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: app
+    type: application
+    urls:
+    - https://charts.krateo.io/app-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2022-06-29T15:47:39.30738121Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps App
+    digest: 2728f4222d0e76a3b19dd00fa3ae1cb38ff98833ae140945cb8f238930d39225
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: app
+    type: application
+    urls:
+    - https://charts.krateo.io/app-1.0.2.tgz
+    version: 1.0.2
+  argocd-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T07:01:32.554363815Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps ArgoCD Service
+    digest: 887c77be17c9eed9d6835e61dbd65df67f7bad0f2930e600d78e39c0b4b36f23
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: argocd-service
+    type: application
+    urls:
+    - https://charts.krateo.io/argocd-service-1.0.0.tgz
+    version: 1.0.0
+  auth-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T07:01:08.728226995Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Auth Service
+    digest: dcc0dd38079170d8b38b612359ec3d77435d84071c57414a98f52b7a8339861b
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: auth-service
+    type: application
+    urls:
+    - https://charts.krateo.io/auth-service-1.0.0.tgz
+    version: 1.0.0
+  codequality-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T07:01:05.948055468Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Code Quality Service
+    digest: 4e0700bafd8b0fa9454e6708d153a891d551f2347cd579b932fb463902aad8e8
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: codequality-service
+    type: application
+    urls:
+    - https://charts.krateo.io/codequality-service-1.0.0.tgz
+    version: 1.0.0
+  dashboard-common-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T10:14:39.31895242Z"
+    description: Krateo PlatformOps Dashboard Common Chart
+    digest: 1d9d2d03a5265530a0478aaa2bcfbc2cbcf8eae834ccb60a4b36e0439853bae9
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: dashboard-common-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/dashboard-common-chart-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.1.13
+    created: "2022-06-16T07:52:07.786504108Z"
+    description: Krateo PlatformOps Dashboard Common Chart
+    digest: 70e4e97b288714737035d512a5bd5f338158e6e653999b16826604aef78ee873
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: dashboard-common-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/dashboard-common-chart-0.1.13.tgz
+    version: 0.1.13
+  deployment-service:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-06-29T10:01:54.980734668Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Deployment Service
+    digest: 6041947b7e37e039f9d271b7183fd5861556b04ef7f84a991dc04314ba9c0b2b
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: deployment-service
+    type: application
+    urls:
+    - https://charts.krateo.io/deployment-service-1.0.1.tgz
+    version: 1.0.1
+  endpoint-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T07:01:15.96622901Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Endpoint Service
+    digest: c6484f62487db71f38568aee4be38f059b9648cc733e7484ee626ffc04b425fc
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: endpoint-service
+    type: application
+    urls:
+    - https://charts.krateo.io/endpoint-service-1.0.0.tgz
+    version: 1.0.0
+  git-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T07:00:18.671050807Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Git Service
+    digest: e5c2e0aada4fda4ab97ab897fbda3e17171007ad91bcf36b874f5a60b4b5c431
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: git-service
+    type: application
+    urls:
+    - https://charts.krateo.io/git-service-1.0.0.tgz
+    version: 1.0.0
+  helm-chart-library:
+  - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2022-05-12T14:39:26.843873374Z"
+    description: Krateo PlatformOps Helm chart library
+    digest: a0d841e75d140c69c6f88b1feb0615dd916974c5404cac4918dae7d089b1e4a0
+    name: helm-chart-library
+    type: library
+    urls:
+    - https://charts.krateo.io/helm-chart-library-0.1.3.tgz
+    version: 0.1.3
   keptn-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:59:57.099639611Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Keptn Service
-      digest: aab6f0df19e1c8cd8085b00273d08448607733c6fe36f3e245030c1a1c61f128
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: keptn-service
-      type: application
-      urls:
-        - https://charts.krateo.io/keptn-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:59:57.099639611Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Keptn Service
+    digest: aab6f0df19e1c8cd8085b00273d08448607733c6fe36f3e245030c1a1c61f128
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: keptn-service
+    type: application
+    urls:
+    - https://charts.krateo.io/keptn-service-1.0.0.tgz
+    version: 1.0.0
   kube-bridge:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-29T15:19:35.408814815Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Kube Bridge service
-      digest: c1c509221e1ff61e68b788d3d4c793724314b57cc2881cdf203c1963a9335575
-      icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
-      name: kube-bridge
-      type: application
-      urls:
-        - https://charts.krateo.io/kube-bridge-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-29T15:19:35.408814815Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Kube Bridge service
+    digest: c1c509221e1ff61e68b788d3d4c793724314b57cc2881cdf203c1963a9335575
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: kube-bridge
+    type: application
+    urls:
+    - https://charts.krateo.io/kube-bridge-1.0.0.tgz
+    version: 1.0.0
   kubernetes-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:59:59.407078663Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Kubernetes Service
-      digest: 790c128fa322daea2bcab5490bfb97e14c84eac9439559fb70c82de0b674425b
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: kubernetes-service
-      type: application
-      urls:
-        - https://charts.krateo.io/kubernetes-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:59:59.407078663Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Kubernetes Service
+    digest: 790c128fa322daea2bcab5490bfb97e14c84eac9439559fb70c82de0b674425b
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: kubernetes-service
+    type: application
+    urls:
+    - https://charts.krateo.io/kubernetes-service-1.0.0.tgz
+    version: 1.0.0
   log-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:59:43.976852314Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Log Service
-      digest: 5b70732fd1d7e6fe84207d6506abc9a2eaf968e2b070cc39b5fd3d5ca12a5990
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: log-service
-      type: application
-      urls:
-        - https://charts.krateo.io/log-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:59:43.976852314Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Log Service
+    digest: 5b70732fd1d7e6fe84207d6506abc9a2eaf968e2b070cc39b5fd3d5ca12a5990
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: log-service
+    type: application
+    urls:
+    - https://charts.krateo.io/log-service-1.0.0.tgz
+    version: 1.0.0
   openstack-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-29T13:12:53.857151764Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps OpenStack service
-      digest: ef47739a30fcc947c1a99b4ff0a17830a51f02504d7c201d6b24df52a277e90a
-      icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
-      name: openstack-service
-      type: application
-      urls:
-        - https://charts.krateo.io/openstack-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-29T13:12:53.857151764Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps OpenStack service
+    digest: ef47739a30fcc947c1a99b4ff0a17830a51f02504d7c201d6b24df52a277e90a
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: openstack-service
+    type: application
+    urls:
+    - https://charts.krateo.io/openstack-service-1.0.0.tgz
+    version: 1.0.0
   pipeline-service:
-    - apiVersion: v2
-      appVersion: 1.0.4
-      created: "2022-06-29T13:44:53.611990975Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Pipeline Service
-      digest: fe8b36659af75e3ca5657559430832b4dfb53f13b892f5ebccae7877a8a1f86e
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: pipeline-service
-      type: application
-      urls:
-        - https://charts.krateo.io/pipeline-service-1.0.4.tgz
-      version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2022-06-29T13:44:53.611990975Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Pipeline Service
+    digest: fe8b36659af75e3ca5657559430832b4dfb53f13b892f5ebccae7877a8a1f86e
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: pipeline-service
+    type: application
+    urls:
+    - https://charts.krateo.io/pipeline-service-1.0.4.tgz
+    version: 1.0.4
   provider-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:59:11.41454011Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Provider Service
-      digest: 91298ad25a62b01785380e8ba25bddb79745d8b90aec312af3fd54fbe6daf2d5
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: provider-service
-      type: application
-      urls:
-        - https://charts.krateo.io/provider-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:59:11.41454011Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Provider Service
+    digest: 91298ad25a62b01785380e8ba25bddb79745d8b90aec312af3fd54fbe6daf2d5
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: provider-service
+    type: application
+    urls:
+    - https://charts.krateo.io/provider-service-1.0.0.tgz
+    version: 1.0.0
   secret-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:59:27.268588969Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Secret Service
-      digest: 8964c29c228953b14259300f10cbad44caba824c632db98dc92c462f569996c3
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: secret-service
-      type: application
-      urls:
-        - https://charts.krateo.io/secret-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:59:27.268588969Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Secret Service
+    digest: 8964c29c228953b14259300f10cbad44caba824c632db98dc92c462f569996c3
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: secret-service
+    type: application
+    urls:
+    - https://charts.krateo.io/secret-service-1.0.0.tgz
+    version: 1.0.0
   socket-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:58:26.744714898Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Socket Service
-      digest: 934f347714b3e23f422d0423b16b311fb64d62990bb3edd5f009bb981c3ab7b3
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: socket-service
-      type: application
-      urls:
-        - https://charts.krateo.io/socket-service-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:58:26.744714898Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Socket Service
+    digest: 934f347714b3e23f422d0423b16b311fb64d62990bb3edd5f009bb981c3ab7b3
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: socket-service
+    type: application
+    urls:
+    - https://charts.krateo.io/socket-service-1.0.0.tgz
+    version: 1.0.0
   template-service:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2022-06-30T06:57:06.736758434Z"
-      dependencies:
-        - name: helm-chart-library
-          repository: http://charts.krateo.io
-          version: 0.1.3
-      description: Krateo PlatformOps Template Service
-      digest: 2103df68774de4b985310b92c7cddac85646b8e8f12e5e826bd8a64367840fa0
-      icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-      maintainers:
-        - email: mauro.sala@kiratech.it
-          name: Mauro Sala
-          url: https://krateo.io
-        - email: luca.sepe@kiratech.it
-          name: Luca Sepe
-          url: https://www.kiratech.it
-      name: template-service
-      type: application
-      urls:
-        - https://charts.krateo.io/template-service-1.0.0.tgz
-      version: 1.0.0
-generated: "2022-06-30T10:14:39.317950826Z"
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-30T06:57:06.736758434Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Template Service
+    digest: 2103df68774de4b985310b92c7cddac85646b8e8f12e5e826bd8a64367840fa0
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: template-service
+    type: application
+    urls:
+    - https://charts.krateo.io/template-service-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-07-01T07:36:52.354821651Z"
