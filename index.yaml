@@ -1056,6 +1056,28 @@ entries:
     version: 1.0.0
   socket-service:
   - apiVersion: v2
+    appVersion: 1.0.7
+    created: "2022-07-11T07:25:19.665906817Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Socket Service
+    digest: 95b9e7e3d7bbd17e0360f2839d3ba7b69abd383d887ab8787f0a3e8debb025fa
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: socket-service
+    type: application
+    urls:
+    - https://charts.krateo.io/socket-service-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v2
     appVersion: 1.0.6
     created: "2022-07-11T07:05:51.000500759Z"
     dependencies:
@@ -1254,4 +1276,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-11T07:05:50.999518542Z"
+generated: "2022-07-11T07:25:19.663065415Z"
