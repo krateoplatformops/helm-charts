@@ -1,11 +1,39 @@
 apiVersion: v1
 entries:
+  common:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-15T14:43:33.364834+02:00"
+    description: A Library Helm Chart for grouping common logic between bitnami charts.
+      This chart is not deployable by itself.
+    digest: 8aa21b5bafcd74810aca6c1de3892e4e4e84582a87c8e623c6a6e248ee0da037
+    home: https://github.com/bitnami/charts/tree/master/bitnami/common
+    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    - bitnami
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: common
+    sources:
+    - https://github.com/bitnami/charts
+    - https://www.bitnami.com/
+    type: library
+    urls:
+    - https://charts.krateo.io/common-1.16.1.tgz
+    version: 1.16.1
   mongodb:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 5.0.9
-    created: "2022-07-15T12:07:23.416783+02:00"
+    created: "2022-07-15T14:43:33.368752+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
