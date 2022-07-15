@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-15T14:43:33.364834+02:00"
+    created: "2022-07-15T14:57:12.287742+02:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
     digest: 8aa21b5bafcd74810aca6c1de3892e4e4e84582a87c8e623c6a6e248ee0da037
@@ -33,17 +33,17 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 5.0.9
-    created: "2022-07-15T14:43:33.368752+02:00"
+    created: "2022-07-15T14:57:12.291653+02:00"
     dependencies:
     - name: common
-      repository: https://charts.bitnami.com/bitnami
+      repository: https://charts.krateo.io
       tags:
       - bitnami-common
       version: 1.x.x
     description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
       it stores data in JSON-like documents. Automated scalability and high-performance.
       Ideal for developing cloud native applications.
-    digest: 745934023cfcf8ea75a22af254be590ef3c947d11911668f4d1d4fe819717888
+    digest: e3cc3a5a781945d7765b7180846e85258f728acbe8d7cc619fedb2b373d25927
     home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
     icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
     keywords:
