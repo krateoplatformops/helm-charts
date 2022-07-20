@@ -1,68 +1,5 @@
 apiVersion: v1
 entries:
-  common:
-  - annotations:
-      category: Infrastructure
-    apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-07-15T14:57:12.287742+02:00"
-    description: A Library Helm Chart for grouping common logic between bitnami charts.
-      This chart is not deployable by itself.
-    digest: 8aa21b5bafcd74810aca6c1de3892e4e4e84582a87c8e623c6a6e248ee0da037
-    home: https://github.com/bitnami/charts/tree/master/bitnami/common
-    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
-    keywords:
-    - common
-    - helper
-    - template
-    - function
-    - bitnami
-    maintainers:
-    - name: Bitnami
-      url: https://github.com/bitnami/charts
-    name: common
-    sources:
-    - https://github.com/bitnami/charts
-    - https://www.bitnami.com/
-    type: library
-    urls:
-    - https://charts.krateo.io/common-1.16.1.tgz
-    version: 1.16.1
-  mongodb:
-  - annotations:
-      category: Database
-    apiVersion: v2
-    appVersion: 5.0.9
-    created: "2022-07-15T14:57:12.291653+02:00"
-    dependencies:
-    - name: common
-      repository: https://charts.krateo.io
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
-      it stores data in JSON-like documents. Automated scalability and high-performance.
-      Ideal for developing cloud native applications.
-    digest: e3cc3a5a781945d7765b7180846e85258f728acbe8d7cc619fedb2b373d25927
-    home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
-    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
-    keywords:
-    - mongodb
-    - database
-    - nosql
-    - cluster
-    - replicaset
-    - replication
-    maintainers:
-    - name: Bitnami
-      url: https://github.com/bitnami/charts
-    name: mongodb
-    sources:
-    - https://github.com/bitnami/bitnami-docker-mongodb
-    - https://mongodb.org
-    urls:
-    - https://charts.krateo.io/mongodb-12.1.26.tgz
-    version: 12.1.26
   api:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -597,6 +534,34 @@ entries:
     urls:
     - https://charts.krateo.io/codequality-service-1.0.0.tgz
     version: 1.0.0
+  common:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-15T14:57:12.287742+02:00"
+    description: A Library Helm Chart for grouping common logic between bitnami charts.
+      This chart is not deployable by itself.
+    digest: 8aa21b5bafcd74810aca6c1de3892e4e4e84582a87c8e623c6a6e248ee0da037
+    home: https://github.com/bitnami/charts/tree/master/bitnami/common
+    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    - bitnami
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: common
+    sources:
+    - https://github.com/bitnami/charts
+    - https://www.bitnami.com/
+    type: library
+    urls:
+    - https://charts.krateo.io/common-1.16.1.tgz
+    version: 1.16.1
   dashboard-common-chart:
   - apiVersion: v2
     appVersion: 1.0.3
@@ -1227,6 +1192,41 @@ entries:
     urls:
     - https://charts.krateo.io/log-service-1.0.0.tgz
     version: 1.0.0
+  mongodb:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 5.0.9
+    created: "2022-07-15T14:57:12.291653+02:00"
+    dependencies:
+    - name: common
+      repository: https://charts.krateo.io
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MongoDB(R) is a relational open source NoSQL database. Easy to use,
+      it stores data in JSON-like documents. Automated scalability and high-performance.
+      Ideal for developing cloud native applications.
+    digest: e3cc3a5a781945d7765b7180846e85258f728acbe8d7cc619fedb2b373d25927
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://mongodb.org
+    urls:
+    - https://charts.krateo.io/mongodb-12.1.26.tgz
+    version: 12.1.26
   openstack-service:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -1267,6 +1267,28 @@ entries:
     - https://charts.krateo.io/pipeline-service-1.0.4.tgz
     version: 1.0.4
   provider-service:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-07-20T12:47:07.093170357Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Provider Service
+    digest: 9abe2a96486a50a0e2bb8683d176fa4f9d527a45b87868d317dfc827d48f39c0
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: provider-service
+    type: application
+    urls:
+    - https://charts.krateo.io/provider-service-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2022-06-30T06:59:11.41454011Z"
@@ -1578,4 +1600,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-13T14:58:49.005579183Z"
+generated: "2022-07-20T12:47:07.091573117Z"
