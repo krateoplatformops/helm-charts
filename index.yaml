@@ -1384,6 +1384,18 @@ entries:
     urls:
     - https://charts.krateo.io/keptn-service-1.0.0.tgz
     version: 1.0.0
+  krateo-crds:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-07-28T07:23:45.028562598Z"
+    description: Krateo PlatformOps CRDs
+    digest: bd63212d9307e40a5ab752558070e769f4e8b9fa42613a1030a551cdbdb49e1b
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: krateo-crds
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-crds-0.1.1.tgz
+    version: 0.1.1
   kube-bridge:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -1876,4 +1888,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-28T07:16:25.766300116Z"
+generated: "2022-07-28T07:23:45.027477885Z"
