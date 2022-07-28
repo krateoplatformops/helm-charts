@@ -488,6 +488,18 @@ entries:
     urls:
     - https://charts.krateo.io/auth-service-1.0.0.tgz
     version: 1.0.0
+  authn-krateo-crds:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-07-28T07:16:25.766760321Z"
+    description: Krateo PlatformOps AuthN CRDs
+    digest: 75dbb9eff80398d4daa1ee4c69495ab9bbfebe9aa398d6494d92a8e3ab918532
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: authn-krateo-crds
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-krateo-crds-0.1.0.tgz
+    version: 0.1.0
   capi-service:
   - apiVersion: v2
     appVersion: 1.0.9
@@ -1864,4 +1876,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-26T12:45:27.617064953Z"
+generated: "2022-07-28T07:16:25.766300116Z"
