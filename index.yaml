@@ -1173,9 +1173,9 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-06-30T10:14:39.31895242Z"
+    created: "2022-08-10T12:34:32.659227091Z"
     description: Krateo PlatformOps Dashboard Common Chart
-    digest: 1d9d2d03a5265530a0478aaa2bcfbc2cbcf8eae834ccb60a4b36e0439853bae9
+    digest: 4add4237c14318c2292ff36ec10393eec949f99197534bef7bb5f88fbd79ad6c
     icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
     maintainers:
     - email: mauro.sala@kiratech.it
@@ -2441,4 +2441,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-09T12:29:54.775691439Z"
+generated: "2022-08-10T12:34:32.653441811Z"
