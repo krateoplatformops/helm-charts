@@ -2541,6 +2541,29 @@ entries:
     urls:
     - https://charts.krateo.io/keptn-service-1.0.0.tgz
     version: 1.0.0
+  keptn-service-insiel:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-08-23T12:55:19.969904559Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Keptn Service Insiel
+    digest: e82c7635970f5c9a51c85549412317c1ce043321738541ce919e700b7d0078d1
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: keptn-service-insiel
+    type: application
+    urls:
+    - https://charts.krateo.io/keptn-service-insiel-0.1.1.tgz
+    version: 0.1.1
   krateo-crds:
   - apiVersion: v2
     appVersion: 0.2.5
@@ -3519,4 +3542,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-08-23T09:54:40.585062978Z"
+generated: "2022-08-23T12:55:19.968748857Z"
