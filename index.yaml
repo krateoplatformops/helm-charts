@@ -2830,6 +2830,17 @@ entries:
     version: 0.1.1
   krateo-crds:
   - apiVersion: v2
+    appVersion: 0.3.4
+    created: "2022-09-19T13:14:35.214917285Z"
+    description: Krateo PlatformOps CRDs
+    digest: 2630acbe2bb80393eff93637bc8f87cce5a34873ca138f1c15e41e36947c6a1d
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: krateo-crds
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-crds-0.3.4.tgz
+    version: 0.3.4
+  - apiVersion: v2
     appVersion: 0.3.3
     created: "2022-09-19T10:08:52.756623159Z"
     description: Krateo PlatformOps CRDs
@@ -3905,4 +3916,4 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-19T10:08:52.756103257Z"
+generated: "2022-09-19T13:14:35.213380755Z"
