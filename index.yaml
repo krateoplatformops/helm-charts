@@ -4559,13 +4559,13 @@ entries:
   terraform-service:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-10-12T14:09:09.170596189Z"
+    created: "2022-10-12T14:32:37.655860761Z"
     dependencies:
     - name: helm-chart-library
       repository: http://charts.krateo.io
       version: 0.1.5
     description: Krateo PlatformOps Terraform service
-    digest: b6916bd5f8d7078506d85cb727448482f70e4696ec87ea85d23053dcb12c8005
+    digest: c46ac805628994da9a7c422c66e0c672963f5f86be0e6548619e8a5372135ba2
     icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
     name: terraform-service
     type: application
@@ -4602,4 +4602,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-12T14:09:09.168185678Z"
+generated: "2022-10-12T14:32:37.654622534Z"
