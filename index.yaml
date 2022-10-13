@@ -3939,6 +3939,28 @@ entries:
     version: 1.0.0
   secret-service:
   - apiVersion: v2
+    appVersion: 1.0.8
+    created: "2022-10-13T13:08:41.487831865Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Secret Service
+    digest: 92defa42170b21be259cb038f7b7d552c4884c4d37b50b54e164263f6729872c
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: secret-service
+    type: application
+    urls:
+    - https://charts.krateo.io/secret-service-1.0.8.tgz
+    version: 1.0.8
+  - apiVersion: v2
     appVersion: 1.0.7
     created: "2022-10-05T09:21:26.83977931Z"
     dependencies:
@@ -4714,4 +4736,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-13T12:06:18.410929823Z"
+generated: "2022-10-13T13:08:41.485580276Z"
