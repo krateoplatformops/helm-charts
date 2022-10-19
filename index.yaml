@@ -1852,6 +1852,28 @@ entries:
     version: 1.16.1
   component-service:
   - apiVersion: v2
+    appVersion: 0.1.5
+    created: "2022-10-19T12:36:08.876581192Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Component Service
+    digest: 6a3161009ed92938542c4f401fa9dcd884c56c410921d83f8f601b6e3bf2d7f5
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: component-service
+    type: application
+    urls:
+    - https://charts.krateo.io/component-service-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 0.1.4
     created: "2022-09-22T14:50:08.700355065Z"
     dependencies:
@@ -4788,4 +4810,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-14T08:59:08.291562187Z"
+generated: "2022-10-19T12:36:08.875323387Z"
