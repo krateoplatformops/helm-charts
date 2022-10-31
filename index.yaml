@@ -4536,6 +4536,28 @@ entries:
     version: 12.1.26
   notification-service:
   - apiVersion: v2
+    appVersion: 1.1.5
+    created: "2022-10-31T11:04:56.056961625Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Notification Service
+    digest: cfc9d6aad4cdb98d4f4344f4b4a02a269094b80f134c6d42a94d36ad771128f0
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: notification-service
+    type: application
+    urls:
+    - https://charts.krateo.io/notification-service-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v2
     appVersion: 1.1.4
     created: "2022-10-31T10:54:45.554277848Z"
     dependencies:
@@ -5866,4 +5888,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-31T10:55:32.729431625Z"
+generated: "2022-10-31T11:04:56.054994654Z"
