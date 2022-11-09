@@ -5517,6 +5517,22 @@ entries:
     urls:
     - https://charts.krateo.io/socket-service-1.0.0.tgz
     version: 1.0.0
+  status-informer:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2022-11-09T10:44:51.834456535Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Status Informer
+    digest: 897e8a7bf83fd34832a26641faf023cc7b50fc3523a348d5cf10e69a455f2b0f
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: status-informer
+    type: application
+    urls:
+    - https://charts.krateo.io/status-informer-0.1.1.tgz
+    version: 0.1.1
   template-service:
   - apiVersion: v2
     appVersion: 1.2.3
@@ -5992,4 +6008,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-09T10:01:24.057719135Z"
+generated: "2022-11-09T10:44:51.833414945Z"
