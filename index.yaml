@@ -4174,6 +4174,16 @@ entries:
     version: 1.0.0
   helm-chart-library:
   - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2022-11-10T10:44:54.927026404Z"
+    description: Krateo PlatformOps Helm chart library
+    digest: a1e20dfa90b1f4fb0b05e6752e1b0289cf6d8b3d1d94ce9878f3b14e92926871
+    name: helm-chart-library
+    type: library
+    urls:
+    - https://charts.krateo.io/helm-chart-library-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 0.1.5
     created: "2022-10-12T10:30:58.521324094Z"
     description: Krateo PlatformOps Helm chart library
@@ -6008,4 +6018,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-09T10:44:51.833414945Z"
+generated: "2022-11-10T10:44:54.926661902Z"
