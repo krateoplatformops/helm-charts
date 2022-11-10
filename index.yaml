@@ -1478,6 +1478,28 @@ entries:
     version: 1.0.2
   argocd-service:
   - apiVersion: v2
+    appVersion: 1.0.7
+    created: "2022-11-10T11:21:32.136559319Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps ArgoCD Service
+    digest: 19ba72f0f029b518a1b8106a739f7f7910452c6fa8286c11884b9b70493dbadf
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: argocd-service
+    type: application
+    urls:
+    - https://charts.krateo.io/argocd-service-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v2
     appVersion: 1.0.6
     created: "2022-11-07T08:58:53.53616259Z"
     dependencies:
@@ -6116,4 +6138,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-10T11:15:45.417511474Z"
+generated: "2022-11-10T11:21:32.135489806Z"
