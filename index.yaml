@@ -3832,6 +3832,28 @@ entries:
     version: 1.0.0
   event-service:
   - apiVersion: v2
+    appVersion: 1.1.6
+    created: "2022-11-10T11:15:45.418424796Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Event Service
+    digest: 53c98a3edeccb90b1935ed4eba0672d86727e2345636883fb2ea762fd3bce3dd
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: event-service
+    type: application
+    urls:
+    - https://charts.krateo.io/event-service-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v2
     appVersion: 1.1.5
     created: "2022-11-03T13:37:16.488214853Z"
     dependencies:
@@ -6094,4 +6116,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-10T11:11:05.805596682Z"
+generated: "2022-11-10T11:15:45.417511474Z"
