@@ -2329,6 +2329,28 @@ entries:
     version: 1.0.2
   codequality-service:
   - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2022-11-11T13:15:57.236006068Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Code Quality Service
+    digest: 7837824a10d37f8cfc256e87b4c228524c3e7a96e7cf09557723e74e7a1b6f3e
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: codequality-service
+    type: application
+    urls:
+    - https://charts.krateo.io/codequality-service-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: 1.0.2
     created: "2022-08-11T07:49:06.093207581Z"
     dependencies:
@@ -6352,4 +6374,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-11T09:48:18.185412945Z"
+generated: "2022-11-11T13:15:57.234931228Z"
