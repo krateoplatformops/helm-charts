@@ -2130,6 +2130,28 @@ entries:
     version: 0.1.0
   capi-service:
   - apiVersion: v2
+    appVersion: 1.1.5
+    created: "2023-01-16T09:47:29.537163565Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps CAPI Service
+    digest: 20ae5c8a249dd32b3640fcb30061cf302a91149af769d2463044135431d05074
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: capi-service
+    type: application
+    urls:
+    - https://charts.krateo.io/capi-service-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v2
     appVersion: 1.1.4
     created: "2023-01-12T09:05:36.622184906Z"
     dependencies:
@@ -6636,4 +6658,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-16T08:47:29.517369477Z"
+generated: "2023-01-16T09:47:29.534507977Z"
