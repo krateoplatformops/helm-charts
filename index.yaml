@@ -2415,6 +2415,22 @@ entries:
     urls:
     - https://charts.krateo.io/capi-service-1.0.2.tgz
     version: 1.0.2
+  capi-watcher:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-01-16T08:47:29.518315609Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Cluster API Watcher
+    digest: c9a7fc762bb2c66ac53a1350e445a0ce789c50bafc91f4a01221a4e890468e3f
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: capi-watcher
+    type: application
+    urls:
+    - https://charts.krateo.io/capi-watcher-0.1.0.tgz
+    version: 0.1.0
   codequality-service:
   - apiVersion: v2
     appVersion: 1.1.1
@@ -6620,4 +6636,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-13T14:07:09.645529307Z"
+generated: "2023-01-16T08:47:29.517369477Z"
