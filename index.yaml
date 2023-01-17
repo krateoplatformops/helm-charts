@@ -5527,6 +5527,28 @@ entries:
     version: 1.0.0
   pipeline-service:
   - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2023-01-17T14:20:18.190755081Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Pipeline Service
+    digest: 6282c62c0feb3ad5394835c16109e8847f4868be183d9b3e9c774d933b352490
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: pipeline-service
+    type: application
+    urls:
+    - https://charts.krateo.io/pipeline-service-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: 1.1.1
     created: "2022-11-11T09:02:56.274907162Z"
     dependencies:
@@ -6900,4 +6922,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-16T16:34:08.000492926Z"
+generated: "2023-01-17T14:20:18.188541354Z"
