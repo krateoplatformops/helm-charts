@@ -4698,6 +4698,22 @@ entries:
     urls:
     - https://charts.krateo.io/eventrouter-kafka-producer-0.1.0.tgz
     version: 0.1.0
+  git-provider:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-01-31T15:36:33.830477361Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Git Provider
+    digest: d20bf35d1e1d1818771dcefec35828675165a0026ddb6060c82f1ec839ee2509
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: git-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/git-provider-0.1.0.tgz
+    version: 0.1.0
   git-service:
   - apiVersion: v2
     appVersion: 1.0.8
@@ -7105,4 +7121,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-31T14:09:38.949764932Z"
+generated: "2023-01-31T15:36:33.829100864Z"
