@@ -4700,6 +4700,21 @@ entries:
     version: 0.1.0
   git-provider:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-02-01T14:49:01.403976374Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.3
+    description: Krateo PlatformOps Git Provider
+    digest: 80b11d7c33331823b493296630baad0bd697efa985325b5e18e7e253ce38bd6b
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: git-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/git-provider-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2023-01-31T15:36:33.830477361Z"
     dependencies:
@@ -7136,4 +7151,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-01T14:47:02.399354287Z"
+generated: "2023-02-01T14:49:01.402895163Z"
