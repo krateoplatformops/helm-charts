@@ -1,6 +1,7 @@
 const yaml = require('js-yaml')
 const fs = require('fs')
 const axios = require('axios')
+const semverSort = require('semver-sort')
 require('format-unicorn')
 
 const saveLast = 3
@@ -45,9 +46,15 @@ const main = async () => {
     ...doc
   }
   Object.keys(catalog.entries).forEach((key) => {
-    const v = catalog.entries[key]
+    // Sort the versions
+    catalog.entries[key] = semverSort
+      .asc(catalog.entries[key].map((x) => x.version))
+      .map((x) => {
+        return catalog.entries[key].find((y) => y.version === x)
+      })
+
     if (releases[key]) {
-      catalog.entries[key] = v.filter((f, i) => {
+      catalog.entries[key] = catalog.entries[key].filter((f, i) => {
         return (
           releases[key].includes(f.version) ||
           i >= catalog.entries[key].length - saveLast
