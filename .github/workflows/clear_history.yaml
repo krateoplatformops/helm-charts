@@ -1,0 +1,29 @@
+name: Clear history
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    name: Clear history
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+      - name: NPM install
+        run: npm install
+      - name: Clear history
+        run: node index.js
+      - name: Commit changes
+        run: |
+          git config --local user.email "info@krateo.io"
+          git config --local user.name "krateoctl"
+          git commit -m "Clear history" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
