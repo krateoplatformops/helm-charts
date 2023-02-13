@@ -1723,6 +1723,17 @@ entries:
     version: 1.0.0
   patch-provider:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2023-02-13T12:57:16.117631305Z"
+    description: Krateo PlatformOps Patch Provider
+    digest: d3f022e7cd676667ae21bbac3dac80ea0b73bf220df89551c6d6784eee7b6de4
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: patch-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/patch-provider-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2023-02-13T11:07:38.853669002Z"
     description: Krateo PlatformOps Patch Provider
@@ -2373,4 +2384,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-02-13T11:07:38.852983992Z"
+generated: "2023-02-13T12:57:16.117214532Z"
