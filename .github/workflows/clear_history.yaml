@@ -1,8 +1,10 @@
 name: Clear history
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
 
 jobs:
   build:
