@@ -412,6 +412,18 @@ entries:
     urls:
     - https://charts.krateo.io/authn-krateo-crds-0.1.0.tgz
     version: 0.1.0
+  azuredevops-provider:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2023-02-23T15:24:51.375197717Z"
+    description: Krateo PlatformOps Azure DevOps Provider
+    digest: ba1bbe58aea0d78a1ae60b18e481fc554ca431d8e0a87a84cc061e8c963134b2
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: azuredevops-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/azuredevops-provider-0.1.0.tgz
+    version: 0.1.0
   capi-service:
   - apiVersion: v2
     appVersion: 1.1.9
@@ -2439,4 +2451,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-02-15T11:29:01.870836791Z"
+generated: "2023-02-23T15:24:51.374440213Z"
