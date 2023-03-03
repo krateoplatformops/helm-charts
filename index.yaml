@@ -1904,6 +1904,18 @@ entries:
     urls:
     - https://charts.krateo.io/notification-service-1.1.4.tgz
     version: 1.1.4
+  openstack-provider:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-03-03T07:29:28.818383474Z"
+    description: Krateo PlatformOps OpenStack Provider
+    digest: adb11e2902845c041a2009747f2c2028f6ce93f8433e6a241e10f924ad362900
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: openstack-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/openstack-provider-0.1.0.tgz
+    version: 0.1.0
   openstack-service:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -2616,4 +2628,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-03-03T07:23:09.397082865Z"
+generated: "2023-03-03T07:29:28.817861872Z"
