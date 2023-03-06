@@ -1906,6 +1906,17 @@ entries:
     version: 1.1.4
   openstack-provider:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2023-03-06T13:49:16.545507025Z"
+    description: Krateo PlatformOps OpenStack Provider
+    digest: 242a62cd32e641be4fc470b7947cc1d296c49a348afc43f9de330eb6af261b64
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: openstack-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/openstack-provider-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2023-03-03T07:29:28.818383474Z"
     description: Krateo PlatformOps OpenStack Provider
@@ -2628,4 +2639,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-03-03T07:29:28.817861872Z"
+generated: "2023-03-06T13:49:16.544205331Z"
