@@ -3,6 +3,17 @@ entries:
   aggregation-layer-example:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2023-03-23T10:43:56.620679152Z"
+    description: Krateo PlatformOps Aggregation API Layer Example
+    digest: a25bba0aaec66ad454a0d015ca9cb09a83b39cfd784f44dcd41b1c4b8eab5ffa
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: aggregation-layer-example
+    type: application
+    urls:
+    - https://charts.krateo.io/aggregation-layer-example-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2023-03-23T10:37:47.153051607Z"
     description: Krateo PlatformOps Aggregation API Layer Example
     digest: 29e5412a4c350f9b78a51c9f2e600ca40d4cde7ef047a7ac919a60ad8588c051
@@ -2761,4 +2772,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-03-23T10:37:47.146857264Z"
+generated: "2023-03-23T10:43:56.620240339Z"
