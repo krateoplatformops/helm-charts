@@ -2692,6 +2692,25 @@ entries:
     version: 0.3.5
   krateo-remote-client:
   - apiVersion: v2
+    appVersion: 0.4.3
+    created: "2023-07-10T12:48:45.982388968Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Remote Client
+    digest: 510d62ec117ca17e6e9670d1381e01d303ef15f61b3d047a5dcb35705216ff13
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: diego.braga@kiratech.it
+      name: Diego Braga
+      url: https://krateo.io
+    name: krateo-remote-client
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-remote-client-0.4.3.tgz
+    version: 0.4.3
+  - apiVersion: v2
     appVersion: 0.4.2
     created: "2023-07-10T09:42:01.778091789Z"
     dependencies:
@@ -3813,4 +3832,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-07-10T09:42:01.776861802Z"
+generated: "2023-07-10T12:48:45.980619358Z"
