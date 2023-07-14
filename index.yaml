@@ -3015,25 +3015,6 @@ entries:
     version: 0.4.2
   krateo-remote-server:
   - apiVersion: v2
-    appVersion: 0.4.1
-    created: "2023-07-10T09:19:38.040523203Z"
-    dependencies:
-    - name: helm-chart-library
-      repository: http://charts.krateo.io
-      version: 0.1.7
-    description: Krateo PlatformOps Remote Server
-    digest: cc64edc676251c40d6bbb53e828316f4c4afabb8b7071b1bf0724291f6f63f5c
-    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
-    maintainers:
-    - email: diego.braga@kiratech.it
-      name: Diego Braga
-      url: https://krateo.io
-    name: krateo-remote-server
-    type: application
-    urls:
-    - https://charts.krateo.io/krateo-remote-server-0.4.1.tgz
-    version: 0.4.1
-  - apiVersion: v2
     appVersion: 0.2.2
     created: "2023-07-14T09:38:12.704022954Z"
     dependencies:
