@@ -2853,6 +2853,18 @@ entries:
     urls:
     - https://charts.krateo.io/keptn-service-insiel-0.1.1.tgz
     version: 0.1.1
+  krateo-apiserver:
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2023-07-19T11:32:58.550889082Z"
+    description: Krateo PlatformOps API Server
+    digest: 733ee67c2ab39d789a4cf6ff3e5fa8408dabd1d379c3358ec511615dff76f75c
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: krateo-apiserver
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-apiserver-0.0.2.tgz
+    version: 0.0.2
   krateo-crds:
   - apiVersion: v2
     appVersion: 0.3.9
@@ -4226,4 +4238,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-07-17T10:33:20.699147902Z"
+generated: "2023-07-19T11:32:58.550290775Z"
