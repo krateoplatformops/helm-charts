@@ -3941,6 +3941,48 @@ entries:
     urls:
     - https://charts.krateo.io/pipeline-service-1.0.4.tgz
     version: 1.0.4
+  postgresql:
+  - annotations:
+      category: Database
+      images: |
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r40
+        - name: postgres-exporter
+          image: docker.io/bitnami/postgres-exporter:0.13.2-debian-11-r21
+        - name: postgresql
+          image: docker.io/bitnami/postgresql:15.4.0-debian-11-r5
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 15.4.0
+    created: "2023-08-21T13:43:54.617633971Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: PostgreSQL (Postgres) is an open source object-relational database
+      known for reliability and data integrity. ACID-compliant, it supports foreign
+      keys, joins, views, triggers and stored procedures.
+    digest: f44f50ef0ae8469bb4b4974ab078d12c12543a45543761f122478a1d47f0a177
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/postgresql
+    urls:
+    - https://charts.krateo.io/postgresql-12.8.3.tgz
+    version: 12.8.3
   provider-service:
   - apiVersion: v2
     appVersion: 1.0.8
@@ -4646,4 +4688,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-08-21T12:45:53.597157112Z"
+generated: "2023-08-21T13:43:54.608624905Z"
