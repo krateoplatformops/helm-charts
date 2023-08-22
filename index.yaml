@@ -3954,7 +3954,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.4.0
-    created: "2023-08-21T13:43:54.617633971Z"
+    created: "2023-08-22T09:37:47.080389458Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -3964,7 +3964,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: f44f50ef0ae8469bb4b4974ab078d12c12543a45543761f122478a1d47f0a177
+    digest: 996bde057a0e972d6479331ca00808aa0ff7cd49a904408624f42fb4796877ba
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -4688,4 +4688,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-08-21T13:43:54.608624905Z"
+generated: "2023-08-22T09:37:47.071473821Z"
