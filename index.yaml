@@ -3188,6 +3188,41 @@ entries:
     urls:
     - https://charts.krateo.io/helm-chart-library-0.1.5.tgz
     version: 0.1.5
+  jenkins:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 2.332.3
+    created: "2023-08-30T09:05:08.235890024Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Jenkins is an open source Continuous Integration and Continuous Delivery
+      (CI/CD) server designed to automate the building, testing, and deploying of
+      any software project.
+    digest: e287514dc5b40e8f338e2fd0e70112639d9557da8df6c4d220202087347ee9a2
+    home: https://github.com/bitnami/charts/tree/master/bitnami/jenkins
+    icon: https://bitnami.com/assets/stacks/jenkins/img/jenkins-stack-220x234.png
+    keywords:
+    - jenkins
+    - ci
+    - cd
+    - http
+    - web
+    - application
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: jenkins
+    sources:
+    - https://github.com/bitnami/bitnami-docker-jenkins
+    - https://jenkins.io/
+    urls:
+    - https://charts.krateo.io/jenkins-10.2.4.tgz
+    version: 10.2.4
   kafka-eventrouter-consumer:
   - apiVersion: v2
     appVersion: 0.1.2
@@ -4875,4 +4910,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-08-29T12:57:39.270570061Z"
+generated: "2023-08-30T09:05:08.232600158Z"
