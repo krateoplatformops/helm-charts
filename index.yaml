@@ -899,6 +899,17 @@ entries:
     version: 0.1.0
   authn-service:
   - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2023-10-20T13:54:55.743778748Z"
+    description: Krateo PlatformOps AuthN Service
+    digest: 012db2fdd291b96c6d043bb285510cf74094e72b470ea287f1cdb328ca70a630
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: authn-service
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-service-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     appVersion: 0.2.2
     created: "2023-10-19T08:03:33.768606017Z"
     description: Krateo PlatformOps AuthN Service
@@ -5445,4 +5456,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-10-19T08:03:33.767738112Z"
+generated: "2023-10-20T13:54:55.739549807Z"
