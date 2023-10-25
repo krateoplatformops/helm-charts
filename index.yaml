@@ -4008,6 +4008,28 @@ entries:
     version: 0.1.2
   keptn-service:
   - apiVersion: v2
+    appVersion: 1.0.7
+    created: "2023-10-25T12:27:32.551218408Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Keptn Service
+    digest: ef1a190de3173ee53f941ced08986f2bc7578cd9144e1bbb72c8e5bb2e760050
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: keptn-service
+    type: application
+    urls:
+    - https://charts.krateo.io/keptn-service-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v2
     appVersion: 1.0.6
     created: "2023-08-07T15:38:44.77266274Z"
     dependencies:
@@ -5852,4 +5874,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-10-25T12:16:21.581028297Z"
+generated: "2023-10-25T12:27:32.549963704Z"
