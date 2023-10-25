@@ -732,6 +732,28 @@ entries:
     version: 1.0.0
   auth-service:
   - apiVersion: v2
+    appVersion: 1.2.34
+    created: "2023-10-25T19:27:28.82725899Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps Auth Service
+    digest: 92d05f9613c0965269c1ed066d58daf04dda19a6ee8f4fccf04b263e97ab179c
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: auth-service
+    type: application
+    urls:
+    - https://charts.krateo.io/auth-service-1.2.34.tgz
+    version: 1.2.34
+  - apiVersion: v2
     appVersion: 1.2.33
     created: "2023-10-25T16:23:14.575110552Z"
     dependencies:
@@ -6347,4 +6369,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-10-25T16:23:14.574167543Z"
+generated: "2023-10-25T19:27:28.826228609Z"
