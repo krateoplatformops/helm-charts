@@ -707,6 +707,29 @@ entries:
     urls:
     - https://charts.krateo.io/app-1.0.2.tgz
     version: 1.0.2
+  app-generic-artifact:
+  - apiVersion: v2
+    appVersion: 1.2.48
+    created: "2023-11-09T10:11:22.613642882Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps App
+    digest: 6c16f72a97fe858acb1ecfce3343caf4fe80b31d0f18f11b565cb75f50d325a7
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: app-generic-artifact
+    type: application
+    urls:
+    - https://charts.krateo.io/app-generic-artifact-1.2.48.tgz
+    version: 1.2.48
   argocd-service:
   - apiVersion: v2
     appVersion: 1.0.7
@@ -6607,4 +6630,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-11-09T10:07:22.000286827Z"
+generated: "2023-11-09T10:11:22.612771593Z"
