@@ -5188,9 +5188,9 @@ entries:
   krateo-gateway:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-11-21T08:33:21.605237862Z"
+    created: "2023-11-21T09:33:18.127057182Z"
     description: Krateo PlatformOps Gateway
-    digest: bf1655f285b88a12fc932ce6f479569a97ee23546447e5a10e0e8228ae033fa2
+    digest: 4d8430fc3c8479e4354209c3493a6d408a60d8289e558853e898b6fcde3bc3b4
     icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
     name: krateo-gateway
     type: application
@@ -6752,4 +6752,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-11-21T08:33:21.604917924Z"
+generated: "2023-11-21T09:33:18.12673429Z"
