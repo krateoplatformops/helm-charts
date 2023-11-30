@@ -2045,6 +2045,17 @@ entries:
     version: 0.1.0
   azuredevops-provider:
   - apiVersion: v2
+    appVersion: 0.12.0
+    created: "2023-11-30T15:20:50.003928977Z"
+    description: Krateo PlatformOps Azure DevOps Provider
+    digest: c283c833b3cbc5950b834ffae5edaf04319581d42cac96a11c51b52b1fc59070
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: azuredevops-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/azuredevops-provider-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
     appVersion: 0.11.0
     created: "2023-11-30T10:06:07.842342804Z"
     description: Krateo PlatformOps Azure DevOps Provider
@@ -6929,4 +6940,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2023-11-30T14:42:24.06710509Z"
+generated: "2023-11-30T15:20:50.003064399Z"
