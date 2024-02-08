@@ -5570,6 +5570,17 @@ entries:
     urls:
     - https://charts.krateo.io/krateo-crds-0.3.5.tgz
     version: 0.3.5
+  krateo-frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-08T21:15:27.376378975Z"
+    description: A Helm chart for Kubernetes
+    digest: 43648b25cebadfa14f94440586b8b5639d60e5a67e601e9f2a4f63226e49084b
+    name: krateo-frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-frontend-0.1.0.tgz
+    version: 0.1.0
   krateo-gateway:
   - apiVersion: v2
     appVersion: 0.3.5
@@ -7270,4 +7281,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-02T16:25:41.321867439Z"
+generated: "2024-02-08T21:15:27.375855243Z"
