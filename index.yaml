@@ -5536,6 +5536,16 @@ entries:
     urls:
     - https://charts.krateo.io/krateo-bff-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-02-09T22:15:06.721262012Z"
+    description: Krateo PlatformOps Backend For Frontend
+    digest: a8f03ffc200078d7aae6523b68db634833d737b009bca01a600f8d2b1188c40c
+    name: krateo-bff
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-bff-0.0.1.tgz
+    version: 0.0.1
   krateo-crds:
   - apiVersion: v2
     appVersion: 0.3.9
@@ -7302,4 +7312,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-09T21:06:13.945247223Z"
+generated: "2024-02-09T22:15:06.71981084Z"
