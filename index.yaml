@@ -5395,6 +5395,17 @@ entries:
   krateo-bff:
   - apiVersion: v2
     appVersion: 0.10.1
+    created: "2024-02-09T21:06:13.945642837Z"
+    description: Krateo PlatformOps Backend For Frontend
+    digest: 8af6a6a2634de9cac402aa8346296ee4e8b0de594b69aec7d5b96fdae9c2daa6
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: krateo-bff
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-bff-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    appVersion: 0.10.1
     created: "2024-01-30T08:51:42.068901425Z"
     description: Krateo PlatformOps Backend For Frontend
     digest: caa35d5cf9288d702e839117207606c021602acd6818a4983618c324cbe308af
@@ -7291,4 +7302,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-09T07:51:37.8065192Z"
+generated: "2024-02-09T21:06:13.945247223Z"
