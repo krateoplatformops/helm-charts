@@ -5662,6 +5662,16 @@ entries:
     version: 0.3.5
   krateo-frontend:
   - apiVersion: v2
+    appVersion: 2.0.2
+    created: "2024-02-12T11:31:05.62868584Z"
+    description: A Helm chart for Kubernetes
+    digest: 15b68fb66d1a4e6c9302e4d9fd0bf4e812f39b351a1c6dd544cd2f64b780d71e
+    name: krateo-frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-frontend-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
     appVersion: 2.0.1
     created: "2024-02-11T21:50:50.077284723Z"
     description: A Helm chart for Kubernetes
@@ -7411,4 +7421,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-12T10:28:42.003420659Z"
+generated: "2024-02-12T11:31:05.628103674Z"
