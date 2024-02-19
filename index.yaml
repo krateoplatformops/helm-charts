@@ -2793,6 +2793,17 @@ entries:
     version: 0.1.9
   core-provider:
   - apiVersion: v2
+    appVersion: 0.10.2
+    created: "2024-02-19T15:38:44.562013168Z"
+    description: Krateo PlatformOps Core Provider
+    digest: 1170f7b648830798da78d3fbe4fbb2b0bdfb381c7791bda29d21fec8fd92d738
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-0.8.3.tgz
+    version: 0.8.3
+  - apiVersion: v2
     appVersion: 0.10.1
     created: "2024-02-02T16:25:41.322398376Z"
     description: Krateo PlatformOps Core Provider
@@ -7497,4 +7508,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-19T15:37:32.207328345Z"
+generated: "2024-02-19T15:38:44.561633352Z"
