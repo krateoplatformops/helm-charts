@@ -4454,6 +4454,18 @@ entries:
     urls:
     - https://charts.krateo.io/eventrouter-kafka-producer-0.1.0.tgz
     version: 0.1.0
+  frontend-provider:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-02-19T15:37:32.208389917Z"
+    description: Krateo PlatformOps Frontend Provider
+    digest: 0233d1027a105e9f1980f18b375c0157aac9963e2944d3b0c87705661e5a7b40
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: frontend-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-provider-0.1.0.tgz
+    version: 0.1.0
   git-provider:
   - apiVersion: v2
     appVersion: 0.4.0
@@ -7485,4 +7497,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-19T13:21:32.930636027Z"
+generated: "2024-02-19T15:37:32.207328345Z"
