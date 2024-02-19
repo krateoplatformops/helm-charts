@@ -5678,6 +5678,27 @@ entries:
     urls:
     - https://charts.krateo.io/krateo-bff-0.0.1.tgz
     version: 0.0.1
+  krateo-composable-operations:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2024-02-19T22:06:49.583990065Z"
+    dependencies:
+    - name: core-provider
+      repository: https://charts.krateo.io
+      version: 0.8.3
+    - name: eventrouter
+      repository: https://charts.krateo.io
+      version: 0.3.1
+    - name: patch-provider
+      repository: https://charts.krateo.io
+      version: 0.1.5
+    description: The Helm chart for Krateo Composable Operations
+    digest: e1178d9f881778974298053a4b4c5352e88cc23756c55a9c421c0cc977284020
+    name: krateo-composable-operations
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-composable-operations-2.0.0.tgz
+    version: 2.0.0
   krateo-composable-portal:
   - apiVersion: v2
     appVersion: 2.0.0
@@ -7528,4 +7549,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-19T16:34:16.440090693Z"
+generated: "2024-02-19T22:06:49.581972726Z"
