@@ -4499,6 +4499,17 @@ entries:
     version: 0.1.0
   frontend-provider:
   - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-02-29T16:40:47.695148106Z"
+    description: Krateo PlatformOps Frontend Provider
+    digest: 61aca97320a00c4cbbcf14e0ad168ffc2d69b940848ff9bc4c9fba82925ed2f2
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: frontend-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-provider-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 0.2.0
     created: "2024-02-21T09:56:48.719756319Z"
     description: Krateo PlatformOps Frontend Provider
@@ -7602,4 +7613,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-02-28T16:44:28.350570293Z"
+generated: "2024-02-29T16:40:47.694770081Z"
