@@ -5925,6 +5925,16 @@ entries:
     version: 0.1.0
   krateo-gateway:
   - apiVersion: v2
+    appVersion: 0.3.9
+    created: "2024-03-06T10:58:54.696802115Z"
+    description: Krateo PlatformOps Gateway
+    digest: 9df2541e189d31dfb257a8d389911c45536f71369ace7e4c5b69d8f470ef4cfb
+    name: krateo-gateway
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-gateway-0.3.12.tgz
+    version: 0.3.12
+  - apiVersion: v2
     appVersion: 0.3.8
     created: "2024-03-05T14:15:22.16005409Z"
     description: Krateo PlatformOps Gateway
@@ -7683,4 +7693,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-03-05T14:15:22.159452985Z"
+generated: "2024-03-06T10:58:54.695976813Z"
