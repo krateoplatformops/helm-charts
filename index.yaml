@@ -2545,6 +2545,17 @@ entries:
     urls:
     - https://charts.krateo.io/azuredevops-provider-0.1.0.tgz
     version: 0.1.0
+  azuredevops-provider-chart:
+  - apiVersion: v2
+    appVersion: 0.16.1
+    created: "2024-03-08T15:10:53.131614853Z"
+    description: A Helm chart for Kubernetes
+    digest: ccf86efe0ad4ec9a80a40173619a4b564e470b9ce6c6b2f0cbbf6cb5b40134c7
+    name: azuredevops-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/azuredevops-provider-chart-0.16.1.tgz
+    version: 0.16.1
   capi-service:
   - apiVersion: v2
     appVersion: 1.1.9
@@ -7744,4 +7755,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-03-08T15:04:48.156124256Z"
+generated: "2024-03-08T15:10:53.130713601Z"
