@@ -5877,6 +5877,29 @@ entries:
     version: 2.0.0
   krateo-composable-portal:
   - apiVersion: v2
+    appVersion: 2.0.1
+    created: "2024-03-12T07:58:10.530937405Z"
+    dependencies:
+    - name: krateo-frontend
+      repository: https://charts.krateo.io
+      version: 2.0.8
+    - name: krateo-bff
+      repository: https://charts.krateo.io
+      version: 0.14.4
+    - name: krateo-gateway
+      repository: https://charts.krateo.io
+      version: 0.3.13
+    - name: authn-service
+      repository: https://charts.krateo.io
+      version: 0.10.2
+    description: The Helm chart for Krateo Composable Portal
+    digest: 0c1b836ea93cbe05daa85d508af216b4add3b60b18d050c0ac5374b14f61f30d
+    name: krateo-composable-portal
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-composable-portal-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
     appVersion: 2.0.0
     created: "2024-02-12T21:42:04.199603441Z"
     dependencies:
@@ -7835,4 +7858,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-03-12T07:29:35.49891907Z"
+generated: "2024-03-12T07:58:10.52821899Z"
