@@ -5132,6 +5132,17 @@ entries:
     urls:
     - https://charts.krateo.io/helm-chart-library-0.1.5.tgz
     version: 0.1.5
+  installer:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-03-19T17:51:43.388199951Z"
+    description: Krateo PlatformOps Installer
+    digest: 35306dcc8d8319c7a0e12c298d643d5ccb4c010aa6ba6418c6b22b17af68adbd
+    name: installer
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-0.1.0.tgz
+    version: 0.1.0
   jenkins:
   - annotations:
       category: Infrastructure
@@ -7858,4 +7869,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-03-12T07:58:10.52821899Z"
+generated: "2024-03-19T17:51:43.38763093Z"
