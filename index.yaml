@@ -4603,6 +4603,17 @@ entries:
     urls:
     - https://charts.krateo.io/eventrouter-kafka-producer-0.1.0.tgz
     version: 0.1.0
+  finops-webservice-api-mock:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-03-27T11:38:57.741786478Z"
+    description: Krateo PlatformOps FinOps Webservice API Mock
+    digest: 885f8d96de4d21d7892457f7fc742241ffa76fb538c3b701de71975daf3d5880
+    name: finops-webservice-api-mock
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-webservice-api-mock-0.1.0.tgz
+    version: 0.1.0
   frontend-provider:
   - apiVersion: v2
     appVersion: 0.3.0
@@ -7973,4 +7984,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-03-27T11:18:35.657424757Z"
+generated: "2024-03-27T11:38:57.74124453Z"
