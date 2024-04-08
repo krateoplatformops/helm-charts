@@ -6417,10 +6417,10 @@ entries:
     version: 0.3.5
   krateo-frontend:
   - apiVersion: v2
-    appVersion: 2.0.8
-    created: "2024-04-07T15:21:48.898275154Z"
+    appVersion: 2.0.9
+    created: "2024-04-08T11:31:44.008882734Z"
     description: Krateo Frontend
-    digest: 696d266164f02b18abbda8caf35c5655d13a0f2b5d1586843d4b2c413b75a227
+    digest: 0e8d3c7282b9ec97766a4558b2dd4db39450a0d9102f8fff8db7484eacc6f8ee
     name: krateo-frontend
     type: application
     urls:
@@ -8366,4 +8366,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-04-08T07:48:24.234144175Z"
+generated: "2024-04-08T11:31:44.008319453Z"
