@@ -5292,6 +5292,16 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.4.0
+    created: "2024-04-16T14:45:46.084385168Z"
+    description: Krateo PlatformOps Installer
+    digest: e9e44727733022f6864b283acdae79dd4c26cd7eccc880b538e2b178270e308a
+    name: installer
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-0.1.39.tgz
+    version: 0.1.39
+  - apiVersion: v2
+    appVersion: 0.4.0
     created: "2024-04-15T19:40:53.020659653Z"
     description: Krateo PlatformOps Installer
     digest: 5633d1ee1c7aafae0dfeef8c008f94d428f1c0f933748047d494aee26841276c
@@ -8557,4 +8567,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-04-16T14:15:01.348267707Z"
+generated: "2024-04-16T14:45:46.083680053Z"
