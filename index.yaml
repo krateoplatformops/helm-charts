@@ -2885,6 +2885,16 @@ entries:
     version: 0.1.9
   core-provider:
   - apiVersion: v2
+    appVersion: 0.13.3
+    created: "2024-04-17T20:46:49.593165598Z"
+    description: Krateo PlatformOps Core Provider
+    digest: 5b680e80ed2130459c4b4c8da8adf0f4d5a8d58457a588d6b2f9810a465c23ac
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-0.10.4.tgz
+    version: 0.10.4
+  - apiVersion: v2
     appVersion: 0.13.2
     created: "2024-04-17T16:04:27.376088423Z"
     description: Krateo PlatformOps Core Provider
@@ -8627,4 +8637,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-04-17T19:50:29.502229514Z"
+generated: "2024-04-17T20:46:49.592281079Z"
