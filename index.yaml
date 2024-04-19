@@ -4776,6 +4776,17 @@ entries:
     urls:
     - https://charts.krateo.io/finops-operator-exporter-0.1.0.tgz
     version: 0.1.0
+  finops-operator-scraper:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2024-04-19T16:06:08.24096867Z"
+    description: A Helm chart for Kubernetes
+    digest: 290be9096322050d536c19e5ea96366b698450c5ba4a891edecd25905b0bb96f
+    name: finops-operator-scraper
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-scraper-0.1.0.tgz
+    version: 0.1.0
   finops-webservice-api-mock:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -8759,4 +8770,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-04-19T16:03:20.447083889Z"
+generated: "2024-04-19T16:06:08.240505481Z"
