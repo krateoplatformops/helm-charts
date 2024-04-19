@@ -4755,6 +4755,17 @@ entries:
     urls:
     - https://charts.krateo.io/eventrouter-kafka-producer-0.1.0.tgz
     version: 0.1.0
+  finops-operator-exporter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-19T15:47:32.763009603Z"
+    description: A Helm chart for Kubernetes
+    digest: b1e795b02afe58f9ab624f1831a95bbebf42c458b32a94c87662c45f494e1e81
+    name: finops-operator-exporter
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-exporter-0.1.0.tgz
+    version: 0.1.0
   finops-webservice-api-mock:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -8738,4 +8749,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-04-19T14:11:42.611125763Z"
+generated: "2024-04-19T15:47:32.762539919Z"
