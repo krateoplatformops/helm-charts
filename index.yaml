@@ -6283,6 +6283,16 @@ entries:
     version: 0.1.0
   installer-starter-pack:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2024-05-23T19:48:16.680397482Z"
+    description: Krateo PlatformOps Installer Starter Pack
+    digest: 822d56747341797d276c40fe5b69ec967c42030c4c34ca23c0b9e1540ad36923
+    name: installer-starter-pack
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-starter-pack-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.2
     created: "2024-04-24T08:34:02.485388616Z"
     description: Krateo PlatformOps Installer Starter Pack
@@ -9188,4 +9198,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-05-23T14:01:57.669771987Z"
+generated: "2024-05-23T19:48:16.680085309Z"
