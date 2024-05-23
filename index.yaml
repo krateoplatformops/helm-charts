@@ -2716,6 +2716,21 @@ entries:
     urls:
     - https://charts.krateo.io/azuredevops-provider-chart-0.16.1.tgz
     version: 0.16.1
+  backend:
+  - apiVersion: v2
+    appVersion: 0.5.2
+    created: "2024-05-23T10:08:54.873710502Z"
+    dependencies:
+    - name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.0.11
+    description: A Helm chart for Krateo PlatformOps backend
+    digest: 366742dfc5ad6bc88e6ac04a80d92702699e3b25f3e7de066fab77269e057566
+    name: backend
+    type: application
+    urls:
+    - https://charts.krateo.io/backend-0.2.0.tgz
+    version: 0.2.0
   capi-service:
   - apiVersion: v2
     appVersion: 1.1.9
@@ -9151,4 +9166,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-05-23T08:08:49.270712977Z"
+generated: "2024-05-23T10:08:54.87039193Z"
