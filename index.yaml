@@ -2759,6 +2759,20 @@ entries:
     version: 0.16.1
   backend:
   - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2024-05-31T14:57:18.747436908Z"
+    dependencies:
+    - name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.0.11
+    description: A Helm chart for Krateo PlatformOps backend
+    digest: 778b4da0a2cc828e55bfa7fabdd305f1727fc43f55ec65ee6acd3e4a1ff6f052
+    name: backend
+    type: application
+    urls:
+    - https://charts.krateo.io/backend-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     appVersion: 0.3.0
     created: "2024-05-29T13:21:36.282069547Z"
     dependencies:
@@ -9314,4 +9328,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-05-30T13:39:29.766633893Z"
+generated: "2024-05-31T14:57:18.744180377Z"
