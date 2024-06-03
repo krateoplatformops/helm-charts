@@ -8435,6 +8435,17 @@ entries:
     version: 1.0.0
   opentofu-provider:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-06-03T10:32:10.77648354Z"
+    description: Krateo PlatformOps Opentofu Provider
+    digest: d977c1fe7c4395aee18c98619ca8a38e6e0082c023713e547a312b06cf5b9d7b
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: opentofu-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/opentofu-provider-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2024-05-30T10:22:25.24608623Z"
     description: Krateo PlatformOps Opentofu Provider
@@ -9358,4 +9369,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-06-02T23:28:33.351074594Z"
+generated: "2024-06-03T10:32:10.776054893Z"
