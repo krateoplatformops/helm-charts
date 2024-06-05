@@ -5110,6 +5110,17 @@ entries:
     version: 0.1.0
   git-provider:
   - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2024-06-05T11:06:30.427959106Z"
+    description: Krateo PlatformOps Git Provider
+    digest: 42567711133681b94601bb0c21fc0745f56e5d82d6d1dbdcbd18b94e065ecd30
+    icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
+    name: git-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/git-provider-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
     appVersion: 0.5.0
     created: "2024-06-05T06:45:37.048855417Z"
     description: Krateo PlatformOps Git Provider
@@ -9400,4 +9411,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-06-05T06:45:37.048463713Z"
+generated: "2024-06-05T11:06:30.427517349Z"
