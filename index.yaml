@@ -5143,6 +5143,16 @@ entries:
     version: 0.1.0
   finops-operator-focus:
   - apiVersion: v2
+    appVersion: 0.1.8
+    created: "2024-06-18T08:57:36.958014162Z"
+    description: Krateo PlatformOps FinOps Operator FOCUS
+    digest: 223f4d03ea30165c3ed43169f04a0e7ecfe3acaee529527ee7ee982892998069
+    name: finops-operator-focus
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-focus-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
     appVersion: 0.1.7
     created: "2024-06-17T16:59:19.987185173Z"
     description: Krateo PlatformOps FinOps Operator FOCUS
@@ -9623,4 +9633,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-06-18T06:53:48.06662108Z"
+generated: "2024-06-18T08:57:36.95742998Z"
