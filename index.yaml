@@ -2759,6 +2759,16 @@ entries:
     version: 0.16.1
   backend:
   - apiVersion: v2
+    appVersion: 0.6.3
+    created: "2024-06-19T11:11:32.035674556Z"
+    description: A Helm chart for Krateo PlatformOps backend
+    digest: 031b46e9aba036c28c1783f2970efbedc9b21d6ebfb1a242d5938c6b166c4bd9
+    name: backend
+    type: application
+    urls:
+    - https://charts.krateo.io/backend-0.6.3.tgz
+    version: 0.6.3
+  - apiVersion: v2
     appVersion: 0.6.1
     created: "2024-06-18T17:27:38.759172815Z"
     description: A Helm chart for Krateo PlatformOps backend
@@ -9693,4 +9703,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-06-19T11:11:06.825570661Z"
+generated: "2024-06-19T11:11:32.034624237Z"
