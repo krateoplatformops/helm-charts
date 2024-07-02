@@ -5106,6 +5106,16 @@ entries:
   eventrouter:
   - apiVersion: v2
     appVersion: 0.4.3
+    created: "2024-07-02T10:02:42.7131433Z"
+    description: A Helm chart for Krateo EventRouter
+    digest: 51072ac7b3674f676cb17235d50de19c286612d703c623bf3389854b29b7a176
+    name: eventrouter
+    type: application
+    urls:
+    - https://charts.krateo.io/eventrouter-0.4.4.tgz
+    version: 0.4.4
+  - apiVersion: v2
+    appVersion: 0.4.3
     created: "2024-07-02T07:28:13.140657763Z"
     description: A Helm chart for Krateo EventRouter
     digest: 4a14b959db3a8e042bc848ec759068ab670f0affd78e8831dd49640c15078778
@@ -9785,4 +9795,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-02T07:46:40.340788086Z"
+generated: "2024-07-02T10:02:42.712430079Z"
