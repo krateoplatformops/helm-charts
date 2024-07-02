@@ -5190,6 +5190,17 @@ entries:
     urls:
     - https://charts.krateo.io/eventrouter-kafka-producer-0.1.0.tgz
     version: 0.1.0
+  eventsse:
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-07-02T07:46:40.341374754Z"
+    description: A Helm chart for Krateo Server-Side Event
+    digest: 4720da35084ff0772654bfbfc669d5242206e5b3f3281dd729ebee10ca8114ed
+    name: eventsse
+    type: application
+    urls:
+    - https://charts.krateo.io/eventsse-0.1.1.tgz
+    version: 0.1.1
   finops-operator-exporter:
   - apiVersion: v2
     appVersion: 0.1.5
@@ -9774,4 +9785,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-02T07:28:13.140102029Z"
+generated: "2024-07-02T07:46:40.340788086Z"
