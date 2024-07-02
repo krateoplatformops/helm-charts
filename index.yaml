@@ -5203,6 +5203,16 @@ entries:
   eventsse:
   - apiVersion: v2
     appVersion: 0.1.1
+    created: "2024-07-02T10:30:05.482311327Z"
+    description: A Helm chart for Krateo Server-Side Event
+    digest: c1a6e1b367d216e0073257c2887fa798ee41c7408ca1c7f0eb8d25189d5fd59c
+    name: eventsse
+    type: application
+    urls:
+    - https://charts.krateo.io/eventsse-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.1.1
     created: "2024-07-02T10:13:08.157520626Z"
     description: A Helm chart for Krateo Server-Side Event
     digest: 5292f397afafa7f4be3f0da5c857d55ad3c976923b6b6f0798fb56ff75a71b6b
@@ -9805,4 +9815,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-02T10:13:08.156949685Z"
+generated: "2024-07-02T10:30:05.481734516Z"
