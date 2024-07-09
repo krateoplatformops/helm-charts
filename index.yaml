@@ -8812,6 +8812,17 @@ entries:
     urls:
     - https://charts.krateo.io/notification-service-1.1.4.tgz
     version: 1.1.4
+  oasgen-provider:
+  - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2024-07-09T09:00:19.146502498Z"
+    description: Krateo PlatformOps OASGen Provider
+    digest: 4d1bad107ce6a2d0909719ae81c8b975617a92e97e5737f13dbffa194769eabd
+    name: oasgen-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/oasgen-provider-0.0.2.tgz
+    version: 0.0.2
   openstack-provider:
   - apiVersion: v2
     appVersion: 0.4.5
@@ -9875,4 +9886,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-09T07:48:20.588719554Z"
+generated: "2024-07-09T09:00:19.145324345Z"
