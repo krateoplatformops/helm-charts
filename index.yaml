@@ -5434,6 +5434,17 @@ entries:
     urls:
     - https://charts.krateo.io/finops-operator-scraper-0.1.0.tgz
     version: 0.1.0
+  finops-operator-vm-manager:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2024-07-10T12:50:44.095681511Z"
+    description: Krateo PlatformOps FinOps Operator VM Manager
+    digest: f9d4cc5606ed53ca34a25af7e9280f41064e9cb47bc2fba2116ce26642c0ae66
+    name: finops-operator-vm-manager
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-vm-manager-0.1.2.tgz
+    version: 0.1.2
   finops-webservice-api-mock:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -9948,4 +9959,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-10T11:30:58.469682929Z"
+generated: "2024-07-10T12:50:44.095119725Z"
