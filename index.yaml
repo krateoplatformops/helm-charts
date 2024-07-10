@@ -9103,6 +9103,16 @@ entries:
     version: 0.0.1
   patch-provider:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-07-10T19:36:26.015810217Z"
+    description: Krateo PlatformOps Patch Provider
+    digest: 219b8d144091df14db79fffc2bd6582986a1f16f511b6aa4dc996d43cd4e895e
+    name: patch-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/patch-provider-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 0.1.3
     created: "2024-05-04T21:14:24.445434824Z"
     description: Krateo PlatformOps Patch Provider
@@ -9981,4 +9991,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-10T12:51:20.700323854Z"
+generated: "2024-07-10T19:36:26.014758803Z"
