@@ -5331,6 +5331,17 @@ entries:
     urls:
     - https://charts.krateo.io/eventsse-0.1.1.tgz
     version: 0.1.1
+  finops-http-rest-queue:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-07-10T12:51:20.700964215Z"
+    description: Krateo PlatformOps FinOps HTTP REST Queue
+    digest: 8afef42c06857b4641cb1b026fdebb4c94eaac6789a23643b9c9ddf97ae90833
+    name: finops-http-rest-queue
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-http-rest-queue-0.1.0.tgz
+    version: 0.1.0
   finops-nats-subscriber:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -9970,4 +9981,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-10T12:51:06.341463488Z"
+generated: "2024-07-10T12:51:20.700323854Z"
