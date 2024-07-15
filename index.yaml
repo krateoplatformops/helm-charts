@@ -8929,6 +8929,16 @@ entries:
     version: 1.1.4
   oasgen-provider:
   - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-07-15T14:42:33.814524802Z"
+    description: Krateo PlatformOps OASGen Provider
+    digest: 69d3bf0f5d55d8db66834abe771405a3339561331afb400a11849d7ad25c299a
+    name: oasgen-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/oasgen-provider-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.0.6
     created: "2024-07-15T10:10:09.542705325Z"
     description: Krateo PlatformOps OASGen Provider
@@ -10071,4 +10081,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-15T10:10:09.541821291Z"
+generated: "2024-07-15T14:42:33.813960633Z"
