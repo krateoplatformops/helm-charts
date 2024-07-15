@@ -1746,6 +1746,16 @@ entries:
     version: 1.0.0
   authn:
   - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2024-07-15T07:30:20.644911179Z"
+    description: Krateo PlatformOps AuthN Service
+    digest: 80c544423313c8b8aca834fec0731ffa4cfc4614451c5d3abac0df1b21386e80
+    name: authn
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
     appVersion: 0.13.0
     created: "2024-05-27T12:25:42.058525493Z"
     description: Krateo PlatformOps AuthN Service
@@ -10051,4 +10061,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-15T07:16:31.892547526Z"
+generated: "2024-07-15T07:30:20.644258555Z"
