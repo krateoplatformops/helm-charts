@@ -5129,7 +5129,7 @@ entries:
   etcd:
   - apiVersion: v2
     appVersion: 3.5.14
-    created: "2024-07-17T09:31:15.291484404Z"
+    created: "2024-07-17T10:04:39.140473105Z"
     dependencies:
     - name: common
       repository: ""
@@ -5137,7 +5137,7 @@ entries:
     description: etcd is a distributed key-value store designed to securely store
       data across a cluster. etcd is widely used in production on account of its reliability,
       fault-tolerance and ease of use.
-    digest: fd0613cecf1a2eb8e2782fff2eaf94f2c468c4a7fdc2bd7efc62356eb1cd61ab
+    digest: 9a736ceb6295a233f6986ab25380a182ccb891b1d4d6bac9716ded4324623862
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
     keywords:
@@ -10130,4 +10130,4 @@ entries:
     urls:
     - https://charts.krateo.io/terraform-service-0.1.8.tgz
     version: 0.1.8
-generated: "2024-07-17T09:31:15.288338612Z"
+generated: "2024-07-17T10:04:39.13701692Z"
