@@ -3300,6 +3300,16 @@ entries:
     version: 0.1.9
   composable-portal-basic:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-07-29T14:38:21.693645929Z"
+    description: A Helm chart for Kubernetes
+    digest: 6dbf6e55486b824f92ceaa3405b9979d3ae3f4426f0695cb470c690c7aed1a93
+    name: composable-portal-basic
+    type: application
+    urls:
+    - https://charts.krateo.io/composable-portal-basic-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2024-07-29T12:33:21.866927382Z"
     description: A Helm chart for Kubernetes
@@ -10628,4 +10638,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-07-29T12:33:21.866412137Z"
+generated: "2024-07-29T14:38:21.69309285Z"
