@@ -10808,9 +10808,9 @@ entries:
   vcluster-k8s:
   - apiVersion: v2
     appVersion: 0.19.6
-    created: "2024-07-18T13:17:31.266478755Z"
+    created: "2024-07-31T22:20:16.29706142Z"
     description: vcluster - Virtual Kubernetes Clusters (k8s)
-    digest: 93a1786adca393d08cd0d4248438e3096b0f8aa7a3e238535ff7484cf44baea8
+    digest: e6725d3a662bbbea3719e4e898fe1936301a75c80b11cf9c27d611156d8e7af9
     home: https://vcluster.com
     icon: https://static.loft.sh/branding/logos/vcluster/vertical/vcluster_vertical.svg
     keywords:
@@ -10836,4 +10836,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-07-31T20:20:28.126383228Z"
+generated: "2024-07-31T22:20:16.295102591Z"
