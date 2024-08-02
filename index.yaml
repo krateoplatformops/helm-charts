@@ -5376,6 +5376,22 @@ entries:
     version: 1.0.1
   edge-node:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-08-02T13:34:01.572195458Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.1.12
+    description: A Helm chart for Edge Nodes
+    digest: cd1a1c95a104600dd3df640d67ca82469bb82132de9eb7bf92ba4068d462926c
+    name: edge-node
+    type: application
+    urls:
+    - https://charts.krateo.io/edge-node-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2024-08-02T11:12:21.191798061Z"
     description: A Helm chart for Edge Nodes
@@ -10878,4 +10894,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-02T11:12:21.191546924Z"
+generated: "2024-08-02T13:34:01.571349428Z"
