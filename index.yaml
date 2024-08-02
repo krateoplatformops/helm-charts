@@ -5374,6 +5374,17 @@ entries:
     urls:
     - https://charts.krateo.io/deployment-service-1.0.1.tgz
     version: 1.0.1
+  edge-node:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-08-02T11:12:21.191798061Z"
+    description: A Helm chart for Edge Nodes
+    digest: 656d156acf4f7853c245df38456db84bad15d6572f1ce054f0f246dd42bc1c35
+    name: edge-node
+    type: application
+    urls:
+    - https://charts.krateo.io/edge-node-0.1.0.tgz
+    version: 0.1.0
   endpoint-service:
   - apiVersion: v2
     appVersion: 1.0.1
@@ -10867,4 +10878,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-02T10:30:01.29031497Z"
+generated: "2024-08-02T11:12:21.191546924Z"
