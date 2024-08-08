@@ -9789,6 +9789,16 @@ entries:
   oasgen-provider:
   - apiVersion: v2
     appVersion: 0.1.4
+    created: "2024-08-08T10:19:35.852960512Z"
+    description: Krateo PlatformOps OASGen Provider
+    digest: d747e5143d3d03a1ce4dea3abcdc91d2fc9107baa14fcd50a80dd7b70b0f7e83
+    name: oasgen-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/oasgen-provider-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.1.4
     created: "2024-08-08T10:13:49.795350723Z"
     description: Krateo PlatformOps OASGen Provider
     digest: 99206270259b249d59cacd2f90c5bf930a0594e0f04636de82530d56a139dedb
@@ -11001,4 +11011,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-08T10:13:49.794747111Z"
+generated: "2024-08-08T10:19:35.852373868Z"
