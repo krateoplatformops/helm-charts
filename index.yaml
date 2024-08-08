@@ -10971,6 +10971,17 @@ entries:
     urls:
     - https://charts.krateo.io/template-service-1.0.0.tgz
     version: 1.0.0
+  terminal-server:
+  - apiVersion: v2
+    appVersion: 0.2.4
+    created: "2024-08-08T14:32:48.656965473Z"
+    description: A Helm chart for Kubernetes
+    digest: ab24b57053d3c1d1b5dc181a8e98d0caab2c70e24da023a31af419e7e292b142
+    name: terminal-server
+    type: application
+    urls:
+    - https://charts.krateo.io/terminal-server-0.1.0.tgz
+    version: 0.1.0
   terraform-service:
   - apiVersion: v2
     appVersion: 0.1.10
@@ -11048,4 +11059,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-08T13:56:28.897756944Z"
+generated: "2024-08-08T14:32:48.65643073Z"
