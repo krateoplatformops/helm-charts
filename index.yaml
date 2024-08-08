@@ -6027,6 +6027,23 @@ entries:
     version: 0.1.0
   fireworks-app:
   - apiVersion: v2
+    appVersion: 1.0.16
+    created: "2024-08-08T13:18:17.836744963Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.1.14
+    description: A Helm chart for Kubernetes
+    digest: b4c758bf58acee879f0e9c59aa6a436e1e8e8c4e42a266567af1517d181171f9
+    icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTE3LjczIDExNy43MyI+CiAgICA8ZyBpZD0iTGF5ZXJfMS0yIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJtMCwwdjExNy43M2gxMTcuNzNWMEgwWm0xMTIuMDEsMTEyLjAxaC01NS43NWwzLjAxLTI1LjA1aDEzLjI1bDEyLjA4LTkuNzMtMzIuNDUtMjUuMTd2LTI1Ljg0bC0zMi41MSwzMS45NiwyNi4wOCwyOC43OWgzLjM4bC0zLjAxLDI1LjA1aC05LjgzbDEuODctMTUuNTctMjcuMDYtMjkuODctNS4zNyw1LjI4VjUuNzJoMTA2LjI4djEwNi4yOFoiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI4Mi4zNCA4Ni45NiA5Mi40OSA4Ni45NiAxMDQuNTggNzcuMjMgNzIuMTMgNTIuMDUgNzIuMTMgMjYuMjEgNjEuOTggMzYuMTkgNjEuOTggNTIuMDUgOTQuNDIgNzcuMjMgODIuMzQgODYuOTYiIC8+CiAgICAgICAgPHBvbHlnb24KICAgICAgICAgICAgcG9pbnRzPSI0MS41NSA5NS4xNiA0Mi43NCA5Ni40NyA0Ni42MSA5Mi45NyA0NS40MiA5MS42NiAxNi4wNyA1OS4yNiAxNC43MyA1Ny43OSAxMC44NyA2MS4yOSAxMi4yMSA2Mi43NiA0MS41NSA5NS4xNiIgLz4KICAgIDwvZz4KPC9zdmc+
+    name: fireworks-app
+    type: application
+    urls:
+    - https://charts.krateo.io/fireworks-app-1.0.16.tgz
+    version: 1.0.16
+  - apiVersion: v2
     appVersion: 1.0.15
     created: "2024-08-08T08:59:52.223411912Z"
     dependencies:
@@ -11021,4 +11038,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-08T12:43:50.805332346Z"
+generated: "2024-08-08T13:18:17.834286835Z"
