@@ -10994,6 +10994,16 @@ entries:
   terminal-client:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-08-13T12:03:09.432867358Z"
+    description: A Helm chart for Krateo Terminal Client
+    digest: ffdc8c24acf62ada51904e465fd71dfe7978869f65f79a1b37c829ca652b433b
+    name: terminal-client
+    type: application
+    urls:
+    - https://charts.krateo.io/terminal-client-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-08-13T11:36:43.114951424Z"
     description: A Helm chart for Krateo Terminal Client
     digest: 1d757023792c88819f78cd765954161b8ed691af5a45357c675594d8ec51d4af
@@ -11130,4 +11140,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-13T11:36:43.114137731Z"
+generated: "2024-08-13T12:03:09.432309969Z"
