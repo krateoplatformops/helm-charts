@@ -11085,6 +11085,16 @@ entries:
   terminal-server:
   - apiVersion: v2
     appVersion: 0.1.3
+    created: "2024-08-28T08:07:22.297746367Z"
+    description: A Helm chart for Kubernetes
+    digest: 54923a85ffe238dd9021d14c9771a44b6bed7bda27952389d8a008260135fc90
+    name: terminal-server
+    type: application
+    urls:
+    - https://charts.krateo.io/terminal-server-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.1.3
     created: "2024-08-09T13:18:36.379177272Z"
     description: A Helm chart for Kubernetes
     digest: 337c6ee9cabea4824d7f599da3bf190be40c94d4203a08d70f24df697fb8cfae
@@ -11210,4 +11220,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-08-28T08:01:24.207227291Z"
+generated: "2024-08-28T08:07:22.297183178Z"
