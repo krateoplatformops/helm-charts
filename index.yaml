@@ -3672,6 +3672,16 @@ entries:
     version: 0.1.1
   compositiondefinition:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-09-11T10:09:41.344594923Z"
+    description: A Helm chart to install CompositionDefinition
+    digest: fa3c1a6548bfe2a35c6af88f799f6e220b2622b773b23016e7a6872af5eee059
+    name: compositiondefinition
+    type: application
+    urls:
+    - https://charts.krateo.io/compositiondefinition-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2024-07-29T11:26:32.622506334Z"
     description: A Helm chart to install CompositionDefinition
@@ -11558,4 +11568,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-09-11T10:05:56.225044382Z"
+generated: "2024-09-11T10:09:41.344258281Z"
