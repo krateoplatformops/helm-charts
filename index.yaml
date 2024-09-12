@@ -5883,6 +5883,16 @@ entries:
   eventrouter:
   - apiVersion: v2
     appVersion: 0.5.2
+    created: "2024-09-12T13:20:20.939336667Z"
+    description: A Helm chart for Krateo EventRouter
+    digest: 0b0a61c1703f4e383c1b7ef49740507114328414e7edca2ca7890c825988ace3
+    name: eventrouter
+    type: application
+    urls:
+    - https://charts.krateo.io/eventrouter-0.5.4.tgz
+    version: 0.5.4
+  - apiVersion: v2
+    appVersion: 0.5.2
     created: "2024-08-09T14:43:56.106066413Z"
     description: A Helm chart for Krateo EventRouter
     digest: 4685e4801d76aac30a18cd32f8e8cd04ceff33b8a2481962adc8316fc35df68e
@@ -11672,4 +11682,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-09-12T00:18:39.738686537Z"
+generated: "2024-09-12T13:20:20.938822869Z"
