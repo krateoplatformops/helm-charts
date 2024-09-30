@@ -2286,6 +2286,16 @@ entries:
     version: 0.0.1
   azuredevops-provider:
   - apiVersion: v2
+    appVersion: 0.20.4
+    created: "2024-09-30T14:57:44.380514628Z"
+    description: Krateo PlatformOps Azure DevOps Provider
+    digest: a1802dae165be30148a8cc34aaa7846ae7d01760a572fb593d5557365f35542c
+    name: azuredevops-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/azuredevops-provider-0.20.4.tgz
+    version: 0.20.4
+  - apiVersion: v2
     appVersion: 0.20.3
     created: "2024-07-05T10:57:59.632895956Z"
     description: Krateo PlatformOps Azure DevOps Provider
@@ -11954,4 +11964,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-09-27T21:25:48.241890587Z"
+generated: "2024-09-30T14:57:44.37917889Z"
