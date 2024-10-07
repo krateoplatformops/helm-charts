@@ -114,6 +114,28 @@ entries:
     version: 1.0.0
   app:
   - apiVersion: v2
+    appVersion: 1.2.73
+    created: "2024-10-07T08:50:11.321693639Z"
+    dependencies:
+    - name: helm-chart-library
+      repository: http://charts.krateo.io
+      version: 0.1.7
+    description: Krateo PlatformOps App
+    digest: cb0f1d04e2fa4027a3ff0305162b969d2756b28e8eceb911d7642fcb3c571421
+    icon: https://github.com/krateoplatformops/community/blob/main/logos/black/icon.svg
+    maintainers:
+    - email: mauro.sala@kiratech.it
+      name: Mauro Sala
+      url: https://krateo.io
+    - email: luca.sepe@kiratech.it
+      name: Luca Sepe
+      url: https://www.kiratech.it
+    name: app
+    type: application
+    urls:
+    - https://charts.krateo.io/app-1.2.73.tgz
+    version: 1.2.73
+  - apiVersion: v2
     appVersion: 1.2.72
     created: "2024-10-05T23:00:27.629908409Z"
     dependencies:
@@ -12488,4 +12510,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-05T23:00:27.629127475Z"
+generated: "2024-10-07T08:50:11.320914588Z"
