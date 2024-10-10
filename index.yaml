@@ -4570,6 +4570,17 @@ entries:
     urls:
     - https://charts.krateo.io/composition-portal-basic-0.1.1.tgz
     version: 0.1.1
+  composition-watcher:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-10-10T09:04:03.21526175Z"
+    description: Krateo Composition Watcher
+    digest: 4ac97791700d949fa2163bcb16726997c6e267b37e30bede64a5ba98d18cdb17
+    name: composition-watcher
+    type: application
+    urls:
+    - https://charts.krateo.io/composition-watcher-0.1.0.tgz
+    version: 0.1.0
   compositiondefinition:
   - apiVersion: v2
     appVersion: 0.2.0
@@ -12750,4 +12761,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-10T09:03:20.048183049Z"
+generated: "2024-10-10T09:04:03.213558472Z"
