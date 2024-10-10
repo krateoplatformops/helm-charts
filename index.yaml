@@ -12000,6 +12000,17 @@ entries:
     urls:
     - https://charts.krateo.io/provider-service-1.0.0.tgz
     version: 1.0.0
+  resource-tree-handler:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-10-10T09:03:20.048627629Z"
+    description: Krateo Resource Tree Handler
+    digest: 836764f37c824551ef856e55e31b71ff7538a0bb36f7f115c0dcbf2a76db9f23
+    name: resource-tree-handler
+    type: application
+    urls:
+    - https://charts.krateo.io/resource-tree-handler-0.1.0.tgz
+    version: 0.1.0
   secret-service:
   - apiVersion: v2
     appVersion: 1.1.4
@@ -12739,4 +12750,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-10T08:00:37.71815112Z"
+generated: "2024-10-10T09:03:20.048183049Z"
