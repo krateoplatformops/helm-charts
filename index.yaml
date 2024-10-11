@@ -4573,9 +4573,9 @@ entries:
   composition-watcher:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2024-10-11T19:50:14.796873651Z"
+    created: "2024-10-11T20:15:08.505586002Z"
     description: Krateo Composition Watcher
-    digest: 89089e82a188d8854996267d3a55a5dce25d37f7e70b7e99d6d2903ab88b2db6
+    digest: 8a29d21e458a75785912e9aa16fb74d8ea1550049933017432373d6937153bfc
     name: composition-watcher
     type: application
     urls:
@@ -12828,4 +12828,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-11T19:50:14.796369893Z"
+generated: "2024-10-11T20:15:08.505076376Z"
