@@ -12060,6 +12060,16 @@ entries:
     version: 1.0.0
   resource-tree-handler:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-10-11T13:29:56.158808978Z"
+    description: Krateo Resource Tree Handler
+    digest: be0c3d1b91559c84c7a77485029cdc491e7ab96339d490e7e931125b3b99cc6e
+    name: resource-tree-handler
+    type: application
+    urls:
+    - https://charts.krateo.io/resource-tree-handler-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.2.0
     created: "2024-10-10T09:03:20.048627629Z"
     description: Krateo Resource Tree Handler
@@ -12808,4 +12818,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-11T13:29:46.207900444Z"
+generated: "2024-10-11T13:29:56.158204666Z"
