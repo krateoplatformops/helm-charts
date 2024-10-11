@@ -4352,9 +4352,9 @@ entries:
   composition-portal-basic:
   - apiVersion: v2
     appVersion: 0.2.5
-    created: "2024-10-11T21:35:43.861862021Z"
+    created: "2024-10-11T21:48:00.013732239Z"
     description: Basic portal components for a composition
-    digest: 08b233cda2489d1dfcbbaddad829f29205cbd2277050a5db19cfa21e65c11eb9
+    digest: 93b2ac01981198ef2e57bf9cfa1179ab924eb9fa9d01fd3f5d4c4e7157832d95
     name: composition-portal-basic
     type: application
     urls:
@@ -12848,4 +12848,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-11T21:35:43.861132432Z"
+generated: "2024-10-11T21:48:00.01323282Z"
