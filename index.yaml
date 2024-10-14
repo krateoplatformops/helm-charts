@@ -8423,9 +8423,9 @@ entries:
   github-provider:
   - apiVersion: v2
     appVersion: 0.2.2
-    created: "2024-10-14T14:36:13.11430996Z"
+    created: "2024-10-14T14:54:39.471907456Z"
     description: Krateo PlatformOps Github Provider
-    digest: 2f8483a9b3a5ab699673294194d076b9f3f9faf3420fd0f87f41b14f4bc7e497
+    digest: 931134765a0b8604c53385cd22cd64fedd8e36b6c8f6b0ce5122a1e1d4a35606
     icon: https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png
     name: github-provider
     type: application
@@ -12926,4 +12926,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-14T14:51:25.04587009Z"
+generated: "2024-10-14T14:54:39.471301184Z"
