@@ -8542,9 +8542,9 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.5.7
-    created: "2024-10-14T11:49:09.04421597Z"
+    created: "2024-10-14T14:51:25.047314416Z"
     description: Krateo PlatformOps Installer
-    digest: 5e79f33fb4fa9dcb8839854b9d4d27b1c71f003c3d4010a8754d01aac21c8990
+    digest: aca63f41c042db8cbab670c470b3150b7649cb8fd9f5edcb616b9b0cd4c49919
     name: installer
     type: application
     urls:
@@ -12926,4 +12926,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-14T14:36:13.113791755Z"
+generated: "2024-10-14T14:51:25.04587009Z"
