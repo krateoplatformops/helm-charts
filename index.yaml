@@ -4745,6 +4745,16 @@ entries:
   core-provider:
   - apiVersion: v2
     appVersion: 0.19.5
+    created: "2024-10-29T08:35:37.99796727Z"
+    description: Krateo PlatformOps Core Provider
+    digest: 70b77927a243f446309e7e71c5a16d5720bc658323a018ccdacf0368b7fdd3d0
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-0.25.0.tgz
+    version: 0.25.0
+  - apiVersion: v2
+    appVersion: 0.19.5
     created: "2024-10-22T08:01:39.121395148Z"
     description: Krateo PlatformOps Core Provider
     digest: 43b871c0fbe874686e41b378a06028d0be45b6dd7d5ea4b6215023d7622cedac
@@ -13146,4 +13156,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-10-29T08:18:41.074949834Z"
+generated: "2024-10-29T08:35:37.997355846Z"
