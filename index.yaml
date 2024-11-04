@@ -12867,6 +12867,17 @@ entries:
     urls:
     - https://charts.krateo.io/status-informer-0.1.1.tgz
     version: 0.1.1
+  template:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-11-04T15:49:25.938357721Z"
+    description: A Helm chart to install Template
+    digest: 5616851828ad4fbc9407221231be0573c0144f1b54ce1b4a69a787caf9065374
+    name: template
+    type: application
+    urls:
+    - https://charts.krateo.io/template-0.1.0.tgz
+    version: 0.1.0
   template-service:
   - apiVersion: v2
     appVersion: 1.2.13
@@ -13323,4 +13334,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-04T14:10:21.846709063Z"
+generated: "2024-11-04T15:49:25.93799962Z"
