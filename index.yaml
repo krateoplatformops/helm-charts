@@ -3659,6 +3659,16 @@ entries:
     version: 0.16.1
   backend:
   - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2024-11-08T11:40:43.444787688Z"
+    description: A Helm chart for Krateo PlatformOps backend
+    digest: d49854d638efc72e5c2a57cdbc803f1efaf54b57a85413d6c0504873fcd543d2
+    name: backend
+    type: application
+    urls:
+    - https://charts.krateo.io/backend-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
     appVersion: 0.13.0
     created: "2024-11-04T09:52:29.611508952Z"
     description: A Helm chart for Krateo PlatformOps backend
@@ -13354,4 +13364,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-08T11:40:19.470667122Z"
+generated: "2024-11-08T11:40:43.444163164Z"
