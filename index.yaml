@@ -2517,6 +2517,16 @@ entries:
   authn:
   - apiVersion: v2
     appVersion: 0.17.0
+    created: "2024-11-08T10:59:29.416226793Z"
+    description: Krateo PlatformOps AuthN Service
+    digest: 70be482344ada993da877d8902c328af3d55fa4710ff85020fce8a995178129e
+    name: authn
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v2
+    appVersion: 0.17.0
     created: "2024-11-04T09:35:54.424040812Z"
     description: Krateo PlatformOps AuthN Service
     digest: 76348155e2d4bcb26bc08195f4da8e0ffed449cd95910e602c49e2ea9b126e0a
@@ -13334,4 +13344,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-04T15:49:25.93799962Z"
+generated: "2024-11-08T10:59:29.415507415Z"
