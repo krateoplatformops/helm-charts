@@ -3972,6 +3972,16 @@ entries:
     version: 0.2.0
   bff:
   - apiVersion: v2
+    appVersion: 0.8.3
+    created: "2024-11-12T11:08:27.355164141Z"
+    description: Krateo PlatformOps Backend For Frontend
+    digest: 857ca611df1a57b7fd889642b31341f75674129d912d4aa1e04c50b876e7c5ca
+    name: bff
+    type: application
+    urls:
+    - https://charts.krateo.io/bff-0.8.3.tgz
+    version: 0.8.3
+  - apiVersion: v2
     appVersion: 0.8.2
     created: "2024-11-11T10:42:38.572898069Z"
     description: Krateo PlatformOps Backend For Frontend
@@ -13414,4 +13424,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-12T11:00:41.097016132Z"
+generated: "2024-11-12T11:08:27.354562482Z"
