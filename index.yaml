@@ -4905,9 +4905,9 @@ entries:
   core-provider:
   - apiVersion: v2
     appVersion: 0.19.6
-    created: "2024-11-25T13:47:44.669855614Z"
+    created: "2024-11-25T13:48:53.231262903Z"
     description: Krateo PlatformOps Core Provider
-    digest: 9a084d2eaf3fa8c0de130c84e94e84c0ddcd5131d1fabb0cee9230a1391fa95b
+    digest: 14f27f4aa68afa1be02d06a42e35eddf2c7c669c15fb2451f932e47fe4a42792
     name: core-provider
     type: application
     urls:
@@ -13580,4 +13580,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-25T13:47:44.669119531Z"
+generated: "2024-11-25T13:48:53.230526925Z"
