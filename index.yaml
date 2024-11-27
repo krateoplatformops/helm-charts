@@ -12545,6 +12545,16 @@ entries:
   patch-provider:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-11-27T10:12:24.569278388Z"
+    description: Krateo PlatformOps Patch Provider
+    digest: 607fba2f45e45afd6d9d7b1b3cb33d84eb8c9925a64ac352381af0a5904d0e85
+    name: patch-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/patch-provider-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-07-10T19:36:26.015810217Z"
     description: Krateo PlatformOps Patch Provider
     digest: 219b8d144091df14db79fffc2bd6582986a1f16f511b6aa4dc996d43cd4e895e
@@ -13707,4 +13717,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-27T10:02:30.666073272Z"
+generated: "2024-11-27T10:12:24.568774187Z"
