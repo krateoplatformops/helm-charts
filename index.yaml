@@ -13272,6 +13272,16 @@ entries:
     version: 0.1.1
   template:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2024-11-27T15:03:50.365408944Z"
+    description: A Helm chart to install Template
+    digest: 1c67175082572aa8eadc96a1a364dcbb69218a7e738065319abaaac3bf009d73
+    name: template
+    type: application
+    urls:
+    - https://charts.krateo.io/template-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.2
     created: "2024-11-25T17:23:45.391954331Z"
     description: A Helm chart to install Template
@@ -13767,4 +13777,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-27T14:32:06.973370952Z"
+generated: "2024-11-27T15:03:50.365073537Z"
