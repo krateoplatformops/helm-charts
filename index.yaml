@@ -7804,6 +7804,16 @@ entries:
     version: 0.1.0
   finops-operator-exporter:
   - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2024-11-28T17:09:42.616032318Z"
+    description: Krateo PlatformOps FinOps Operator Exporter
+    digest: fcce3a8321448b214930e800d72ca97b1491a97693e603f4fa15e868b567a2b4
+    name: finops-operator-exporter
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-exporter-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
     appVersion: 0.3.0
     created: "2024-11-15T10:38:28.309586508Z"
     description: Krateo PlatformOps FinOps Operator Exporter
@@ -13828,4 +13838,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-11-28T17:09:35.745279741Z"
+generated: "2024-11-28T17:09:42.615131385Z"
