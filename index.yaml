@@ -7937,9 +7937,9 @@ entries:
   finops-operator-scraper:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2024-11-28T17:09:54.705091191Z"
+    created: "2024-12-04T18:04:27.498218333Z"
     description: Krateo PlatformOps FinOps Operator Scraper
-    digest: adca8bb7b73f404ceae4447413a7f45b1cb6ad32481ab8149da455f4a206d2e5
+    digest: 03025ebb0ed0dd686b7a920ad395fa1b85bac3c0cd8225796d5982268be90f8e
     name: finops-operator-scraper
     type: application
     urls:
@@ -13878,4 +13878,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-12-03T10:35:45.422834201Z"
+generated: "2024-12-04T18:04:27.497072915Z"
