@@ -11200,6 +11200,16 @@ entries:
     version: 0.3.5
   krateo-frontend:
   - apiVersion: v2
+    appVersion: 2.2.2
+    created: "2024-12-18T13:54:09.567150231Z"
+    description: Krateo Frontend
+    digest: a84a080b3ed60ef1014e860b3aedf7376c7731060b0ecfa9b98c322070f55991
+    name: krateo-frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-frontend-2.2.2.tgz
+    version: 2.2.2
+  - apiVersion: v2
     appVersion: 2.2.1
     created: "2024-12-17T08:54:33.317929312Z"
     description: Krateo Frontend
@@ -14079,4 +14089,4 @@ entries:
     urls:
     - https://charts.krateo.io/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-12-18T08:31:46.811835113Z"
+generated: "2024-12-18T13:54:09.566079218Z"
