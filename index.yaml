@@ -12420,6 +12420,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/log-service-1.0.0.tgz
     version: 1.0.0
+  mlflow-provider:
+  - apiVersion: v2
+    created: "2024-12-23T14:56:13.752639016Z"
+    description: A Helm chart for deploying an application with OpenAPI Specification
+    digest: eed4c9d3f8e52aac177fe4b67851942023568c9dbfe5c376ea66086edc482837
+    name: mlflow-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/mlflow-provider-0.0.1.tgz
+    version: 0.0.1
   mongodb:
   - annotations:
       category: Database
@@ -14142,4 +14152,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2024-12-23T09:28:38.224818703Z"
+generated: "2024-12-23T14:56:13.75211511Z"
