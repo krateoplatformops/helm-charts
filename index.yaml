@@ -12510,6 +12510,17 @@ entries:
     urls:
     - https://charts.krateo.io/mlflow-runs-0.0.1.tgz
     version: 0.0.1
+  mlflow-scaffolding:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-07T21:31:58.311563482Z"
+    description: A Helm chart for MLFlow scaffolding
+    digest: c9544a57b5d6de771e4db1a8579b06b983422e6342a4032b4b86838199e58805
+    name: mlflow-scaffolding
+    type: application
+    urls:
+    - https://charts.krateo.io/mlflow-scaffolding-0.0.1.tgz
+    version: 0.0.1
   mongodb:
   - annotations:
       category: Database
@@ -14242,4 +14253,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-07T15:51:54.190216682Z"
+generated: "2025-01-07T21:31:58.310994479Z"
