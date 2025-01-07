@@ -12440,6 +12440,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/log-service-1.0.0.tgz
     version: 1.0.0
+  mlflow-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-07T15:51:54.191584065Z"
+    description: A Helm chart for Kubernetes
+    digest: 89173a5d1b1fed8c33fec7b10a7361d0f64e1853e7b7951f760824d4c7285feb
+    name: mlflow-app
+    type: application
+    urls:
+    - https://charts.krateo.io/mlflow-app-0.1.0.tgz
+    version: 0.1.0
   mlflow-provider:
   - apiVersion: v2
     created: "2024-12-30T14:52:53.307855205Z"
@@ -14231,4 +14242,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-02T15:59:35.311636284Z"
+generated: "2025-01-07T15:51:54.190216682Z"
