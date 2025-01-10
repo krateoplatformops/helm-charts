@@ -12502,6 +12502,15 @@ entries:
     version: 0.0.1
   mlflow-provider-kog:
   - apiVersion: v2
+    created: "2025-01-10T11:07:26.004628768Z"
+    description: A Helm chart for deploying an application with OpenAPI Specification
+    digest: 2764e9b231916ed388098488b28eb1514d19093a82a5b1ba9cb3ae61667c4e36
+    name: mlflow-provider-kog
+    type: application
+    urls:
+    - https://charts.krateo.io/mlflow-provider-kog-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     created: "2025-01-02T11:25:37.409018344Z"
     description: A Helm chart for deploying an application with OpenAPI Specification
     digest: 7df11d50361a8ac57e9d3bde5653e6386900b827bc7108e0a1d4ab3d7a20ee08
@@ -14340,4 +14349,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-10T09:19:36.715166147Z"
+generated: "2025-01-10T11:07:26.004067628Z"
