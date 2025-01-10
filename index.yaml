@@ -12522,9 +12522,9 @@ entries:
   mlflow-registration:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-01-10T11:26:59.236273795Z"
+    created: "2025-01-10T13:03:21.758554678Z"
     description: A Helm chart Registering MLflow models from a Run ID
-    digest: f83313a90f92383810753983508bb0402787bcd756f559489893a775b229f87e
+    digest: 023cdc30e74e590bbf5e4b86a1f6057721d46694628b6bb92d205a71ccf9feae
     name: mlflow-registration
     type: application
     urls:
@@ -14359,4 +14359,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-10T11:26:59.235871055Z"
+generated: "2025-01-10T13:03:21.758005841Z"
