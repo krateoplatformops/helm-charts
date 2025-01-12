@@ -12572,9 +12572,9 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-01-12T15:36:31.731989327Z"
+    created: "2025-01-12T16:38:07.24190497Z"
     description: A Helm chart for Kubernetes
-    digest: e4a91365fd603e8977e7743d7f4c4d8fc83e20eed07c8b45a3c787eb7a21d071
+    digest: 9b9ecf2ebb71e4e5a75b689096abd781780ae52a0d57d02ab0ef2c00909f760b
     name: mlflow-runs
     type: application
     urls:
@@ -14403,4 +14403,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-12T15:36:31.731640508Z"
+generated: "2025-01-12T16:38:07.24157892Z"
