@@ -12603,14 +12603,14 @@ entries:
   mlflow-scaffolding:
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2025-01-13T10:38:37.607053959Z"
+    created: "2025-01-13T11:37:35.868544703Z"
     dependencies:
     - alias: portal
       name: composition-portal-basic-mlflow
       repository: https://charts.krateo.io
       version: 0.0.2
     description: A Helm chart for MLFlow scaffolding
-    digest: fb99a028a73596d02006f1ba5c794262fb41fbcac3413cfbd4b77d36cebe6175
+    digest: 3074ba69f9f1bc9fc3d4586b0f6eccc97a7f273035d9e867ba9d0a120cc746ca
     name: mlflow-scaffolding
     type: application
     urls:
@@ -14443,4 +14443,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-13T11:23:49.525058271Z"
+generated: "2025-01-13T11:37:35.867608319Z"
