@@ -4949,9 +4949,9 @@ entries:
   composition-portal-basic-mlflow:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2025-01-14T16:09:59.021210703Z"
+    created: "2025-01-14T16:37:22.213245743Z"
     description: Basic portal components for MLFlow composition
-    digest: bbb2db90abf25bc0d537e688f7fc734c15eae29522906079ab265fd6afa6afc1
+    digest: 24b5f9b15c5938f86ec2ad59b8643942e6514fe691b3514c29f96523422c1206
     name: composition-portal-basic-mlflow
     type: application
     urls:
@@ -14477,4 +14477,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-14T16:12:16.619879303Z"
+generated: "2025-01-14T16:37:22.212238617Z"
