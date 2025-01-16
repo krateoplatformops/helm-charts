@@ -2582,6 +2582,16 @@ entries:
     version: 1.0.0
   authn:
   - apiVersion: v2
+    appVersion: 0.18.3
+    created: "2025-01-16T17:56:41.426699575Z"
+    description: Krateo PlatformOps AuthN Service
+    digest: 1277210a4979e8817993956a8fc99fbcd2d865dc7cf8f0d62335a6ab6360adf0
+    name: authn
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-0.18.1.tgz
+    version: 0.18.1
+  - apiVersion: v2
     appVersion: 0.18.0
     created: "2024-12-22T16:00:52.274594+01:00"
     description: Krateo PlatformOps AuthN Service
@@ -14497,4 +14507,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-16T15:36:31.34375532Z"
+generated: "2025-01-16T17:56:41.426038077Z"
