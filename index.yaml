@@ -8007,6 +8007,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/eventsse-0.1.1.tgz
     version: 0.1.1
+  finops-composition-definition-parser:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-28T10:05:45.491243869Z"
+    description: FinOps Composition Definition Parser
+    digest: 66285d4fdd0f68e00b87818fcd350619330834bb85b496f2b747d5536d0e3949
+    name: finops-composition-definition-parser
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-composition-definition-parser-0.1.0.tgz
+    version: 0.1.0
   finops-database-handler:
   - apiVersion: v2
     appVersion: 0.4.0
@@ -14599,4 +14610,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-27T16:26:07.21912346Z"
+generated: "2025-01-28T10:05:45.490141201Z"
