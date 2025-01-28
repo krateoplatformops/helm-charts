@@ -8018,6 +8018,17 @@ entries:
     urls:
     - https://charts.krateo.io/finops-composition-definition-parser-0.1.0.tgz
     version: 0.1.0
+  finops-cratedb-custom-resource:
+  - apiVersion: v2
+    appVersion: 5.9.6
+    created: "2025-01-28T14:04:49.643294462Z"
+    description: FinOps CrateDB Operator Custom Resource
+    digest: 3477f1e66d9f36258c058995fe19a5657344cb03065ddb4da39d4adf16908248
+    name: finops-cratedb-custom-resource
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-cratedb-custom-resource-0.1.0.tgz
+    version: 0.1.0
   finops-database-handler:
   - apiVersion: v2
     appVersion: 0.4.2
@@ -14650,4 +14661,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-28T12:29:06.756176354Z"
+generated: "2025-01-28T14:04:49.642593924Z"
