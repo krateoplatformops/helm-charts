@@ -8021,9 +8021,9 @@ entries:
   finops-cratedb-custom-resource:
   - apiVersion: v2
     appVersion: 5.9.6
-    created: "2025-01-29T09:48:14.842587088Z"
+    created: "2025-01-29T13:50:51.237480494Z"
     description: FinOps CrateDB Operator Custom Resource
-    digest: 4af8103432c423cb214066b7761a6c28395ca88a9edebdf56b7a56cd5bddd6ee
+    digest: 3242b1216f2c135cb3eeb545093277d9d1ece08bbcd4160194766301ee7a29ea
     name: finops-cratedb-custom-resource
     type: application
     urls:
@@ -14681,4 +14681,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-29T13:17:53.973297495Z"
+generated: "2025-01-29T13:50:51.237095827Z"
