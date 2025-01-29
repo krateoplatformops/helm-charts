@@ -8032,9 +8032,9 @@ entries:
   finops-database-handler:
   - apiVersion: v2
     appVersion: 0.4.2
-    created: "2025-01-28T12:29:06.75673196Z"
+    created: "2025-01-29T11:51:22.251068199Z"
     description: FinOps Database Handler
-    digest: b2a934fe297e53763777fb30a184ee1c451974e936b13c79c9fd83be99e78183
+    digest: 60b2332943382c50ad9bc8b2946efd8280d6a7abd11fcba07cb8b082598d0b60
     name: finops-database-handler
     type: application
     urls:
@@ -14661,4 +14661,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-29T09:48:14.842015833Z"
+generated: "2025-01-29T11:51:22.250439638Z"
