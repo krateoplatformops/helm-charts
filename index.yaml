@@ -8920,6 +8920,18 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/fireworks-app-0.1.13.tgz
     version: 0.1.13
+  focus-data-presentation-azure:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-31T16:01:18.429409012Z"
+    description: A chart for the creation of a FOCUS config that contains pricing
+      information only
+    digest: ecc48b827479770b6deaecda5b871b604abad4e04cabd702fe12ee9bb0fd056f
+    name: focus-data-presentation-azure
+    type: application
+    urls:
+    - https://charts.krateo.io/focus-data-presentation-azure-0.1.0.tgz
+    version: 0.1.0
   focus-template:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -14782,4 +14794,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-31T15:14:08.295482737Z"
+generated: "2025-01-31T16:01:18.429033043Z"
