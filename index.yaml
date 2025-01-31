@@ -8028,6 +8028,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/eventsse-0.1.1.tgz
     version: 0.1.1
+  example-pricing-vm-azure:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-31T15:14:08.295833549Z"
+    description: Krateo FinOps Example Pricing for Azure VM
+    digest: f7f628de16b2e287cd8c30460b74de533b067f1bc4aae4480ae0de3c40677cc8
+    name: example-pricing-vm-azure
+    type: application
+    urls:
+    - https://charts.krateo.io/example-pricing-vm-azure-0.1.0.tgz
+    version: 0.1.0
   finops-composition-definition-parser:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -14771,4 +14782,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-31T13:37:34.411178306Z"
+generated: "2025-01-31T15:14:08.295482737Z"
