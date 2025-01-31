@@ -3124,6 +3124,17 @@ entries:
     urls:
     - https://charts.krateo.io/authn-service-0.0.1.tgz
     version: 0.0.1
+  azure-pricing-rest-dynamic-controller-plugin:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-31T12:35:36.480800505Z"
+    description: Azure Pricing Rest Dynamic Controller Plugin
+    digest: 35360a23dd55f3dea8192fac164206d0b920abdaf34e240709224397687914c2
+    name: azure-pricing-rest-dynamic-controller-plugin
+    type: application
+    urls:
+    - https://charts.krateo.io/azure-pricing-rest-dynamic-controller-plugin-0.1.0.tgz
+    version: 0.1.0
   azuredevops-provider:
   - apiVersion: v2
     appVersion: 0.20.5
@@ -14760,4 +14771,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-31T12:28:16.106422879Z"
+generated: "2025-01-31T12:35:36.479277664Z"
