@@ -8112,6 +8112,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-database-handler-0.3.1.tgz
     version: 0.3.1
+  finops-example-pricing-vm-azure:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-31T16:01:50.241203356Z"
+    description: Krateo FinOps Example Pricing for Azure VM
+    digest: a108d4c80da67e787bbbef8a335c414a3eb7f6f3b2c61a3e7011fe419b1f644a
+    name: finops-example-pricing-vm-azure
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-example-pricing-vm-azure-0.1.0.tgz
+    version: 0.1.0
   finops-http-rest-queue:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -14794,4 +14805,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-01-31T16:01:18.429033043Z"
+generated: "2025-01-31T16:01:50.240649986Z"
