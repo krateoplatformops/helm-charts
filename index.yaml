@@ -8278,6 +8278,16 @@ entries:
     version: 0.1.0
   finops-operator-focus:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2025-02-07T16:29:00.901016459Z"
+    description: Krateo PlatformOps FinOps Operator FOCUS
+    digest: 10db2e7b6772208540e12fa7eb1ad12747dac2d183fd2c038348aad9c4251388
+    name: finops-operator-focus
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-focus-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.3.2
     created: "2025-01-28T14:40:08.877092535Z"
     description: Krateo PlatformOps FinOps Operator FOCUS
@@ -14862,4 +14872,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-07T15:52:38.774823951Z"
+generated: "2025-02-07T16:29:00.900433618Z"
