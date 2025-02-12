@@ -6284,9 +6284,9 @@ entries:
   crdgen-bug-test:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-01-23T13:58:59.1168065Z"
+    created: "2025-02-12T15:17:02.015762279Z"
     description: A Helm chart for testing crdgen
-    digest: 5b10094dae664ecbf058be2f2e73db2f39720f1d9ca57b2f441ef8e939081be2
+    digest: 2e2750fb20f542912e8f8df1ad67d7e51a346c1dc0921b14930f3f51df381efa
     name: crdgen-bug-test
     type: application
     urls:
@@ -14878,4 +14878,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-11T13:54:29.528038487Z"
+generated: "2025-02-12T15:17:02.0149713Z"
