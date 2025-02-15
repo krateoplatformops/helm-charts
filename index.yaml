@@ -6291,6 +6291,20 @@ entries:
     urls:
     - https://charts.krateo.io/core-provider-0.0.1.tgz
     version: 0.0.1
+  crate-operator-crds:
+  - apiVersion: v2
+    appVersion: 2.43.1
+    created: "2025-02-15T13:59:22.508917538Z"
+    description: Crate Operator CRDs - Helm chart for installing and upgrading Custom
+      Resource Definitions (CRDs) for the Crate Operator.
+    digest: 61898b8e6fcf861e5d920a046b7919689ed246e4263f28132de5830ff6408635
+    maintainers:
+    - name: Crate.io
+    name: crate-operator-crds
+    type: application
+    urls:
+    - https://charts.krateo.io/crate-operator-crds-2.43.1.tgz
+    version: 2.43.1
   crdgen-bug-test:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -14928,4 +14942,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-14T17:21:01.194039837Z"
+generated: "2025-02-15T13:59:22.508417815Z"
