@@ -6294,14 +6294,14 @@ entries:
   crate-operator:
   - apiVersion: v2
     appVersion: 2.43.1
-    created: "2025-02-15T14:06:28.177631004Z"
+    created: "2025-02-17T10:06:05.078747957Z"
     dependencies:
     - condition: crate-operator-crds.enabled
       name: crate-operator-crds
       repository: https://charts.krateo.io
       version: 2.43.1
     description: Crate Operator - Helm chart for installing and upgrading Crate Operator.
-    digest: 1b8224545f5330863461f7be5f7803a64150dcc7a7d3591c0b23e9b85dc83f49
+    digest: 82b6b6eb73fcb245d1e900d0840eca30f4b4255872a35f6871dd818f3ad3732d
     maintainers:
     - name: Crate.io
     name: crate-operator
@@ -14960,4 +14960,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-15T14:06:28.176745832Z"
+generated: "2025-02-17T10:06:05.077947651Z"
