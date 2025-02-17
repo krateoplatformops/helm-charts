@@ -8094,9 +8094,9 @@ entries:
   finops-composition-definition-parser:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-01-31T10:26:03.981721834Z"
+    created: "2025-02-17T15:08:11.368894821Z"
     description: FinOps Composition Definition Parser
-    digest: 63461605eb1742ebffa52793d5fc409f36aa0651392f5b6cc1a85705ff482f8e
+    digest: e3d8365a6eaa2726b832423254108568bb5530e52a622b4edf37e0e7a7e3d1eb
     name: finops-composition-definition-parser
     type: application
     urls:
@@ -14960,4 +14960,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-17T10:06:05.077947651Z"
+generated: "2025-02-17T15:08:11.367946834Z"
