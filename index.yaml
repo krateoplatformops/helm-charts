@@ -5183,6 +5183,16 @@ entries:
   core-provider:
   - apiVersion: v2
     appVersion: 0.22.0
+    created: "2025-02-26T15:49:09.748359175Z"
+    description: Krateo PlatformOps Core Provider
+    digest: 25c85417c54f04ef0277228f03b05b82e50f15850f709356bf01c9be654ef33f
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-0.29.1.tgz
+    version: 0.29.1
+  - apiVersion: v2
+    appVersion: 0.22.0
     created: "2025-02-25T12:47:58.062474765Z"
     description: Krateo PlatformOps Core Provider
     digest: 588b3e7af6f4be02b3c0cb58ac0570f1d4177147e5e1bcf562815c6d12eeca01
@@ -15125,4 +15135,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-26T12:53:43.886399207Z"
+generated: "2025-02-26T15:49:09.746756175Z"
