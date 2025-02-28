@@ -7991,10 +7991,10 @@ entries:
     version: 0.1.0
   eventsse:
   - apiVersion: v2
-    appVersion: 0.4.4
-    created: "2025-02-27T09:53:15.045443032Z"
+    appVersion: 0.4.5
+    created: "2025-02-28T10:20:41.312989214Z"
     description: A Helm chart for Krateo Server-Side Event
-    digest: 9491caf8a9f395e9c85deb4addc2766c6edfa9162d8696f3c5e3ece46fa546af
+    digest: afc86285163aad0c78bef7d87a10db8a77f4e4e6910bb3d0b6074338f87e3168
     name: eventsse
     type: application
     urls:
@@ -15155,4 +15155,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-02-27T20:50:05.199582045Z"
+generated: "2025-02-28T10:20:41.312175283Z"
