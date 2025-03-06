@@ -11861,6 +11861,16 @@ entries:
     version: 0.3.5
   krateo-frontend:
   - apiVersion: v2
+    appVersion: 2.3.18
+    created: "2025-03-06T14:56:00.18370284Z"
+    description: Krateo Frontend
+    digest: ebd63f6fa401d9e670a586c5c6d5305e12825782af7cb0dff4e05ae261e2f8cb
+    name: krateo-frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-frontend-2.3.18.tgz
+    version: 2.3.18
+  - apiVersion: v2
     appVersion: 2.3.15
     created: "2025-03-04T08:57:07.178959965Z"
     description: Krateo Frontend
@@ -15215,4 +15225,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-03-05T17:19:55.993001282Z"
+generated: "2025-03-06T14:56:00.183010623Z"
