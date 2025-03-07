@@ -9213,10 +9213,10 @@ entries:
   focus-data-presentation-azure:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-02-05T11:08:52.306230457Z"
+    created: "2025-03-07T15:43:24.312547081Z"
     description: A chart for the creation of a FOCUS config that contains pricing
       information only obtain from the Azure pricing API
-    digest: 5cc55305dfc62942bd8d2744c672d41bfbf88045a36d5457ad5914dfcb4123ca
+    digest: 4c0a03324fe4fb46456c8b4c8e12a8e934e71ab18c78e63824db0fab46dd5346
     name: focus-data-presentation-azure
     type: application
     urls:
@@ -15245,4 +15245,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-03-07T14:31:41.942005412Z"
+generated: "2025-03-07T15:43:24.312169246Z"
