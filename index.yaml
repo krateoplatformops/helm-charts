@@ -6436,6 +6436,16 @@ entries:
   cratedb:
   - apiVersion: v2
     appVersion: 5.9.6
+    created: "2025-03-13T12:21:04.662387609Z"
+    description: FinOps CrateDB Instance
+    digest: ff52a649fbe9cdd9aa8533f3f7f81617bd1cc78bb6a399aeffafe54f7b849bc1
+    name: cratedb
+    type: application
+    urls:
+    - https://charts.krateo.io/cratedb-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 5.9.6
     created: "2025-03-13T11:12:59.991580104Z"
     description: FinOps CrateDB Instance
     digest: e6370d4a824035dabf61e573600c150689d0d9196d8225574fdbe643dfd28e1c
@@ -15324,4 +15334,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-03-13T11:12:59.990885201Z"
+generated: "2025-03-13T12:21:04.661641322Z"
