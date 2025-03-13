@@ -3147,9 +3147,9 @@ entries:
   azure-pricing-rest-dynamic-controller-plugin:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-02-03T11:55:10.785191905Z"
+    created: "2025-03-13T17:38:12.434881878Z"
     description: Azure Pricing Rest Dynamic Controller Plugin
-    digest: 892f4b92fdd19ca2fdaac272adde5e12d096477b157eadc08282e8fdf6eb38fc
+    digest: d06a9866742270d84ec74edd0f8795242ae0fbb4aa88bea92540c25418604c71
     name: azure-pricing-rest-dynamic-controller-plugin
     type: application
     urls:
@@ -15354,4 +15354,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-03-13T15:10:53.36927365Z"
+generated: "2025-03-13T17:38:12.433881004Z"
