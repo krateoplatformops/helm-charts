@@ -4789,9 +4789,9 @@ entries:
   composition-portal-basic:
   - apiVersion: v2
     appVersion: 0.2.12
-    created: "2025-03-28T09:28:14.631708956Z"
+    created: "2025-03-28T16:53:45.568443289Z"
     description: Basic portal components for a composition
-    digest: 3caaf18eeeba28455c9ed539049bb3ad17af652735f541bdd2234edf587254d5
+    digest: c079ad15d9c37fef08188f1734c3de6387a2602900c20cf3414bc51c1155d6f4
     name: composition-portal-basic
     type: application
     urls:
@@ -15480,4 +15480,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-03-28T15:50:36.047634746Z"
+generated: "2025-03-28T16:53:45.567778343Z"
