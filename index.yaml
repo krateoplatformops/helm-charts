@@ -13749,9 +13749,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: "1.28"
-    created: "2025-05-09T09:34:19.607569657Z"
+    created: "2025-05-09T10:15:06.241883582Z"
     description: A Helm chart for NGINX
-    digest: 095f56fa59192368174934aed674e4c219003a042473b283ed181a479485e197
+    digest: 741f40149b5dd51d3925ad4db1eb0a9470d96d1c049a13c85878da52ffffa6da
     name: nginx
     type: application
     urls:
@@ -15665,4 +15665,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-09T09:34:19.606745685Z"
+generated: "2025-05-09T10:15:06.24123932Z"
