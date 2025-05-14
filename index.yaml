@@ -14914,6 +14914,16 @@ entries:
     version: 0.0.1
   snowplow:
   - apiVersion: v2
+    appVersion: 0.10.0
+    created: "2025-05-14T13:46:22.581284005Z"
+    description: A Helm chart for Krateo PlatformOps Snowplow
+    digest: 209d092bf228f051dfdce951941be9c34945705e3bc0ca997d5b5c231846a929
+    name: snowplow
+    type: application
+    urls:
+    - https://charts.krateo.io/snowplow-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
     appVersion: 0.6.0
     created: "2025-04-23T09:24:03.00939795Z"
     description: A Helm chart for Krateo PlatformOps Snowplow
@@ -15705,4 +15715,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-14T12:06:16.303817288Z"
+generated: "2025-05-14T13:46:22.580390508Z"
