@@ -8918,6 +8918,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-operator-vm-manager-0.1.2.tgz
     version: 0.1.2
+  finops-webhook-template:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-05-16T13:29:42.033797489Z"
+    description: FinOps Webhook Template Chart
+    digest: 9148815e45c00d4b8b0f9581dff34e3b6dbc1d63db1c5de18a68b406f38ae87f
+    name: finops-webhook-template
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-webhook-template-0.1.0.tgz
+    version: 0.1.0
   finops-webservice-api-mock:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -15755,4 +15766,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-16T13:09:07.123101154Z"
+generated: "2025-05-16T13:29:42.033377212Z"
