@@ -10250,6 +10250,22 @@ entries:
     urls:
     - https://charts.krateo.io/github-provider-kog-0.0.1.tgz
     version: 0.0.1
+  gitlab-scaffolding:
+  - apiVersion: v2
+    created: "2025-05-16T20:15:50.427004612Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.2.15
+    description: A Helm chart for Krateo GitLab scaffolding
+    digest: c922bf78166053c4508fabbf236a095abe83e05b487c6b38f9ea10b3e7f44a3c
+    name: gitlab-scaffolding
+    type: application
+    urls:
+    - https://charts.krateo.io/gitlab-scaffolding-0.1.0.tgz
+    version: 0.1.0
   helm-chart-library:
   - apiVersion: v2
     appVersion: 0.1.8
@@ -15766,4 +15782,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-16T13:29:42.033377212Z"
+generated: "2025-05-16T20:15:50.425892035Z"
