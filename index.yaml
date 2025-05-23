@@ -8991,9 +8991,9 @@ entries:
   finops-webhook-template:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-05-19T16:07:32.087546439Z"
+    created: "2025-05-23T10:03:08.245750689Z"
     description: FinOps Webhook Template Chart
-    digest: 6e592193ca541b0238de39d0b4de04f50f510a05d8f9259adb4c291e5fbd742f
+    digest: 61c1754ab8ae68cbc0b43209b1c969819f4f691f5cdef4b94c90cc9dfe213ce3
     name: finops-webhook-template
     type: application
     urls:
@@ -15882,4 +15882,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-23T08:59:34.294148314Z"
+generated: "2025-05-23T10:03:08.245344111Z"
