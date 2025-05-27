@@ -8713,6 +8713,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-http-rest-queue-0.1.0.tgz
     version: 0.1.0
+  finops-moving-window-microservice:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-05-27T17:30:31.438664115Z"
+    description: FinOps Moving Window Microservice
+    digest: c977aaf1395bb54dc9dd5ef423d8d080c23adeafd8b3d2c85348d9ac49787972
+    name: finops-moving-window-microservice
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-moving-window-microservice-0.1.0.tgz
+    version: 0.1.0
   finops-nats-subscriber:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -15922,4 +15933,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-27T17:25:45.855842901Z"
+generated: "2025-05-27T17:30:31.437370301Z"
