@@ -8724,6 +8724,17 @@ entries:
     urls:
     - https://charts.krateo.io/finops-moving-window-microservice-0.1.0.tgz
     version: 0.1.0
+  finops-moving-window-policy:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-05-27T17:31:41.390883144Z"
+    description: FinOps Moving Window OPA Policy
+    digest: 5cc98a403a7f400a30b3dc0de24f2edfbbd9b68013151d1c68a782619b0392b5
+    name: finops-moving-window-policy
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-moving-window-policy-0.1.0.tgz
+    version: 0.1.0
   finops-nats-subscriber:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -15933,4 +15944,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-27T17:30:31.437370301Z"
+generated: "2025-05-27T17:31:41.390166737Z"
