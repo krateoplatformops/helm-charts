@@ -8759,9 +8759,9 @@ entries:
   finops-operator-exporter:
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-05-30T13:52:35.957607061Z"
+    created: "2025-05-30T18:51:53.791628836Z"
     description: Krateo PlatformOps FinOps Operator Exporter
-    digest: 54b99ec98cb77561b56190022a8d9d00c0ab94e1f9e1577998661a85b0477b35
+    digest: 1492b146191d16ae840d11db92b2514e4505466adda9edae475c9b604a268224
     name: finops-operator-exporter
     type: application
     urls:
@@ -15998,4 +15998,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-05-30T16:21:29.385288082Z"
+generated: "2025-05-30T18:51:53.790723738Z"
