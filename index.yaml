@@ -14333,9 +14333,9 @@ entries:
           url: https://github.com/open-policy-agent/kube-mgmt
     apiVersion: v1
     appVersion: 9.0.1
-    created: "2025-05-29T15:02:13.310603517Z"
+    created: "2025-06-04T13:38:03.280862149Z"
     description: Manage OPA in Kubernetes with kube-mgmt sidecar.
-    digest: 1283a17fa47593215c75b0b2a13247c0395a04f868c924d74efb6ffe49d0fc59
+    digest: 7226e374b700c3e1205c349511f02d6bc3f84e3851216649e24e9eac68de32d3
     home: https://www.openpolicyagent.org
     icon: https://raw.githubusercontent.com/open-policy-agent/opa/master/logo/logo.png
     keywords:
@@ -16038,4 +16038,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-04T13:36:03.60030781Z"
+generated: "2025-06-04T13:38:03.279119169Z"
