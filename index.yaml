@@ -8746,9 +8746,9 @@ entries:
   finops-moving-window-microservice:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-05-27T17:30:31.438664115Z"
+    created: "2025-06-04T13:44:59.705353424Z"
     description: FinOps Moving Window Microservice
-    digest: c977aaf1395bb54dc9dd5ef423d8d080c23adeafd8b3d2c85348d9ac49787972
+    digest: 91d3c94a6891ad3974aa2c0f0a00b4154bbae3c597b314e781483ecd13bc2056
     name: finops-moving-window-microservice
     type: application
     urls:
@@ -16038,4 +16038,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-04T13:40:29.480849063Z"
+generated: "2025-06-04T13:44:59.703918203Z"
