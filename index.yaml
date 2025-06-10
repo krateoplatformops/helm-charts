@@ -14224,10 +14224,10 @@ entries:
     version: 1.1.4
   oasgen-provider:
   - apiVersion: v2
-    appVersion: 0.5.1
-    created: "2025-06-10T14:24:26.122422979Z"
+    appVersion: 0.5.2
+    created: "2025-06-10T14:27:55.981395106Z"
     description: Krateo PlatformOps OASGen Provider
-    digest: 8eb5e1cd878b543a01f23eb2cd9f69dbab9e16a70e3726ba3e51111b2e55a3c7
+    digest: 88190af6aed0643040f749026762d101d87095d5f89f57fcd88bfb80bd3b722f
     name: oasgen-provider
     type: application
     urls:
@@ -16197,4 +16197,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-10T14:26:14.711422851Z"
+generated: "2025-06-10T14:27:55.980591755Z"
