@@ -9858,6 +9858,17 @@ entries:
     urls:
     - https://charts.krateo.io/focus-template-0.1.0.tgz
     version: 0.1.0
+  frontend:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-06-12T09:49:45.672056681Z"
+    description: Krateo Frontend
+    digest: 0683e24ee38541af20d871312c0bbb1acffc816515acf0a8d67f3a4f28e17737
+    name: frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-0.0.1.tgz
+    version: 0.0.1
   frontend-provider:
   - apiVersion: v2
     appVersion: 0.3.0
@@ -16271,4 +16282,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-12T09:42:23.906940318Z"
+generated: "2025-06-12T09:49:45.671192752Z"
