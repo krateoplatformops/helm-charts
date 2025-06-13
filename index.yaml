@@ -8923,9 +8923,9 @@ entries:
   finops-moving-window-policy:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-06-04T13:40:29.481839707Z"
+    created: "2025-06-13T14:46:02.44428673Z"
     description: FinOps Moving Window OPA Policy
-    digest: f2efde38d2a300480c2174f70e36b8bc5d13ca85d8d4f4da73bb18728cd20560
+    digest: 398e1b29fef32747dd071fb4a71bfabdc7d9363c9b4db8b062b9ae3a9c4f6d09
     name: finops-moving-window-policy
     type: application
     urls:
@@ -16409,4 +16409,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-13T14:44:59.833223208Z"
+generated: "2025-06-13T14:46:02.44387344Z"
