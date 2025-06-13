@@ -10656,6 +10656,16 @@ entries:
     version: 0.1.0
   github-provider-kog:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-06-13T13:14:46.316013726Z"
+    description: A Helm chart for deploying GitHub Provider
+    digest: 99d1e47e1e1011872c068e9fcd1551db4a9d84e7b2e2c4952883484e145b4b58
+    name: github-provider-kog
+    type: application
+    urls:
+    - https://charts.krateo.io/github-provider-kog-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
     appVersion: 0.0.1
     created: "2025-06-11T12:18:49.002449026Z"
     description: A Helm chart for deploying GitHub Provider
@@ -16399,4 +16409,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-13T12:28:49.636591015Z"
+generated: "2025-06-13T13:14:46.314067242Z"
