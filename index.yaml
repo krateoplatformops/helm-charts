@@ -10797,7 +10797,7 @@ entries:
     version: 0.0.1
   gitlab-scaffolding:
   - apiVersion: v2
-    created: "2025-06-17T08:35:55.588329496Z"
+    created: "2025-06-17T14:28:38.847751063Z"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -10805,7 +10805,7 @@ entries:
       repository: https://charts.krateo.io
       version: 0.2.15
     description: A Helm chart for Krateo GitLab scaffolding
-    digest: e47b9f846257d345b3a45e988fa24f9f82fcc1ca748d555b044f00ca0aba4de3
+    digest: 1d7863b8f65edb9e7f2b46cff1441f4d22afd527ebbb6e3f0716bb4a12b806f4
     name: gitlab-scaffolding
     type: application
     urls:
@@ -16521,4 +16521,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-17T12:58:23.810900116Z"
+generated: "2025-06-17T14:28:38.84644383Z"
