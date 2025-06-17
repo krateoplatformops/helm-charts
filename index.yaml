@@ -10764,6 +10764,16 @@ entries:
     urls:
     - https://charts.krateo.io/github-provider-kog-0.0.1.tgz
     version: 0.0.1
+  gitlab-provider-kog:
+  - apiVersion: v2
+    created: "2025-06-17T11:11:51.997698737Z"
+    description: A Helm chart for deploying GitLab Provider
+    digest: 034f89bc33926dbb46e987b4604919908566c7b37b40900820cfd1dccf2720f7
+    name: gitlab-provider-kog
+    type: application
+    urls:
+    - https://charts.krateo.io/gitlab-provider-kog-0.0.1.tgz
+    version: 0.0.1
   gitlab-scaffolding:
   - apiVersion: v2
     created: "2025-06-17T08:35:55.588329496Z"
@@ -16490,4 +16500,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-17T11:10:46.025545386Z"
+generated: "2025-06-17T11:11:51.996976234Z"
