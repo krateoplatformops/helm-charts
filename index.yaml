@@ -4878,6 +4878,15 @@ entries:
     version: 0.1.0
   composable-portal-starter:
   - apiVersion: v2
+    created: "2025-06-20T14:29:52.19535761Z"
+    description: A Helm chart for Composable Portal manifest starter
+    digest: 5fdac1ea0c9e90875285944426cf3338045b69117836179fa4a02668f832a2dc
+    name: composable-portal-starter
+    type: application
+    urls:
+    - https://charts.krateo.io/composable-portal-starter-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
     created: "2025-06-20T10:31:34.851134736Z"
     description: A Helm chart for Composable Portal manifest starter
     digest: 4206f6ea5ebaee1a9061b931845c985b892e6b8a12557376eedc326307ca7cd9
@@ -16628,4 +16637,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-20T14:06:11.158962605Z"
+generated: "2025-06-20T14:29:52.194813369Z"
