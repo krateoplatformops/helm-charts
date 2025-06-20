@@ -5397,9 +5397,9 @@ entries:
   composition-portal-starter-finops:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-06-18T14:23:01.827560566Z"
+    created: "2025-06-20T11:13:21.329954322Z"
     description: A Helm chart for Composable Portal FinOps Composition page
-    digest: caf3fdfd40df8b63db5545665495fc2ee9fe87b3f5048251f5da7d9a1b4c2d87
+    digest: 29647b2d7fb7e5ee91dd4221a86941d1606f70b3e23403e0b8d26a350a76eed2
     name: composition-portal-starter-finops
     type: application
     urls:
@@ -16628,4 +16628,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-20T11:11:04.068189622Z"
+generated: "2025-06-20T11:13:21.329386456Z"
