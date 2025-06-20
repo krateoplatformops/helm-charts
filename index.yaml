@@ -5332,9 +5332,9 @@ entries:
     version: 0.0.1
   composition-portal-starter:
   - apiVersion: v2
-    created: "2025-06-16T15:10:16.484105104Z"
+    created: "2025-06-20T14:03:43.837302535Z"
     description: A Helm chart for Composable Portal Composition page
-    digest: 8e58e7c66e1527550079520fa5b07b4289615acf66fd2979a17472c7dafba9bb
+    digest: 72b6f61bc5c2863480e2dfabea2b900ca9102884581c07728716e9cf15785a9e
     name: composition-portal-starter
     type: application
     urls:
@@ -16628,4 +16628,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-20T11:14:56.816929793Z"
+generated: "2025-06-20T14:03:43.83652859Z"
