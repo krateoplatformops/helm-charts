@@ -15826,6 +15826,16 @@ entries:
     version: 0.1.4
   smithery:
   - apiVersion: v2
+    appVersion: 0.6.1
+    created: "2025-06-26T08:10:22.724304404Z"
+    description: A Helm chart for Krateo Smithery
+    digest: bb7c14bee96abc50175751ed027dcbe2976937a70bf8f3094c81fcd3e9fdc9fc
+    name: smithery
+    type: application
+    urls:
+    - https://charts.krateo.io/smithery-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
     appVersion: 0.6.0
     created: "2025-06-13T14:24:00.896222349Z"
     description: A Helm chart for Krateo Smithery
@@ -16718,4 +16728,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-26T07:34:13.749759519Z"
+generated: "2025-06-26T08:10:22.723695786Z"
