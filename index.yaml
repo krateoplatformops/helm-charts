@@ -8952,20 +8952,20 @@ entries:
     version: 0.2.14
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-06-20T11:14:56.818399633Z"
+    created: "2025-06-26T10:14:06.957725934Z"
     dependencies:
     - alias: portal
       condition: portal.enabled
       name: composition-portal-starter-finops
       repository: https://charts.krateo.io
-      version: 0.1.2
+      version: 0.1.3
     - alias: webhook
       condition: webhook.enabled
       name: finops-webhook-template
       repository: https://charts.krateo.io
       version: 0.1.0
     description: Krateo FinOps Example Pricing for Azure VM
-    digest: e1042ba2d2c73cecc994b4994885ce343ade5d22eee32ff42d5b8d5cd51fe0b4
+    digest: d8022bcb173cde472ad70d943b103195514ad91eb55de5a4c9ee5722e71c02bf
     name: finops-example-pricing-vm-azure
     type: application
     urls:
@@ -16738,4 +16738,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-26T10:09:27.413281611Z"
+generated: "2025-06-26T10:14:06.956249661Z"
