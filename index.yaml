@@ -9472,13 +9472,13 @@ entries:
     version: 0.1.0
   fireworks-app:
   - apiVersion: v2
-    created: "2025-06-26T11:53:50.26886088Z"
+    created: "2025-06-26T12:56:59.298101952Z"
     dependencies:
     - name: composition-portal-starter
       repository: https://charts.krateo.io
       version: 0.1.7
     description: A Helm chart for Krateo FireworksApp
-    digest: b8c4a1cfec10f9b641abb84abb4b539dcbd0dbc500363cc0995ba35230607d18
+    digest: 1a7dbd24137e3bd0c42f32ede5323950276957d1a706e109479df55221ab9f7d
     name: fireworks-app
     type: application
     urls:
@@ -16738,4 +16738,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-26T12:55:57.172419099Z"
+generated: "2025-06-26T12:56:59.297252887Z"
