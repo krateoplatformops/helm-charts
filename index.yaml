@@ -11072,6 +11072,16 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.6.1
+    created: "2025-06-27T12:44:12.104602674Z"
+    description: Krateo PlatformOps Installer
+    digest: df4171d97840c125c04832e3019f755ca560dad221efb1ed0b6a8998c3d6ec4c
+    name: installer
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-2.5.0.tgz
+    version: 2.5.0
+  - apiVersion: v2
+    appVersion: 0.6.1
     created: "2025-06-16T10:38:36.634002416Z"
     description: Krateo PlatformOps Installer
     digest: 0cd18be8da4d8a9c46545c9d8daa7280e0c483603185fab3d0eb13ff9706570f
@@ -16778,4 +16788,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-06-27T10:01:50.729175772Z"
+generated: "2025-06-27T12:44:12.10184888Z"
