@@ -16850,4 +16850,26 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-07-04T15:10:51.409954184Z"
+  vm-azure:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-07-04T15:11:15.691138644Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-starter-finops
+      repository: https://charts.krateo.io
+      version: 0.1.4
+    - alias: webhook
+      condition: webhook.enabled
+      name: finops-webhook-template
+      repository: https://charts.krateo.io
+      version: 0.1.0
+    description: Krateo Composable FinOps VM Azure Template
+    digest: 2a0944bf0ac210be1dcf761a3d6b6ae54e7d8067709a2643cf32276facfc7135
+    name: vm-azure
+    type: application
+    urls:
+    - https://charts.krateo.io/vm-azure-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-07-04T15:11:15.689172246Z"
