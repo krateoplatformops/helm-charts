@@ -14269,6 +14269,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/krateo-remote-server-0.2.1.tgz
     version: 0.2.1
+  krateo-template-finops-azure-configuration:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-07-04T15:10:51.410310979Z"
+    description: Krateo Composable FinOps Configuration Template for Azure
+    digest: c507616434456de43f1c4a40df2b88bb02042a5a89d73b4f88a3047abde1053e
+    name: krateo-template-finops-azure-configuration
+    type: application
+    urls:
+    - https://charts.krateo.io/krateo-template-finops-azure-configuration-0.1.0.tgz
+    version: 0.1.0
   kube-bridge:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -16839,4 +16850,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/vcluster-k8s-0.19.6.tgz
     version: 0.19.6
-generated: "2025-07-02T13:29:02.047111452Z"
+generated: "2025-07-04T15:10:51.409954184Z"
