@@ -8968,6 +8968,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-database-handler-0.3.1.tgz
     version: 0.3.1
+  finops-database-handler-uploader:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-07-10T17:17:34.28429301Z"
+    description: FinOps Database Handler Uploader
+    digest: 17056f4886d9a2cfce82e0b8c0067d17c61ca98a477c48075b5a0375a925e961
+    name: finops-database-handler-uploader
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-database-handler-uploader-0.1.0.tgz
+    version: 0.1.0
   finops-example-pricing-vm-azure:
   - apiVersion: v2
     appVersion: 0.2.14
@@ -16902,4 +16913,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-07T11:15:18.537163289Z"
+generated: "2025-07-10T17:17:34.283598834Z"
