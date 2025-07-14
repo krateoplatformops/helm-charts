@@ -8981,9 +8981,9 @@ entries:
   finops-database-handler-uploader:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-07-10T17:17:34.28429301Z"
+    created: "2025-07-14T10:12:06.710577831Z"
     description: FinOps Database Handler Uploader
-    digest: 17056f4886d9a2cfce82e0b8c0067d17c61ca98a477c48075b5a0375a925e961
+    digest: a6ac6d68b1f5c3001ea015ad39d931da1b5ffb7230a88f3525df4ea723d84102
     name: finops-database-handler-uploader
     type: application
     urls:
@@ -16955,4 +16955,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-14T09:19:52.094590916Z"
+generated: "2025-07-14T10:12:06.709950339Z"
