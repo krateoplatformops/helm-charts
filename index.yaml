@@ -9176,6 +9176,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-nats-subscriber-0.1.0.tgz
     version: 0.1.0
+  finops-notebooks:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-07-14T08:27:45.288177268Z"
+    description: All Krateo's FinOps Database Handler Notebooks
+    digest: fc47f302feb1ce27bb47239860415dc364f8f5397d18d878b5554d9f52cb794a
+    name: finops-notebooks
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-notebooks-0.1.0.tgz
+    version: 0.1.0
   finops-operator-exporter:
   - apiVersion: v2
     appVersion: 0.4.2
@@ -16913,4 +16924,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-10T17:17:34.283598834Z"
+generated: "2025-07-14T08:27:45.287587398Z"
