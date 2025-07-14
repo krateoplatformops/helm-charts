@@ -14344,9 +14344,9 @@ entries:
   krateo-template-finops-azure-configuration:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-07-04T15:10:51.410310979Z"
+    created: "2025-07-14T12:46:38.404593079Z"
     description: Krateo Composable FinOps Configuration Template for Azure
-    digest: c507616434456de43f1c4a40df2b88bb02042a5a89d73b4f88a3047abde1053e
+    digest: 4f91f82af84164f319c7568a102661444cf1952e083beebb168eebf64077f2c6
     name: krateo-template-finops-azure-configuration
     type: application
     urls:
@@ -16965,4 +16965,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-14T11:31:16.564340163Z"
+generated: "2025-07-14T12:46:38.403540597Z"
