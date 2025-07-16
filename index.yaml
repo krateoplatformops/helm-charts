@@ -16925,7 +16925,7 @@ entries:
   vm-azure:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-07-16T12:49:42.406929658Z"
+    created: "2025-07-16T13:41:05.111430659Z"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -16938,7 +16938,7 @@ entries:
       repository: https://charts.krateo.io
       version: 0.1.0
     description: Krateo Composable FinOps VM Azure Template
-    digest: 90b40c64112e1428849c1f9183482c7aa060b1299d42cc24b63d3e5f97d31805
+    digest: 6372303428340bb7a9a8adf8e2498b12742ac9df0a9dcd515c8ea07680bf31b2
     name: vm-azure
     type: application
     urls:
@@ -16965,4 +16965,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-16T12:49:42.405584997Z"
+generated: "2025-07-16T13:41:05.110091185Z"
