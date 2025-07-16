@@ -5424,9 +5424,9 @@ entries:
   composition-portal-starter-finops:
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2025-07-02T09:24:26.781826167Z"
+    created: "2025-07-16T14:20:04.443885708Z"
     description: A Helm chart for Composable Portal FinOps Composition page
-    digest: 59851c6dbbc5aff2326acbf20695bf5b76804e3410524de4981ffd9ca01c6471
+    digest: c8897316b4e644612cead15b420ed0e1d2b73af6265068c98cf26a061281a35e
     name: composition-portal-starter-finops
     type: application
     urls:
@@ -16965,4 +16965,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-16T13:53:05.968394317Z"
+generated: "2025-07-16T14:20:04.443104337Z"
