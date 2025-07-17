@@ -10230,6 +10230,16 @@ entries:
     version: 0.1.0
   frontend:
   - apiVersion: v2
+    appVersion: 0.0.26
+    created: "2025-07-17T17:00:46.255707995Z"
+    description: Krateo Frontend
+    digest: c676353cc0b37717bfbf466c25ca946cb1057795b4c8bd2565420a3f8343fd8f
+    name: frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-0.0.26.tgz
+    version: 0.0.26
+  - apiVersion: v2
     appVersion: 0.0.24
     created: "2025-07-07T07:55:52.189993928Z"
     description: Krateo Frontend
@@ -16976,4 +16986,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-17T09:33:58.644868304Z"
+generated: "2025-07-17T17:00:46.254743065Z"
