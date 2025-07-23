@@ -4889,9 +4889,9 @@ entries:
     version: 0.1.0
   composable-portal-starter:
   - apiVersion: v2
-    created: "2025-07-23T13:20:56.607466183Z"
+    created: "2025-07-23T14:16:52.320607334Z"
     description: A Helm chart for Composable Portal manifest starter
-    digest: 54894db6db803bdbe94dd0e5570029766c70f92eabaf6a59a3a6385f6e0676b9
+    digest: d4628a370dea193942880259c1fcd6b496253301ab630dc9fd2dc056848bae5e
     name: composable-portal-starter
     type: application
     urls:
@@ -17025,4 +17025,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-23T14:02:36.23291651Z"
+generated: "2025-07-23T14:16:52.320045092Z"
