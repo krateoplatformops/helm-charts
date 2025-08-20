@@ -9248,6 +9248,16 @@ entries:
     version: 0.1.0
   finops-notebooks:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-08-20T14:02:02.133260867Z"
+    description: All Krateo's FinOps Database Handler Notebooks
+    digest: c9a162c51003f6fe9a345c7a32b7be61b18eed04f0c3aeb7980022bb05e02389
+    name: finops-notebooks
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-notebooks-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2025-07-14T08:27:45.288177268Z"
     description: All Krateo's FinOps Database Handler Notebooks
@@ -17209,4 +17219,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-08T11:59:36.696639851Z"
+generated: "2025-08-20T14:02:02.132898227Z"
