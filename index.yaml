@@ -8978,6 +8978,16 @@ entries:
     version: 0.1.0
   finops-dashboard:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2025-08-26T14:59:19.643398698Z"
+    description: Krateo FinOps Example Dashboard
+    digest: 6f8861aa918cb3e7f52944ada8a0df350509fa3a56812d16935da8a9803fa8ee
+    name: finops-dashboard
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-dashboard-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2025-07-14T11:29:18.330910653Z"
     description: Krateo FinOps Example Dashboard
@@ -17319,4 +17329,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-25T16:37:55.409593999Z"
+generated: "2025-08-26T14:59:19.643050273Z"
