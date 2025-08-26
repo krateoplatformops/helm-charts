@@ -17288,6 +17288,27 @@ entries:
     version: 0.19.6
   vm-azure:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2025-08-26T14:59:44.633884913Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-starter-finops
+      repository: https://charts.krateo.io
+      version: 0.1.4
+    - alias: webhook
+      condition: webhook.enabled
+      name: finops-webhook-template
+      repository: https://charts.krateo.io
+      version: 0.1.0
+    description: Krateo Composable FinOps VM Azure Template
+    digest: a6b6a240c3c62865bedc70a9549603f4b4386eeeb0661735fc2e55acb1ef1ed2
+    name: vm-azure
+    type: application
+    urls:
+    - https://charts.krateo.io/vm-azure-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2025-07-16T14:34:48.174510336Z"
     dependencies:
@@ -17329,4 +17350,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-26T14:59:19.643050273Z"
+generated: "2025-08-26T14:59:44.632545417Z"
