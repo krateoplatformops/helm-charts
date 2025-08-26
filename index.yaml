@@ -9276,6 +9276,16 @@ entries:
     version: 0.1.0
   finops-moving-window-policy:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2025-08-26T17:56:28.184553823Z"
+    description: FinOps Moving Window OPA Policy
+    digest: 4437818413d0296470f9ae58fee4cae5dd6adec574887bcd7105ef886cb0e948
+    name: finops-moving-window-policy
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-moving-window-policy-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
     created: "2025-06-18T17:40:41.43778516Z"
     description: FinOps Moving Window OPA Policy
@@ -17370,4 +17380,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-26T16:39:58.026139728Z"
+generated: "2025-08-26T17:56:28.184120388Z"
