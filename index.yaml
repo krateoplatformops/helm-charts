@@ -3157,9 +3157,9 @@ entries:
   azure-pricing-rest-dynamic-controller-plugin:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-08-26T15:00:25.435639118Z"
+    created: "2025-08-26T16:39:58.026781094Z"
     description: Azure Pricing Rest Dynamic Controller Plugin
-    digest: 320fcefbc307f4a279e883c65a645881207b97786381ea7223e0bfda612f792d
+    digest: 1250b2bbf9ee934528c15c503b73cf7e30e79e9061846ed8f570506c915d3a24
     name: azure-pricing-rest-dynamic-controller-plugin
     type: application
     urls:
@@ -17370,4 +17370,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-26T15:04:34.217643489Z"
+generated: "2025-08-26T16:39:58.026139728Z"
