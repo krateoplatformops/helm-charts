@@ -5482,6 +5482,24 @@ entries:
     - https://charts.krateo.io/composition-portal-starter-0.1.0.tgz
     version: 0.1.0
   composition-portal-starter-finops:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-08-27T16:00:11.225665931Z"
+    description: A Helm chart for Composable Portal FinOps Composition page
+    digest: 0a1b155c9c08607ed2555811164e35354d00765e4d80a252c818cb813152b952
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    - finops
+    name: composition-portal-starter-finops
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-composition-page-generic
+    type: application
+    urls:
+    - https://charts.krateo.io/composition-portal-starter-finops-0.1.6.tgz
+    version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
     created: "2025-08-26T15:02:01.538464333Z"
@@ -17380,4 +17398,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-26T17:56:28.184120388Z"
+generated: "2025-08-27T16:00:11.224153664Z"
