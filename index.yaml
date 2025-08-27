@@ -3876,6 +3876,16 @@ entries:
     version: 0.16.1
   azuredevops-provider-kog:
   - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2025-08-27T16:08:24.678263661Z"
+    description: A Helm chart for deploying Azure DevOps Provider KOG
+    digest: d1c11c40c3704003d94a72bbbf87c3199ab3869ad5be78005938c0e6c2ac28a2
+    name: azuredevops-provider-kog
+    type: application
+    urls:
+    - https://charts.krateo.io/azuredevops-provider-kog-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
     appVersion: 0.0.3
     created: "2025-07-17T09:33:58.64571688Z"
     description: A Helm chart for deploying Azure DevOps Provider KOG
@@ -17398,4 +17408,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-27T16:05:41.228323877Z"
+generated: "2025-08-27T16:08:24.676250973Z"
