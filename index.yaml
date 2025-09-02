@@ -11489,6 +11489,15 @@ entries:
     version: 0.0.1
   gitlab-provider-kog:
   - apiVersion: v2
+    created: "2025-09-02T15:47:50.697228959Z"
+    description: A Helm chart for deploying GitLab Provider
+    digest: e07ea8cc4c1c9ac45a052dfffaf34c05a49956a0cb44038929b33f038380ffac
+    name: gitlab-provider-kog
+    type: application
+    urls:
+    - https://charts.krateo.io/gitlab-provider-kog-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
     created: "2025-06-17T11:11:51.997698737Z"
     description: A Helm chart for deploying GitLab Provider
     digest: 034f89bc33926dbb46e987b4604919908566c7b37b40900820cfd1dccf2720f7
@@ -17468,4 +17477,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-02T14:25:33.357131876Z"
+generated: "2025-09-02T15:47:50.696690677Z"
