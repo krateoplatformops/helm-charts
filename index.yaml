@@ -5495,9 +5495,9 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
-    created: "2025-09-04T12:34:22.718656662Z"
+    created: "2025-09-04T12:48:10.875336522Z"
     description: A Helm chart for Composable Portal FinOps Composition page
-    digest: 01e87dcb601232ea18f053f888843cbe2d3ed6bbc3427cb2ceff5b5c0a89ebcb
+    digest: 9d1d4fc7209b587e5b5ab5a4a7401ce9293f46efcd00940d5d47f15d8dccff93
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -17507,4 +17507,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-04T12:34:22.717804112Z"
+generated: "2025-09-04T12:48:10.874427872Z"
