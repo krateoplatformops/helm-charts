@@ -16388,10 +16388,14 @@ entries:
     - https://charts.krateo.io/resource-tree-handler-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    appVersion: 0.3.0
-    created: "2025-06-16T08:45:06.152240921Z"
+    appVersion: 0.3.1
+    created: "2025-09-12T15:48:35.468305448Z"
+    dependencies:
+    - name: resource-tree-handler-crd
+      repository: file://../crd-chart
+      version: 0.3.0
     description: Krateo Resource Tree Handler
-    digest: f21574051f911c39f8f83dc5b747d52da199c15ab3ed907caab160e627a9ede5
+    digest: b62b2f74136edc87f7273a0abc6a073020db58d40077fac8006cd8732b90d0dd
     name: resource-tree-handler
     type: application
     urls:
@@ -16618,6 +16622,19 @@ entries:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/resource-tree-handler-0.1.0.tgz
     version: 0.1.0
   resource-tree-handler-crd:
+  - apiVersion: v2
+    created: "2025-09-12T15:48:35.468484804Z"
+    description: Krateo Resource Tree Handler CRDs
+    digest: 09ea54173a245df2578780517e2381b340ffef37b8d6daeebbe60961de606b61
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: resource-tree-handler-crd
+    sources:
+    - https://github.com/krateoplatformops/resource-tree-handler
+    type: application
+    urls:
+    - https://charts.krateo.io/resource-tree-handler-crd-0.3.0.tgz
+    version: 0.3.0
   - apiVersion: v2
     created: "2025-09-12T09:29:58.347171568Z"
     description: Krateo Resource Tree Handler CRDs
@@ -17955,4 +17972,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-12T15:46:22.006190414Z"
+generated: "2025-09-12T15:48:35.467527683Z"
