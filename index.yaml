@@ -16777,6 +16777,20 @@ entries:
     version: 0.0.1
   snowplow:
   - apiVersion: v2
+    appVersion: 0.20.0
+    created: "2025-09-12T14:21:33.501709695Z"
+    dependencies:
+    - name: snowplow-crd
+      repository: file://../crd-chart
+      version: 0.20.0
+    description: A Helm chart for Krateo PlatformOps Snowplow
+    digest: f3ca9e96d7125dd1ce67540925bbabba1177b2058f498be3c74446b31761f05b
+    name: snowplow
+    type: application
+    urls:
+    - https://charts.krateo.io/snowplow-0.20.0.tgz
+    version: 0.20.0
+  - apiVersion: v2
     appVersion: 0.19.0
     created: "2025-09-02T14:25:33.357888349Z"
     description: A Helm chart for Krateo PlatformOps Snowplow
@@ -17076,6 +17090,20 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/snowplow-0.1.1.tgz
     version: 0.1.1
+  snowplow-crd:
+  - apiVersion: v2
+    created: "2025-09-12T14:21:33.501910208Z"
+    description: Krateo PlatformOps Snowplow CRDs
+    digest: 9d30c897ad93a434cf225d46120e7adf39ef644b4c26e4c50074d822edfb79de
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: snowplow-crd
+    sources:
+    - https://github.com/krateoplatformops/snowplow-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/snowplow-crd-0.20.0.tgz
+    version: 0.20.0
   socket-service:
   - apiVersion: v2
     appVersion: 1.1.0
@@ -17812,4 +17840,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-12T14:11:47.061710073Z"
+generated: "2025-09-12T14:21:33.500903544Z"
