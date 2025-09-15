@@ -9744,13 +9744,13 @@ entries:
   finops-operator-focus:
   - apiVersion: v2
     appVersion: 0.4.3
-    created: "2025-09-15T08:10:16.97728891Z"
+    created: "2025-09-15T08:10:24.133095196Z"
     dependencies:
     - name: finops-operator-focus-crd
       repository: file://../crd-chart
       version: 0.4.3
     description: Krateo PlatformOps FinOps Operator FOCUS
-    digest: deea566470c2a0dd73707bca22227bc7034272ef034f5906a4372c969eb122a6
+    digest: 7355fabd92472092d3b41eca9e05483ed11c497be0f3a5e75dd8cadfce086ca8
     name: finops-operator-focus
     type: application
     urls:
@@ -9872,9 +9872,9 @@ entries:
     version: 0.1.1
   finops-operator-focus-crd:
   - apiVersion: v2
-    created: "2025-09-15T08:10:16.977489404Z"
+    created: "2025-09-15T08:10:24.133289038Z"
     description: Krateo PlatformOps FinOps Operator FOCUS CRDs
-    digest: d095634d1f7c9127f4f919e9d45695a490d70fecc9c5310b367e26afdb6f9e2c
+    digest: 603b4ff134201e8d5bc8eed64908124cdf35040c8c0802e88c74946a96dd0bd4
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     name: finops-operator-focus-crd
@@ -18033,4 +18033,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-15T08:10:16.976514615Z"
+generated: "2025-09-15T08:10:24.132398274Z"
