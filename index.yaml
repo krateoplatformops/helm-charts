@@ -9258,13 +9258,13 @@ entries:
   finops-database-handler-uploader:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-09-12T09:17:22.870466439Z"
+    created: "2025-09-15T08:04:26.869494632Z"
     dependencies:
     - name: finops-database-handler-uploader-crd
       repository: file://../crd-chart
-      version: 0.0.1
+      version: 0.1.1
     description: FinOps Database Handler Uploader
-    digest: eaa45cd219019c7e9e4b0a30db663bc1601315910a9a974f199afbb2ef1f57c1
+    digest: ae003389f3be2a7562f0d5f4094f04ea88880987bb14624b7f1b5eafbe07c98c
     name: finops-database-handler-uploader
     type: application
     urls:
@@ -9285,6 +9285,19 @@ entries:
     - https://charts.krateo.io/finops-database-handler-uploader-0.1.0.tgz
     version: 0.1.0
   finops-database-handler-uploader-crd:
+  - apiVersion: v2
+    created: "2025-09-15T08:04:26.869687294Z"
+    description: FinOps Database Handler Uploader CRDs
+    digest: 379e8d5cd4cc608975982620d0941273df7b208d55b9029da1bb5dd245bb7d0f
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: finops-database-handler-uploader-crd
+    sources:
+    - https://github.com/krateoplatformops/finops-database-handler-uploader
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-database-handler-uploader-crd-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     created: "2025-09-15T08:04:03.509521008Z"
     description: FinOps Database Handler Uploader CRDs
@@ -17994,4 +18007,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-15T08:04:03.507489844Z"
+generated: "2025-09-15T08:04:26.868681687Z"
