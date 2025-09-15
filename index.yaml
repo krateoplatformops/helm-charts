@@ -15568,13 +15568,13 @@ entries:
   oasgen-provider:
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-09-12T14:11:47.062653607Z"
+    created: "2025-09-15T07:20:33.763275111Z"
     dependencies:
     - name: oasgen-provider-crd
       repository: file://../crd-chart
-      version: 0.0.1
+      version: 0.6.1
     description: Krateo PlatformOps OASGen Provider
-    digest: c19d0af5a1f038fec7bb5b592d623612dc698fb3c7cb7652d80de74c161fb8cd
+    digest: 58c031c576a215db3e9bc20120fbae11fb2bb0036a445e6c7696e0c42c515146
     name: oasgen-provider
     type: application
     urls:
@@ -15855,6 +15855,19 @@ entries:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/oasgen-provider-0.0.2.tgz
     version: 0.0.2
   oasgen-provider-crd:
+  - apiVersion: v2
+    created: "2025-09-15T07:20:33.763461699Z"
+    description: Krateo PlatformOps OasGen Provider CRDs
+    digest: d2a1074977da0547f5fcdb452011dcb983b19f65e31111a3a5a4ed5b903188ea
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: oasgen-provider-crd
+    sources:
+    - https://github.com/krateoplatformops/oasgen-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/oasgen-provider-crd-0.6.1.tgz
+    version: 0.6.1
   - apiVersion: v2
     created: "2025-09-12T14:45:25.501133473Z"
     description: Krateo PlatformOps OasGen Provider CRDs
@@ -17972,4 +17985,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-12T15:48:35.467527683Z"
+generated: "2025-09-15T07:20:33.762368533Z"
