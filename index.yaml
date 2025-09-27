@@ -12197,6 +12197,20 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.6.2
+    created: "2025-09-27T21:18:46.96701457Z"
+    dependencies:
+    - name: installer-crd
+      repository: file://../crd-chart
+      version: 2.6.0
+    description: Krateo PlatformOps Installer
+    digest: d265fbe66e638d40d4bd2953cce218e6f537ff6327e3516aa1a93cf7f93b0b0f
+    name: installer
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-2.6.0.tgz
+    version: 2.6.0
+  - apiVersion: v2
+    appVersion: 0.6.2
     created: "2025-09-07T11:53:50.110189843Z"
     dependencies:
     - name: installer-crd
@@ -13200,6 +13214,19 @@ entries:
     - https://charts.krateo.io/installer-0.1.0.tgz
     version: 0.1.0
   installer-crd:
+  - apiVersion: v2
+    created: "2025-09-27T21:18:46.967194295Z"
+    description: Krateo PlatformOps Installer CRDs
+    digest: 0d1f72b2e0f1ff843451cbb3ca3c07779f97a980076bd23e8e6a9224be47bba1
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-crd
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-crd-2.6.0.tgz
+    version: 2.6.0
   - apiVersion: v2
     created: "2025-09-07T11:53:50.110377874Z"
     description: Krateo PlatformOps Installer CRDs
@@ -18357,4 +18384,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-26T19:34:37.936665636Z"
+generated: "2025-09-27T21:18:46.96428901Z"
