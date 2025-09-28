@@ -10176,6 +10176,19 @@ entries:
     version: 0.1.0
   fireworks-app:
   - apiVersion: v2
+    created: "2025-09-28T20:01:56.475583346Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    description: A Helm chart for Krateo FireworksApp
+    digest: 30578e977b65f9c31c86e1ab19d1490d751e5e77142c7ef3f5222748a375c3f0
+    name: fireworks-app
+    type: application
+    urls:
+    - https://charts.krateo.io/fireworks-app-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v2
     created: "2025-09-09T12:49:57.328236708Z"
     dependencies:
     - name: portal-composition-page-generic
@@ -18384,4 +18397,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-27T21:18:46.96428901Z"
+generated: "2025-09-28T20:01:56.474160829Z"
