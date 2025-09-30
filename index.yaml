@@ -13265,6 +13265,19 @@ entries:
     version: 0.1.0
   installer-crd:
   - apiVersion: v2
+    created: "2025-09-30T20:50:13.28340658Z"
+    description: Krateo PlatformOps Installer CRDs
+    digest: 1cb07deb07051cb0e301ce2c2615d015caba760ab1a6722c241279f233bfb79d
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-crd
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-crd-2.6.1.tgz
+    version: 2.6.1
+  - apiVersion: v2
     created: "2025-09-27T21:18:46.967194295Z"
     description: Krateo PlatformOps Installer CRDs
     digest: 0d1f72b2e0f1ff843451cbb3ca3c07779f97a980076bd23e8e6a9224be47bba1
@@ -18434,4 +18447,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-30T13:58:21.778815902Z"
+generated: "2025-09-30T20:50:13.282748891Z"
