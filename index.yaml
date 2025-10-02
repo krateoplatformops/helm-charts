@@ -12338,9 +12338,9 @@ entries:
   installer:
   - apiVersion: v2
     appVersion: 0.6.2
-    created: "2025-09-30T21:00:29.093536208Z"
+    created: "2025-10-02T10:56:15.298561697Z"
     description: Krateo PlatformOps Installer
-    digest: d5e6f43a7176f6533293aff5d7aa514d492bb5629b9a35cff0eea172fff17c16
+    digest: 29ad0edc2f72bf6f9bb27b0e051bb4da81b9cf8c1b714a985a531e5f34aeabb8
     name: installer
     type: application
     urls:
@@ -18521,4 +18521,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-02T10:45:49.129978927Z"
+generated: "2025-10-02T10:56:15.295352692Z"
