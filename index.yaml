@@ -13414,6 +13414,20 @@ entries:
     urls:
     - https://charts.krateo.io/installer-crd-0.0.1.tgz
     version: 0.0.1
+  installer-post-upgrade-2-5-1:
+  - apiVersion: v2
+    created: "2025-10-07T15:11:42.051921948Z"
+    description: Krateo PlatformOps Chart to execute post upgrade to version 2.5.0
+    digest: 1018ac292dbd42887764925e9efc43942e1197297096ee541b47d2f948ce8020
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-post-upgrade-2-5-1
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-post-upgrade-2-5-1-2.5.1.tgz
+    version: 2.5.1
   installer-pre-upgrade-2-5-0:
   - apiVersion: v2
     created: "2025-10-07T15:03:01.696976728Z"
@@ -18613,4 +18627,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-07T15:08:42.90351417Z"
+generated: "2025-10-07T15:11:42.051577554Z"
