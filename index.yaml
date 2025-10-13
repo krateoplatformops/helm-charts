@@ -5742,6 +5742,20 @@ entries:
     version: 0.1.0
   core-provider:
   - apiVersion: v2
+    appVersion: 0.25.3
+    created: "2025-10-13T16:11:06.843005551Z"
+    dependencies:
+    - name: core-provider-crd
+      repository: file://../crd-chart
+      version: 0.40.0
+    description: Krateo PlatformOps Core Provider
+    digest: 2cdc33205cf3454d386292e80b99fc92b775ffb3f94d7f838e5b6fd3bc567e22
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-0.40.0.tgz
+    version: 0.40.0
+  - apiVersion: v2
     appVersion: 0.25.2
     created: "2025-10-10T08:15:07.190625606Z"
     dependencies:
@@ -7196,6 +7210,19 @@ entries:
     - https://charts.krateo.io/core-provider-0.0.1.tgz
     version: 0.0.1
   core-provider-crd:
+  - apiVersion: v2
+    created: "2025-10-13T16:11:06.843393336Z"
+    description: Krateo PlatformOps Core Provider CRDs
+    digest: 1c95233141b0c1136989393b647a8e593a4170dac57a67d9d33e1291381062f3
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: core-provider-crd
+    sources:
+    - https://github.com/krateoplatformops/core-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-crd-0.40.0.tgz
+    version: 0.40.0
   - apiVersion: v2
     created: "2025-10-10T08:15:07.190878569Z"
     description: Krateo PlatformOps Core Provider CRDs
@@ -18681,4 +18708,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-10T08:15:07.188759975Z"
+generated: "2025-10-13T16:11:06.841598911Z"
