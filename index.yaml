@@ -3222,6 +3222,17 @@ entries:
     urls:
     - https://charts.krateo.io/authn-service-0.0.1.tgz
     version: 0.0.1
+  autopilot:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-10-21T17:01:40.430005612Z"
+    description: A Helm chart for Krateo Autopilot
+    digest: 326b34b2886b564301d7376dc11105763d060e4ce8d78b36717981ef4f891cb7
+    name: autopilot
+    type: application
+    urls:
+    - https://charts.krateo.io/autopilot-0.0.1.tgz
+    version: 0.0.1
   azure-pricing-rest-dynamic-controller-plugin:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -18735,4 +18746,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-21T09:01:00.748689313Z"
+generated: "2025-10-21T17:01:40.429276341Z"
