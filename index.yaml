@@ -13524,19 +13524,6 @@ entries:
     version: 0.0.1
   installer-post-upgrade-2-5-1:
   - apiVersion: v2
-    created: "2025-10-07T15:11:42.051921948Z"
-    description: Krateo PlatformOps Chart to execute post upgrade to version 2.5.0
-    digest: 1018ac292dbd42887764925e9efc43942e1197297096ee541b47d2f948ce8020
-    home: https://krateo.io
-    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
-    name: installer-post-upgrade-2-5-1
-    sources:
-    - https://github.com/krateoplatformops/installer-chart
-    type: application
-    urls:
-    - https://charts.krateo.io/installer-post-upgrade-2-5-1-2.5.1.tgz
-    version: 2.5.1
-  - apiVersion: v2
     created: "2025-10-21T09:01:00.748990085Z"
     description: Krateo PlatformOps Chart to execute post upgrade to version 2.5.0
     digest: 370eba50f72e8ba4003e0da55a413df580681f29c9e911312572018d68eefa68
@@ -13551,19 +13538,6 @@ entries:
     version: 1.0.1
   installer-pre-upgrade-2-5-0:
   - apiVersion: v2
-    created: "2025-10-07T15:03:01.696976728Z"
-    description: Krateo PlatformOps Chart to execute pre upgrade to version 2.5.0
-    digest: 2cb3c74e64a949c5f9d799ce339f429ca3764d1d7d28e72b21cf1ebaa738189b
-    home: https://krateo.io
-    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
-    name: installer-pre-upgrade-2-5-0
-    sources:
-    - https://github.com/krateoplatformops/installer-chart
-    type: application
-    urls:
-    - https://charts.krateo.io/installer-pre-upgrade-2-5-0-2.5.0.tgz
-    version: 2.5.0
-  - apiVersion: v2
     created: "2025-10-21T08:44:06.970878771Z"
     description: Krateo PlatformOps Chart to execute pre upgrade to version 2.5.0
     digest: 50aa68a260baadd5a00dcf8e31ab26f2d65a11d67bf40f0be3ce63589008fafb
@@ -13577,19 +13551,6 @@ entries:
     - https://charts.krateo.io/installer-pre-upgrade-2-5-0-1.0.1.tgz
     version: 1.0.1
   installer-pre-upgrade-2-5-1:
-  - apiVersion: v2
-    created: "2025-10-07T15:08:42.903830821Z"
-    description: Krateo PlatformOps Chart to execute pre upgrade to version 2.5.0
-    digest: 9855ebe0275bc905379b7dd45fd9e4ac9f9fa4712bfbf8c959bf666c528b05ee
-    home: https://krateo.io
-    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
-    name: installer-pre-upgrade-2-5-1
-    sources:
-    - https://github.com/krateoplatformops/installer-chart
-    type: application
-    urls:
-    - https://charts.krateo.io/installer-pre-upgrade-2-5-1-2.5.1.tgz
-    version: 2.5.1
   - apiVersion: v2
     created: "2025-10-21T08:58:22.521371728Z"
     description: Krateo PlatformOps Chart to execute pre upgrade to version 2.5.0
