@@ -3225,16 +3225,6 @@ entries:
   autopilot:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-10-27T11:26:42.008397025Z"
-    description: A Helm chart for Krateo Autopilot
-    digest: a9aea76bc40f26834b15ddb23b92b63496e7e65da8d99e3f472f4b27e27e79fe
-    name: autopilot
-    type: application
-    urls:
-    - https://charts.krateo.io/autopilot-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    appVersion: 0.0.1
     created: "2025-10-21T20:10:41.571261788Z"
     description: A Helm chart for Krateo Autopilot
     digest: c331a2925dfde627ce0f0fc03f8aee0b149a1c75f0412de2387f5974800f34f3
