@@ -2582,6 +2582,20 @@ entries:
     version: 1.0.0
   authn:
   - apiVersion: v2
+    appVersion: 0.22.1
+    created: "2025-10-30T07:50:27.440318244Z"
+    dependencies:
+    - name: authn-crd
+      repository: file://../crd-chart
+      version: 0.22.1
+    description: Krateo PlatformOps AuthN Service
+    digest: 4f2f9509d976f47639dc0a92bc0444ac7cfe3d81873be3566810766e619f5627
+    name: authn
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-0.22.1.tgz
+    version: 0.22.1
+  - apiVersion: v2
     appVersion: 0.22.0
     created: "2025-10-27T16:29:39.336527749Z"
     dependencies:
@@ -2794,6 +2808,19 @@ entries:
     - https://charts.krateo.io/authn-0.12.0.tgz
     version: 0.12.0
   authn-crd:
+  - apiVersion: v2
+    created: "2025-10-30T07:50:27.441009888Z"
+    description: Krateo PlatformOps AuthN Service CRDs
+    digest: ecf0a12ba978429a74fe21fc7eda8b5ee4f2323e8622e9b6ee88bfac5309a1de
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: authn-crd
+    sources:
+    - https://github.com/krateoplatformops/authn-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/authn-crd-0.22.1.tgz
+    version: 0.22.1
   - apiVersion: v2
     created: "2025-10-27T16:29:39.336750576Z"
     description: Krateo PlatformOps AuthN Service CRDs
@@ -18870,4 +18897,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-28T09:47:44.176003416Z"
+generated: "2025-10-30T07:50:27.439207886Z"
