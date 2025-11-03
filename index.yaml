@@ -13676,6 +13676,20 @@ entries:
     urls:
     - https://charts.krateo.io/installer-pre-upgrade-2-5-1-1.0.1.tgz
     version: 1.0.1
+  installer-pre-upgrade-2-6-0:
+  - apiVersion: v2
+    created: "2025-11-03T07:56:54.284118604Z"
+    description: Krateo PlatformOps Chart to execute pre upgrade to version 2.6.0
+    digest: b76ca5620be5533092b66797cc7c843e677fe973707357c66d6a7743c0a359ce
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-pre-upgrade-2-6-0
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-pre-upgrade-2-6-0-1.0.0.tgz
+    version: 1.0.0
   installer-starter-pack:
   - apiVersion: v2
     appVersion: 0.1.4
@@ -18897,4 +18911,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-30T07:50:27.439207886Z"
+generated: "2025-11-03T07:56:54.283742471Z"
