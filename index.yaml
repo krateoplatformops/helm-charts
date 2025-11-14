@@ -8926,6 +8926,21 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/etcd-10.2.7.tgz
     version: 10.2.7
+  - apiVersion: v2
+    appVersion: v3.6.6
+    created: "2025-11-14T21:59:55.148435578Z"
+    description: Etcd cluster (Service + StatefulSet) based on upstream Kubernetes
+      guide
+    digest: 438c4f39f3c755e54006ba953aa89cde50dbba258ea215cc1df787fd4cca3095
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: etcd
+    sources:
+    - https://github.com/krateoplatformops/etcd-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/etcd-3.6.6.tgz
+    version: 3.6.6
   event-service:
   - apiVersion: v2
     appVersion: 1.1.6
@@ -19046,4 +19061,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-13T15:22:23.35413692Z"
+generated: "2025-11-14T21:59:55.146973964Z"
