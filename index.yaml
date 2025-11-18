@@ -18498,6 +18498,21 @@ entries:
     urls:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/status-informer-0.1.1.tgz
     version: 0.1.1
+  sweeper:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-11-18T15:24:34.795972864Z"
+    description: A Helm chart for cleanup of Krateo Server-Side Event etcd
+    digest: b0d5b130956e7f8b4c2d52beb9f38c46290d3890f310eaccb1999f6d1759e969
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: sweeper
+    sources:
+    - https://github.com/krateoplatformops/eventstack
+    type: application
+    urls:
+    - https://charts.krateo.io/sweeper-0.1.0.tgz
+    version: 0.1.0
   template:
   - apiVersion: v2
     appVersion: 0.1.9
@@ -19129,4 +19144,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-18T15:20:47.169732203Z"
+generated: "2025-11-18T15:24:34.795120593Z"
