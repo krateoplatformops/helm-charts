@@ -9306,6 +9306,20 @@ entries:
     version: 0.1.0
   eventsse:
   - apiVersion: v2
+    appVersion: 0.5.8
+    created: "2025-11-20T17:47:45.783325021Z"
+    description: A Helm chart for Krateo Server-Side Event
+    digest: e45bebe10373663fb3276538ce167c73412eca1a3a3c395ed38c3bd21afaeb87
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: eventsse
+    sources:
+    - https://github.com/krateoplatformops/eventstack
+    type: application
+    urls:
+    - https://charts.krateo.io/eventsse-0.5.9.tgz
+    version: 0.5.9
+  - apiVersion: v2
     appVersion: 0.5.7
     created: "2025-11-19T13:51:05.036333899Z"
     description: A Helm chart for Krateo Server-Side Event
@@ -19253,4 +19267,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-20T17:45:33.232545108Z"
+generated: "2025-11-20T17:47:45.782692929Z"
