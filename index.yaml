@@ -9010,6 +9010,20 @@ entries:
     version: 1.1.4
   eventrouter:
   - apiVersion: v2
+    appVersion: 0.5.8
+    created: "2025-11-20T17:45:33.23318689Z"
+    dependencies:
+    - name: eventrouter-crd
+      repository: file://../eventrouter-crd-chart
+      version: 0.6.3
+    description: A Helm chart for Krateo EventRouter
+    digest: dcdaaf9865bb19065d1f85ba165fec5450cc2d936a0a6b1ef2c09313a6080a74
+    name: eventrouter
+    type: application
+    urls:
+    - https://charts.krateo.io/eventrouter-0.6.3.tgz
+    version: 0.6.3
+  - apiVersion: v2
     appVersion: 0.5.7
     created: "2025-11-18T15:14:02.885609182Z"
     dependencies:
@@ -9207,6 +9221,19 @@ entries:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/eventrouter-0.2.0.tgz
     version: 0.2.0
   eventrouter-crd:
+  - apiVersion: v2
+    created: "2025-11-20T17:45:33.233334046Z"
+    description: Krateo PlatformOps EventRouter CRDs
+    digest: b7e23fa6989aaa29bd12fe18395c3b97a8224859604f6620ba5c0aad91ded20d
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: eventrouter-crd
+    sources:
+    - https://github.com/krateoplatformops/eventstack
+    type: application
+    urls:
+    - https://charts.krateo.io/eventrouter-crd-0.6.3.tgz
+    version: 0.6.3
   - apiVersion: v2
     created: "2025-11-18T15:14:02.885890177Z"
     description: Krateo PlatformOps EventRouter CRDs
@@ -19226,4 +19253,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-20T17:36:34.009829422Z"
+generated: "2025-11-20T17:45:33.232545108Z"
