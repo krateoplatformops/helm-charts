@@ -10622,6 +10622,20 @@ entries:
     version: 0.0.1
   finops-operator-scraper:
   - apiVersion: v2
+    appVersion: 0.5.0
+    created: "2025-12-05T15:26:20.928909641Z"
+    dependencies:
+    - name: finops-operator-scraper-crd
+      repository: file://../crd-chart
+      version: 0.5.0
+    description: Krateo PlatformOps FinOps Operator Scraper
+    digest: 5faf918a0917ef56ea31117188522b667ffb64926512605f8d08e2682398dec7
+    name: finops-operator-scraper
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-scraper-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 0.4.2
     created: "2025-09-15T08:12:30.383473983Z"
     dependencies:
@@ -10730,6 +10744,19 @@ entries:
     - https://raw.githubusercontent.com/krateoplatformops/helm-charts/gh-pages/finops-operator-scraper-0.1.0.tgz
     version: 0.1.0
   finops-operator-scraper-crd:
+  - apiVersion: v2
+    created: "2025-12-05T15:26:20.929091992Z"
+    description: Krateo PlatformOps FinOps Operator Scraper CRDs
+    digest: 2b90cf727290b4b122644c5f4f17ec2d6c161903663d606d992f76464de0e635
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: finops-operator-scraper-crd
+    sources:
+    - https://github.com/krateoplatformops/finops-operator-scraper
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-scraper-crd-0.5.0.tgz
+    version: 0.5.0
   - apiVersion: v2
     created: "2025-09-15T08:12:30.383691618Z"
     description: Krateo PlatformOps FinOps Operator Scraper CRDs
@@ -19426,4 +19453,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-05T12:32:24.350297837Z"
+generated: "2025-12-05T15:26:20.928139119Z"
