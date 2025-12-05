@@ -10183,6 +10183,20 @@ entries:
     version: 0.1.0
   finops-operator-exporter:
   - apiVersion: v2
+    appVersion: 0.5.1
+    created: "2025-12-05T12:32:24.351056952Z"
+    dependencies:
+    - name: finops-operator-exporter-crd
+      repository: file://../crd-chart
+      version: 0.5.2
+    description: Krateo PlatformOps FinOps Operator Exporter
+    digest: 87c478f1759e723dc1c845188aad92a4da9fa66e8a13e43cfe0f83eec1b36b99
+    name: finops-operator-exporter
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-exporter-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v2
     appVersion: 0.5.0
     created: "2025-09-30T13:58:21.779775333Z"
     dependencies:
@@ -10359,6 +10373,19 @@ entries:
     - https://charts.krateo.io/finops-operator-exporter-0.1.0.tgz
     version: 0.1.0
   finops-operator-exporter-crd:
+  - apiVersion: v2
+    created: "2025-12-05T12:32:24.351632656Z"
+    description: Krateo PlatformOps FinOps Operator Exporter CRDs
+    digest: 27a9d9881db127d46c5e491ffb616743b01b3ab315fe75a4c2285ea818ca402c
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: finops-operator-exporter-crd
+    sources:
+    - https://github.com/krateoplatformops/finops-operator-exporter
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-operator-exporter-crd-0.5.2.tgz
+    version: 0.5.2
   - apiVersion: v2
     created: "2025-09-30T13:58:21.780819177Z"
     description: Krateo PlatformOps FinOps Operator Exporter CRDs
@@ -19399,4 +19426,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-05T12:25:32.454856545Z"
+generated: "2025-12-05T12:32:24.350297837Z"
