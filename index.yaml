@@ -11501,6 +11501,20 @@ entries:
     version: 0.1.0
   frontend:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-12-09T13:06:51.36748824Z"
+    dependencies:
+    - name: frontend-crd
+      repository: file://../crd-chart
+      version: 1.0.2
+    description: Krateo Frontend
+    digest: 0066ee9c0c2f80dcf68c11b4686ff6ba7c3a23d6c5f1dec8c1c474a38b1f10fb
+    name: frontend
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 0.0.66
     created: "2025-11-20T17:36:34.011416046Z"
     dependencies:
@@ -11943,6 +11957,19 @@ entries:
     - https://charts.krateo.io/frontend-0.0.1.tgz
     version: 0.0.1
   frontend-crd:
+  - apiVersion: v2
+    created: "2025-12-09T13:06:51.368121603Z"
+    description: Krateo PlatformOps Frontend CRDs
+    digest: 31b42f44208511c576106371c933264bd5f71aa0ac66bcf94bdbeb4231683765
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: frontend-crd
+    sources:
+    - https://github.com/krateoplatformops/frontend-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/frontend-crd-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v2
     created: "2025-11-20T17:36:34.012670752Z"
     description: Krateo PlatformOps Frontend CRDs
@@ -19480,4 +19507,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-09T12:20:39.959753175Z"
+generated: "2025-12-09T13:06:51.366247413Z"
