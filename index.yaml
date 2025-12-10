@@ -9721,6 +9721,16 @@ entries:
     version: 0.1.0
   finops-database-handler:
   - apiVersion: v2
+    appVersion: 0.5.3
+    created: "2025-12-10T11:53:16.32483428Z"
+    description: FinOps Database Handler
+    digest: 2ce46518aded50037e2b9dae3ebfe1b4626c2495f9ee90e942f3540dcea75389
+    name: finops-database-handler
+    type: application
+    urls:
+    - https://charts.krateo.io/finops-database-handler-0.5.3.tgz
+    version: 0.5.3
+  - apiVersion: v2
     appVersion: 0.5.2
     created: "2025-12-05T12:25:32.455994744Z"
     description: FinOps Database Handler
@@ -19530,4 +19540,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-10T08:17:07.436835535Z"
+generated: "2025-12-10T11:53:16.323632265Z"
