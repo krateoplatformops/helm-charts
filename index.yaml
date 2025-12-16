@@ -17377,6 +17377,29 @@ entries:
           url: https://github.com/open-policy-agent/kube-mgmt
     apiVersion: v1
     appVersion: 9.0.1
+    created: "2025-12-16T16:04:33.886534632Z"
+    description: Manage OPA in Kubernetes with kube-mgmt sidecar.
+    digest: ec255bdbf361f70a7e0f0a056ead603d3c5f686e63ddd1888a22d6402197347b
+    home: https://www.openpolicyagent.org
+    icon: https://raw.githubusercontent.com/open-policy-agent/opa/master/logo/logo.png
+    keywords:
+    - opa
+    - admission control
+    - policy
+    - kubernetes
+    - security
+    name: opa-kube-mgmt
+    urls:
+    - https://charts.krateo.io/opa-kube-mgmt-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      artifacthub.io/links: |
+        - name: OPA source code
+          url: https://github.com/open-policy-agent/opa
+        - name: kube-mgmt source code
+          url: https://github.com/open-policy-agent/kube-mgmt
+    apiVersion: v1
+    appVersion: 9.0.1
     created: "2025-12-10T08:17:07.437836708Z"
     description: Manage OPA in Kubernetes with kube-mgmt sidecar.
     digest: 66c6115fc49b778215e9c8c57aae0e1d59d1e9cd6106b8eeca2f19eb66320303
@@ -19598,4 +19621,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-12T10:47:06.301726622Z"
+generated: "2025-12-16T16:04:33.885600306Z"
