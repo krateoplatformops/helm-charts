@@ -14453,6 +14453,19 @@ entries:
     version: 1.0.0
   installer-pre-upgrade-test:
   - apiVersion: v2
+    created: "2026-01-14T10:41:54.05387959Z"
+    description: Krateo PlatformOps Chart to execute pre upgrade tasks
+    digest: 1f3686108bed9cc5ec136a478dc0a12a8a99a319f898772eaa2daec6e223c71a
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-pre-upgrade-test
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-pre-upgrade-test-2.4.5.tgz
+    version: 2.4.5
+  - apiVersion: v2
     created: "2026-01-14T10:08:37.94135532Z"
     description: Krateo PlatformOps Chart to execute pre upgrade tasks
     digest: d74eeb7b3b8da7f634ab084c05bbeb396e51b7864b6fe18e6bb4765be9c241a2
@@ -14517,6 +14530,20 @@ entries:
     - https://charts.krateo.io/installer-starter-pack-0.1.0.tgz
     version: 0.1.0
   installer-test:
+  - apiVersion: v2
+    appVersion: 0.6.3
+    created: "2026-01-14T10:41:54.056730696Z"
+    dependencies:
+    - name: installer-pre-upgrade-test
+      repository: file://../installer-pre-upgrade-chart
+      version: 2.4.5
+    description: Krateo PlatformOps Installer
+    digest: 890dcf17e3e08f3b7347bd8a3cdae3b3eb05f2794b9e01a2cbe34dcf50c55597
+    name: installer-test
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-test-2.4.5.tgz
+    version: 2.4.5
   - apiVersion: v2
     appVersion: 0.6.3
     created: "2026-01-14T10:08:37.944204817Z"
@@ -19853,4 +19880,4 @@ entries:
     urls:
     - https://charts.krateo.io/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-14T10:08:37.940542715Z"
+generated: "2026-01-14T10:41:54.052253566Z"
