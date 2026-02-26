@@ -11069,6 +11069,20 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 0.6.3
+    created: "2026-02-26T15:53:32.165793808Z"
+    dependencies:
+    - name: installer-pre-upgrade
+      repository: file://../installer-pre-upgrade-chart
+      version: 2.4.5
+    description: Krateo PlatformOps Installer
+    digest: aceb146825807aae75d1595bf644535585c0cc0b04ab767839c58149cfa3c36a
+    name: installer
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-2.4.5.tgz
+    version: 2.4.5
+  - apiVersion: v2
+    appVersion: 0.6.3
     created: "2026-02-20T11:03:23.863464497Z"
     dependencies:
     - name: installer-pre-upgrade
@@ -11239,6 +11253,19 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/installer-pre-upgrade-2.7.0.tgz
     version: 2.7.0
+  - apiVersion: v2
+    created: "2026-02-26T15:53:32.165982928Z"
+    description: Krateo PlatformOps Chart to execute pre upgrade tasks
+    digest: 6524e8863a55549d4c0e1245a869410cb0fb2768eab59365aedcc645183c6a65
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: installer-pre-upgrade
+    sources:
+    - https://github.com/krateoplatformops/installer-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/installer-pre-upgrade-2.4.5.tgz
+    version: 2.4.5
   - apiVersion: v2
     created: "2026-02-20T11:03:23.875708706Z"
     description: Krateo PlatformOps Chart to execute pre upgrade tasks
@@ -15644,4 +15671,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-26T15:50:01.053253681Z"
+generated: "2026-02-26T15:53:32.162569391Z"
