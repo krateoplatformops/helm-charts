@@ -12817,6 +12817,16 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/log-service-1.0.0.tgz
     version: 1.0.0
+  mcpserver:
+  - apiVersion: v2
+    created: "2026-03-05T11:01:54.709879996Z"
+    description: A Helm chart for an MCP server
+    digest: f504f0478771a23decbb2128eecbd9c8a2cac6ea489f2b3ee9697d0283305b92
+    name: mcpserver
+    type: application
+    urls:
+    - https://charts.krateo.io/mcpserver-0.0.1.tgz
+    version: 0.0.1
   mlflow-app:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -15767,4 +15777,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-02T09:53:54.54358771Z"
+generated: "2026-03-05T11:01:54.709384673Z"
