@@ -12916,6 +12916,15 @@ entries:
     version: 1.0.0
   mcpserver:
   - apiVersion: v2
+    created: "2026-03-12T15:49:24.299740947Z"
+    description: A Helm chart for an MCP server
+    digest: 19fc20b1b7dc73fbe3f3533585ca0fb172eee0c6d80aedc64a52535b40f6996e
+    name: mcpserver
+    type: application
+    urls:
+    - https://charts.krateo.io/mcpserver-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     created: "2026-03-12T14:42:56.231785977Z"
     description: A Helm chart for an MCP server
     digest: 4048204280856b4849e90cf08d7efc6ee7469c5b6cefe6fdc9008a1272e871bb
@@ -15894,4 +15903,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-12T14:42:55.598122669Z"
+generated: "2026-03-12T15:49:24.299201196Z"
