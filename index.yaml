@@ -3,9 +3,9 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-04-15T15:30:24.089886327Z"
+    created: "2026-04-15T15:32:37.549590323Z"
     description: A Helm chart for Agentic Krateo
-    digest: e60ca2ab6406fec366ee0eea7129df30e4c86bdcf98e9112a381bc82668f68f8
+    digest: cdc960cbe93633cfc47795e1797c384df30dee3c4205c4342359a9fd13737b87
     name: agent
     type: application
     urls:
@@ -16900,4 +16900,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-15T15:30:24.089027809Z"
+generated: "2026-04-15T15:32:37.547992786Z"
