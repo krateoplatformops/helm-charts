@@ -4804,6 +4804,20 @@ entries:
   core-provider:
   - apiVersion: v2
     appVersion: 1.0.0-rc8
+    created: "2026-04-28T14:27:27.060323329Z"
+    dependencies:
+    - name: core-provider-crd
+      repository: file://../crd-chart
+      version: 1.0.0-rc5
+    description: Krateo PlatformOps Core Provider
+    digest: 4b5d060c0fed8a3f7d1ec8ba3b27b102b3958ffd8e6637b994379726fefd950a
+    name: core-provider
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-1.0.0-rc5.tgz
+    version: 1.0.0-rc5
+  - apiVersion: v2
+    appVersion: 1.0.0-rc8
     created: "2026-04-28T09:21:02.685416431Z"
     dependencies:
     - name: core-provider-crd
@@ -5537,6 +5551,19 @@ entries:
     - https://krateoplatformops.github.io/helm-charts/core-provider-0.21.0.tgz
     version: 0.21.0
   core-provider-crd:
+  - apiVersion: v2
+    created: "2026-04-28T14:27:27.060549602Z"
+    description: Krateo PlatformOps Core Provider CRDs
+    digest: b5cc2debb38911912d6834c6c982fb6c0c5dc2cc7838eb8b3943ba2404eb915f
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: core-provider-crd
+    sources:
+    - https://github.com/krateoplatformops/core-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/core-provider-crd-1.0.0-rc5.tgz
+    version: 1.0.0-rc5
   - apiVersion: v2
     created: "2026-04-28T09:21:02.687939558Z"
     description: Krateo PlatformOps Core Provider CRDs
@@ -17190,4 +17217,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-28T09:40:39.911038682Z"
+generated: "2026-04-28T14:27:27.058647247Z"
