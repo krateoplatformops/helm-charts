@@ -5102,13 +5102,13 @@ entries:
     version: 0.32.0
   - apiVersion: v2
     appVersion: 0.24.7
-    created: "2026-04-28T09:21:02.664957598Z"
+    created: "2026-04-30T14:32:40.51948576Z"
     description: Krateo PlatformOps Core Provider
-    digest: 343e525a19777f923c333484e9922d38637d6f23bbb5742e30d09104b624f776
+    digest: 8cfae8d6979e94b0798b36591a9b4e10dd001d68e4f9becb99470c227be9208c
     name: core-provider
     type: application
     urls:
-    - https://krateoplatformops.github.io/helm-charts/core-provider-0.31.71.tgz
+    - https://charts.krateo.io/core-provider-0.31.71.tgz
     version: 0.31.71
   - apiVersion: v2
     appVersion: 0.24.8
@@ -17244,4 +17244,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-30T14:02:56.014244304Z"
+generated: "2026-04-30T14:32:40.518500297Z"
