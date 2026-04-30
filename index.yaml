@@ -12235,9 +12235,9 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 0.6.3
-    created: "2026-04-30T14:02:56.016549634Z"
+    created: "2026-04-30T14:46:57.328666382Z"
     description: Krateo PlatformOps Installer
-    digest: 53a8dab8a8a0d7b2f2f3403b6c044b9d45b2f5973ae62a7bc6220c9d6b629cab
+    digest: 8ef6f6b044f53b06b8640d7a1a76d77cf7a3068b3eea3cb76c0944da1124f174
     name: installer
     type: application
     urls:
@@ -17254,4 +17254,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-30T14:37:23.665327772Z"
+generated: "2026-04-30T14:46:57.326256248Z"
