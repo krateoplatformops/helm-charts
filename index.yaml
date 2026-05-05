@@ -2924,6 +2924,16 @@ entries:
     version: 0.0.1
   autopilot:
   - apiVersion: v2
+    appVersion: 0.3.9
+    created: "2026-05-05T13:44:51.565758378Z"
+    description: A Helm chart for Krateo Autopilot
+    digest: 984aa67d8a9babd24a64f0016c4462170b3a5e0cc32541b7846dcb570cbe7058
+    name: autopilot
+    type: application
+    urls:
+    - https://charts.krateo.io/autopilot-0.0.27.tgz
+    version: 0.0.27
+  - apiVersion: v2
     appVersion: 0.3.8
     created: "2026-04-28T09:21:02.564565617Z"
     description: A Helm chart for Krateo Autopilot
@@ -17308,4 +17318,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-05T09:57:32.148628391Z"
+generated: "2026-05-05T13:44:51.564630948Z"
