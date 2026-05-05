@@ -11524,6 +11524,20 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.9.3
+    created: "2026-05-05T09:57:32.149211038Z"
+    description: Krateo PlatformOps Git Provider
+    digest: a996e5a5ac06e23bf47264ae92ec92616d4e10865f0e26bef7f0c4fbeedaecb9
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: git-provider
+    sources:
+    - https://github.com/krateoplatformops/git-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/git-provider-0.12.3.tgz
+    version: 0.12.3
+  - apiVersion: v2
+    appVersion: 0.9.3
     created: "2026-05-05T09:52:09.524200328Z"
     description: Krateo PlatformOps Git Provider
     digest: 47e508b860a717deaa194e878f5eb8df97d35e1ba40019d4d75aa835264f4518
@@ -11685,6 +11699,19 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/git-provider-crd-0.13.0.tgz
     version: 0.13.0
+  - apiVersion: v2
+    created: "2026-05-05T09:57:32.149460363Z"
+    description: Krateo PlatformOps Git Provider CRDs
+    digest: 093ebefd9cb0e1d2be669a16fcd962795037798c1072ed4e0f27543ea9c93217
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: git-provider-crd
+    sources:
+    - https://github.com/krateoplatformops/git-provider-chart
+    type: application
+    urls:
+    - https://charts.krateo.io/git-provider-crd-0.12.3.tgz
+    version: 0.12.3
   - apiVersion: v2
     created: "2026-05-05T09:52:09.524403071Z"
     description: Krateo PlatformOps Git Provider CRDs
@@ -17281,4 +17308,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-05T09:52:09.523747734Z"
+generated: "2026-05-05T09:57:32.148628391Z"
