@@ -16883,6 +16883,20 @@ entries:
   sweeper:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2026-06-10T14:36:50.975639313Z"
+    description: A Helm chart for cleanup of Krateo Server-Side Event etcd
+    digest: 153f8f4381dcd6d48b872266de56b57d8da31a7b2d1b9026b8620428c125abd6
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    name: sweeper
+    sources:
+    - https://github.com/krateoplatformops/eventstack
+    type: application
+    urls:
+    - https://charts.krateo.io/sweeper-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2026-05-22T09:45:21.088237728Z"
     description: A Helm chart for cleanup of Krateo Server-Side Event etcd
     digest: 832ddf8cc0ecabc0412f61483d49002116694cc971b8cbdc50b126814cdd7314
@@ -17540,4 +17554,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-10T08:34:22.761660186Z"
+generated: "2026-06-10T14:36:50.975029938Z"
