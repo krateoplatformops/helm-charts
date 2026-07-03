@@ -3,9 +3,9 @@ entries:
   a2a-slack-proxy:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-07-03T14:03:28.673101441Z"
+    created: "2026-07-03T14:03:35.03658249Z"
     description: A Slack proxy (Socket Mode) that bridges Slack to an agent over A2A
-    digest: eeb4d1abd2db2278166a095ce10355be10253f65abdf4ba99d29f945d8094a3e
+    digest: c747174c597e18cc6e3a8ab8717705663e7204cd44f3a357e9e3574569801970
     name: a2a-slack-proxy
     type: application
     urls:
@@ -17663,4 +17663,4 @@ entries:
     urls:
     - https://krateoplatformops.github.io/helm-charts/vm-azure-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-03T14:03:28.672548905Z"
+generated: "2026-07-03T14:03:35.035507395Z"
